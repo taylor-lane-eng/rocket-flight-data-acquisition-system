@@ -57,7 +57,7 @@ The initial prototype demonstrates:
 | MicroSD Module | Flight data storage |
 | Battery System | Distributed Power source |
 
-## Prototype photos
+## Initial Prototype
 <table>
   <tr>
     <td align="center">
