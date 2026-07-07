@@ -84,7 +84,7 @@ The system architecture defines the functional and physical decomposition of the
 
 ### Functional Architecture
 
-<img src="images/functional_block_diagram.png" width="800">
+<img src="images/functional_block_diagram.png" width="700">
 
 
 
