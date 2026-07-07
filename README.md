@@ -58,7 +58,7 @@ The initial prototype demonstrates:
 | Battery System | Distributed Power source |
 
 ## Prototype photos
-<img src="images/prototype.png" width="700">
+<img src="images/prototype.png" width="400" height="300">
 
 
 ---
