@@ -58,8 +58,6 @@ The initial prototype demonstrates:
 | Battery System | Distributed Power source |
 
 ## Prototype photos
-<img src="images/prototype.png" width="400" height="600">
-
 <table>
   <tr>
     <td align="center">
@@ -68,7 +66,7 @@ The initial prototype demonstrates:
     </td>
     <td align="center">
       <strong>CAD avionics bay</strong><br>
-      <img src="cad_proto3.png" width="400" height="600">
+      <img src="images/cad_proto3.png" width="400" height="600">
     </td>
   </tr>
 </table>
