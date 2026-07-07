@@ -97,7 +97,7 @@ This approach establishes traceability between system requirements, functions, c
 The requirements process started with operational requirements and got more refined moving to system requirements > performance requirements > component requirments 
 
 ## Performance requirements
-<img src="images/perf_requirements.png" width="400" height="600">
+<img src="images/perf_requirements.png" width="700" height="800">
 
 ---
 #functional analysis
