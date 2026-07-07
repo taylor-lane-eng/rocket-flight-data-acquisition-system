@@ -57,6 +57,10 @@ The initial prototype demonstrates:
 | MicroSD Module | Flight data storage |
 | Battery System | Distributed Power source |
 
+## Prototype photos
+<img src="images/prototype.png" width="700">
+
+
 ---
 
 # Systems Engineering Approach
