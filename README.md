@@ -92,7 +92,19 @@ Verification and Validation
 This approach establishes traceability between system requirements, functions, components and the verification process.
 
 ---
+# System Requirements
 
+The requirements process started with operational requirements and got more refined moving to system requirements > performance requirements > component requirments 
+
+## Performance requirements
+<img src="images/performance_requirements.png" width="400" height="600">
+
+---
+#functional analysis
+
+
+
+---
 # System Architecture 
 
 The system architecture defines the functional and physical decomposition of the avionics system.
