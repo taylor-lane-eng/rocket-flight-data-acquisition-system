@@ -63,12 +63,12 @@ The initial prototype demonstrates:
 <table>
   <tr>
     <td align="center">
-      <strong>Functional Block Diagram</strong><br>
+      <strong>Prototype</strong><br>
       <img src="images/prototype.png" width="400" height="600">
     </td>
     <td align="center">
-      <strong>Physical Architecture</strong><br>
-      <img src="images/physical_architecture.png" width="350">
+      <strong>CAD avionics bay</strong><br>
+      <img src="cad_proto3.png" width="400" height="600">
     </td>
   </tr>
 </table>
