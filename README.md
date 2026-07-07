@@ -97,19 +97,11 @@ This approach establishes traceability between system requirements, functions, c
 The requirements process started with operational requirements and got more refined moving to system requirements > performance requirements > component requirments 
 
 ## Performance requirements
+
 <img src="images/perf_requirements.png" width="700" height="800">
 
 ---
-#functional analysis
-
-
-
----
-# System Architecture 
-
-The system architecture defines the functional and physical decomposition of the avionics system.
-
-### Functional Architecture
+# Functional Analysis 
 
 <img src="images/functional_block_diagram.png" width="700">
 
