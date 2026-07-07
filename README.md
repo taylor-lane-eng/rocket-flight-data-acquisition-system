@@ -60,6 +60,19 @@ The initial prototype demonstrates:
 ## Prototype photos
 <img src="images/prototype.png" width="400" height="600">
 
+<table>
+  <tr>
+    <td align="center">
+      <strong>Functional Block Diagram</strong><br>
+      <img src="images/prototype.png" width="400" height="600">
+    </td>
+    <td align="center">
+      <strong>Physical Architecture</strong><br>
+      <img src="images/physical_architecture.png" width="350">
+    </td>
+  </tr>
+</table>
+
 
 ---
 
