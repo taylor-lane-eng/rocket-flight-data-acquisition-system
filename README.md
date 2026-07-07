@@ -85,7 +85,7 @@ The system architecture defines the functional and physical decomposition of the
 ### Functional Architecture
 
 Functional Block Diagram: 
-![Functional Block Diagram](images/functional_block_diagram.png)
+![Functional Block Diagram](images/functional_block_diagram.pdf)
 
 Full document:
 [Functional Architecture](docs/Functional_Architecture.pdf)
