@@ -104,7 +104,7 @@ The requirements process started with operational requirements and got more refi
 # Functional Analysis 
 <img src="images/functional block diagram.png" width="700">
 
-# Functional Traceability Matrix
+## Functional Traceability Matrix
 
 <table width="100%">
   <tr>
