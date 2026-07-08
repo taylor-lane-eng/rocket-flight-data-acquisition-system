@@ -131,6 +131,7 @@ The requirements process started with operational requirements and got more refi
 # System Architecture
 
 ## Physical Architecture
+<strong>Physical Architecture Allocation Matrix</strong><br>
 <img src="images/physical architecture.png" width="700">
 
 
