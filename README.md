@@ -107,24 +107,26 @@ The requirements process started with operational requirements and got more refi
 # Function - Requirement traceability 
 
 
-<table>
+<table width="100%">
   <tr>
-    <td align="center">
+    <td width="65%" align="center">
       <strong>Function-Requirement Table</strong><br>
       <img src="images/function allocation table.png" width="700">
     </td>
-    <td align="center">
+
+    <td width="35%" align="left" valign="top">
       <strong>Requirements</strong>
-      <ul align="left">
-        <li>REQ-001: The system shall accept a user-initiated power-on command through the designated power switch. </li>
-        <li>REQ-002: The system shall sample atmospheric pressure at a minimum rate of 200 Hz during powered ascent, coast, and descent. </li>
-        <li>REQ-003: The system shall sample three-axis acceleration at a minimum rate of 200 Hz from launch detection until end of flight logging. </li>
-        <li>REQ-004: The system shall assign timestamps to all measurements with a resolution of ≤5 ms. </li>
-        <li>REQ-005: The system shall record all acquired timestamped sensor measurements to onboard storage. </li>
-        <li>REQ-006: The system shall remain fully functional after exposure to shock loads up to 15g peak acceleration and vibration representative of model rocket ignition and ascent.</li>
-        <li>REQ-007: The system shall support continuous operation for at least 3 minutes of active logging time</li>
-        <li>REQ-008: The system shall ensure the rocket center of gravity remains at least 1.0 body diameter forward of the center of pressure for all flight configurations.</li>
-      </td>
+      <ul style="font-size: 11px; line-height: 1.2;">
+        <li>REQ-001: The system shall accept a user-initiated power-on command through the designated power switch.</li>
+        <li>REQ-002: The system shall sample atmospheric pressure at a minimum rate of 200 Hz during powered ascent, coast, and descent.</li>
+        <li>REQ-003: The system shall sample three-axis acceleration at a minimum rate of 200 Hz from launch detection until end of flight logging.</li>
+        <li>REQ-004: The system shall assign timestamps to all measurements with a resolution of ≤5 ms.</li>
+        <li>REQ-005: The system shall record all acquired timestamped sensor measurements to onboard storage.</li>
+        <li>REQ-006: The system shall remain functional after exposure to shock loads up to 15g peak acceleration and vibration representative of model rocket ignition and ascent.</li>
+        <li>REQ-007: The system shall support continuous operation for at least 3 minutes of active logging time.</li>
+        <li>REQ-008: The system shall maintain a center of gravity at least 1.0 body diameter forward of the center of pressure for all flight configurations.</li>
+      </ul>
+    </td>
   </tr>
 </table>
 
