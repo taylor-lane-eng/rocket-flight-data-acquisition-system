@@ -102,11 +102,24 @@ The requirements process started with operational requirements and got more refi
 
 ---
 # Functional Analysis 
-<img src="images/functional_block_diagram.png" width="700">
+<img src="images/functional block diagram.png" width="700">
 
 # Function - Requirement traceability 
-<img src="images/function allocation table.png" width="700">
 
+
+<table>
+  <tr>
+    <td align="center">
+      <strong>Prototype</strong><br>
+      <img src="images/function allocation table.png" width="700">
+    </td>
+    <td align="center">
+      <strong>Requirements</strong><br>
+      - REQ_01: STUFF
+      - REQ_02: MORE STUFF
+    </td>
+  </tr>
+</table>
 ---
 
 
