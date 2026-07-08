@@ -113,7 +113,6 @@ The requirements process started with operational requirements and got more refi
       <strong>Function-Requirement Table</strong><br>
       <img src="images/function allocation table.png" width="700">
     </td>
-
     <td width="35%" align="left" valign="top">
       <strong>Requirements</strong>
       <ul style="font-size: 11px; line-height: 1.2;">
