@@ -110,17 +110,18 @@ The requirements process started with operational requirements and got more refi
 <table>
   <tr>
     <td align="center">
-      <strong>Prototype</strong><br>
+      <strong>Function-Requirement Table</strong><br>
       <img src="images/function allocation table.png" width="700">
     </td>
     <td align="center">
-      <strong>Requirements</strong><br>
-        - REQ_01: STUFF
-        - REQ_02: MORE STUFF
-    </td>
+      <strong>Requirements</strong>
+      <ul align="left">
+        <li>REQ-001: Maintain CG aft of CP</li>
+        <li>REQ-002: Maintain structural and system integrity</li>
+        <li>REQ-003: Collect flight telemetry data</li>
+      </td>
   </tr>
 </table>
----
 
 
 
