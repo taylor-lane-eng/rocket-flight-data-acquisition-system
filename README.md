@@ -115,8 +115,8 @@ The requirements process started with operational requirements and got more refi
     </td>
     <td align="center">
       <strong>Requirements</strong><br>
-      - REQ_01: STUFF
-      - REQ_02: MORE STUFF
+        - REQ_01: STUFF
+        - REQ_02: MORE STUFF
     </td>
   </tr>
 </table>
