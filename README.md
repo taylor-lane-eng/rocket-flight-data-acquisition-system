@@ -61,7 +61,7 @@ The initial prototype demonstrates:
 <table>
   <tr>
     <td align="center">
-      <strong>Prototype</strong><br>
+      <strong>Prototype- *** UPDATE PHOTO _ LIGHT & LABELS</strong><br>
       <img src="images/prototype.png" width="400" height="600">
     </td>
     <td align="center">
