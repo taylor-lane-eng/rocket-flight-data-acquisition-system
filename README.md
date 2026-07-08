@@ -131,6 +131,6 @@ The requirements process started with operational requirements and got more refi
 # System Architecture
 
 ## Physical Architecture
-
+<img src="images/physical architecture.png" width="700">
 
 
