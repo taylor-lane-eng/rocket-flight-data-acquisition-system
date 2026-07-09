@@ -23,7 +23,7 @@ The Verification Cross-Reference Matrix (VCRM) maps system requirements to their
     <td><b>REQ-02</b></td>
     <td>System samples barometric pressure at 45 Hz</td>
     <td>Test</td>
-    <td>barometric pressure test data</td>
+    <td>BMP 280 barometric pressure test data</td>
     <td><font color="green"><b>Pass</b></font></td>
   </tr>
 
@@ -31,7 +31,7 @@ The Verification Cross-Reference Matrix (VCRM) maps system requirements to their
     <td><b>REQ-03</b></td>
     <td>System samples 3-axis acceleration at 45 Hz</td>
     <td>Test</td>
-    <td>Acceleration test data</td>
+    <td>MPU 6050 IMU Acceleration test data</td>
     <td><font color="green"><b>Pass</b></font></td>
   </tr>
 
