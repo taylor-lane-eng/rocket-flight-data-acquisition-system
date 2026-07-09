@@ -67,6 +67,10 @@ The initial prototype demonstrates:
     <td align="center">
       <strong>CAD avionics bay</strong><br>
       <img src="images/cad_proto3.png" width="400" height="600">
+    <tr>
+    <td align="center">
+      <strong>Avionics Bay</strong><br>
+      <img src="images/avionics bay.png" width="400" height="600">
     </td>
   </tr>
 </table>
