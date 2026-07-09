@@ -140,7 +140,16 @@ The requirements process started with operational requirements and got more refi
 <img src="images/physical architecture.png" width="700">
 ---
 
-# Trade Studies
+# Verification and Validation
+
+
+---
+
+# Next Steps
+
+
+
+---
 
 
 
