@@ -129,7 +129,7 @@ The Verification Cross-Reference Matrix (VCRM) maps system requirements to their
         </tr>
       </table>
       <td>
-      <a href="Verification/Test Results/sensor_data_raw.csv">Sample data shown. Full dataset available here.</a>
+      <a href="../Verification/Test Results/sensor_data_raw.png">Sample data shown. Full dataset available here.</a>
       </td>
     </td>
   </tr>
