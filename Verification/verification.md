@@ -81,5 +81,5 @@ The Verification Cross-Reference Matrix (VCRM) maps system requirements to their
 
 # Test Results
 
-<img src="../Verification/Test Results/bench_test_sensors.png" width="400">
+<img src="../Verification/Test Results/bench_test_sensors.png" width="800">
 ---
