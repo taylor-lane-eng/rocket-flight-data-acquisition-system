@@ -1,30 +1,21 @@
-# 🚀 Rocket Flight Data Acquisition System
-
+# Rocket Flight Data Acquisition System
 ## Overview
-
 This project involves the development of a model rocket avionics system designed to collect, store, and analyze flight data.
 
-An initial prototype was developed to demonstrate technical feasibility of embedded sensor integration and flight data acquisition. Following prototype development, a formal systems engineering process is being applied to define requirements, establish architecture, and develop verification methods.
-
+An initial prototype was developed to demonstrate initial technical feasibility of embedded sensor integration and flight data acquisition. Following prototype development, a formal systems engineering process is being applied to define requirements and functions, establish architecture, and conduct verificationa and validation.
 ---
-
 # Project Objectives
 
 The system is being developed to:
 
-- Measure rocket altitude and 3-axis acceleration during flight
+- Measure rocket altitude and acceleration
 - Collect and store flight data
 - Support post-flight flight performance analysis
 - Demonstrate a requirements-based systems engineering workflow
-
 ---
-
 # Current Project Status
-
-**Current Phase: System Definition and Design Maturation**
-
+**Current Phase: Verificaiton and Validation of requirements
 ## Completed
-
 - ✅ Initial avionics prototype developed  
 - ✅ System requirement development 
 - ✅ Functional Decomposition and traceability
