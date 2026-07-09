@@ -62,17 +62,17 @@ The initial prototype demonstrates:
   <tr>
     <td align="center">
       <strong>Prototype</strong><br>
-      <img src="images/prototype.png" width="300" height="600">
+      <img src="images/prototype.png"
         style="width:220px; height:300px; object-fit:contain;">
     </td>
     <td align="center">
       <strong>CAD avionics bay</strong><br>
-      <img src="images/cad_proto3.png" width="300" height="600">
+      <img src="images/cad_proto3.png" 
         style="width:220px; height:300px; object-fit:contain;">
     </td>
     <td align="center">
       <strong>Avionics Bay</strong><br>
-      <img src="images/avionics_bay.png" width="300" height="600">
+      <img src="images/avionics_bay.png" 
         style="width:220px; height:300px; object-fit:contain;">
     </td>
   </tr>
