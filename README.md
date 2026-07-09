@@ -58,22 +58,20 @@ The initial prototype demonstrates:
 | Battery System | Distributed Power source |
 
 ## Initial Prototype
+
 <table>
   <tr>
     <td align="center">
       <strong>Prototype</strong><br>
-      <img src="images/avionics_bay.png"
-        style="width:300px; height:600px; object-fit:contain;">
+      <img src="images/cad_proto3..png" width="250">
     </td>
     <td align="center">
-      <strong>CAD avionics bay</strong><br>
-      <img src="images/cad_proto3.png" 
-        style="width:300px; height:600px; object-fit:contain;">
+      <strong>CAD Avionics Bay</strong><br>
+      <img src="images/avionics_bay.png" width="250">
     </td>
     <td align="center">
       <strong>Avionics Bay</strong><br>
-      <img src="images/prototype.png" 
-        style="width:300px; height:600px; object-fit:contain;">
+      <img src="images/prototype.png" width="250">
     </td>
   </tr>
 </table>
