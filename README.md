@@ -80,11 +80,19 @@ System Requirements
         ↓
 Functional Analysis
         ↓
-System Architecture
+Functional Allocation
         ↓
-Trade Studies
+Physical Architecture
         ↓
-Verification and Validation
+Component Selection / Trade off Analysis
+        ↓
+Prototype Build
+        ↓
+Verification Planning (VCRM)
+        ↓
+Verification Testing
+        ↓
+Validation
 ```
 This approach establishes traceability between system requirements, functions, components and the verification process.
 
