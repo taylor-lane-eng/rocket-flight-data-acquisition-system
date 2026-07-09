@@ -200,3 +200,98 @@ The Verification Cross-Reference Matrix (VCRM) maps system requirements to their
   </tr>
 
 </table>
+
+
+
+testing something: 
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <b>Accelerometer Bench Test Results</b><br><br>
+      <img src="Verification/test%20results/bench_test_sensors.png" width="450">
+    </td>
+    <td align="center" width="50%">
+      <b>Raw Sensor Data</b><br><br>
+      <table>
+        <tr>
+          <th>Time (s)</th>
+          <th>Altitude (m)</th>
+          <th>Accel_X (m/s²)</th>
+          <th>Accel_Y (m/s²)</th>
+          <th>Accel_Z (m/s²)</th>
+        </tr>
+        <tr>
+          <td>0.338</td>
+          <td>2.83</td>
+          <td>0.24</td>
+          <td>-0.27</td>
+          <td>9.20</td>
+        </tr>
+        <tr>
+          <td>0.353</td>
+          <td>3.12</td>
+          <td>0.24</td>
+          <td>-0.25</td>
+          <td>9.27</td>
+        </tr>
+        <tr>
+          <td>0.366</td>
+          <td>2.46</td>
+          <td>0.16</td>
+          <td>-0.35</td>
+          <td>9.38</td>
+        </tr>
+        <tr>
+          <td>0.380</td>
+          <td>3.43</td>
+          <td>0.09</td>
+          <td>-0.30</td>
+          <td>9.47</td>
+        </tr>
+        <tr>
+          <td>0.393</td>
+          <td>2.26</td>
+          <td>0.38</td>
+          <td>-0.21</td>
+          <td>9.60</td>
+        </tr>
+        <tr>
+          <td>0.407</td>
+          <td>3.14</td>
+          <td>0.67</td>
+          <td>-0.04</td>
+          <td>9.69</td>
+        </tr>
+        <tr>
+          <td>0.420</td>
+          <td>3.21</td>
+          <td>0.81</td>
+          <td>-0.13</td>
+          <td>9.76</td>
+        </tr>
+        <tr>
+          <td>0.433</td>
+          <td>2.78</td>
+          <td>0.89</td>
+          <td>-0.03</td>
+          <td>9.88</td>
+        </tr>
+        <tr>
+          <td>0.447</td>
+          <td>2.78</td>
+          <td>1.29</td>
+          <td>0.03</td>
+          <td>9.84</td>
+        </tr>
+        <tr>
+          <td>0.460</td>
+          <td>3.22</td>
+          <td>1.48</td>
+          <td>0.09</td>
+          <td>9.90</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
