@@ -99,12 +99,13 @@ The requirements process started with operational requirements and got more refi
 
 ---
 # Functional Analysis 
-After developing the performance requirements, functions were developed to satisfy the performance requirements. After modeling the functions in a functtional block diagram, the functions were traced to their corresponding requirements in a functional traceability matrix to ensure that all requirements are met.
+After developing the performance requirements, functions were developed to satisfy the performance requirements. A functional block diagram was developed to model the function flow and point-out all interfaces.
 
 ## Functional Block Diagram
 <img src="images/functional block diagram.png" width="700">
 
 ## Functional Traceability Matrix
+After modeling the functions in the functional block diagram, the functions were traced to their corresponding requirements in a functional traceability matrix to ensure that all requirements are met.
 
 <table width="100%">
   <tr>
@@ -131,18 +132,28 @@ After developing the performance requirements, functions were developed to satis
 # System Architecture
 
 ## Physical Architecture
+
+After conducting a functional analysis, the system's physical architecture was defined and components were mapped to specific functions in an architecture allocation matrix to ensure that the selected physical architecture met the defined system functions.
+
 <strong>Physical Architecture Allocation Matrix</strong><br>
+
 <img src="images/physical architecture.png" width="700">
 ---
 
-# Verification and Validation
+# Verification and Validation (V&V)
+
+After determining the appropriate hardware to utilize and assembling a prototype, a systematic V&V process was conducted to ensure all of the requirments are met at the neccessary standard. As seen below, bench testing has been conducted for REQ..... and bench tests are planned for V1.1 for REQ...
 
 
 ---
 
 # Next Steps
+## Mmoving forward to V1.1:
+Building on flight data acquisition system V1.0, further testing will be completed for structural integrity under flight loads as well as simulations to ensure that the embedded avionivs system satisfies the center of gravity requirement, ensuring in-flight rocket stability. 
 
+Upon completion and success of verificaiton and validation, an initial launch will be conducted to test the complete embedded system and analyze the flight of a 1:10 scale Nike Smoke model rocket on a C6:5 engine. 
 
+In addition, further trade studies will be conducted to make incremental advances on the performance of this avionivs system.
 
 ---
 
