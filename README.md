@@ -152,8 +152,6 @@ After conducting a functional analysis, the system's physical architecture was d
 
 After determining the appropriate hardware to utilize and assembling a prototype, a systematic V&V process was conducted to ensure all of the requirments are met at the neccessary standard. Below is a verification table that highlights the verificaiton process across the system. For a full Verification Cross-Reference Matrix (VCRM) along with the documented test results and further details, please look at the verificaiton section.
 
-<img src="images/verification table.png" width="700">
-
 <table>
   <tr>
     <th>REQ ID</th>
