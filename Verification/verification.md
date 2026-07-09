@@ -306,7 +306,7 @@ testing something:
     <!-- Graph -->
     <td width="70%" align="center">
       <h3>Accelerometer Bench Test Results</h3>
-      <img src="Verification/Test Results/bench_test_sensors.png" width="750">
+      <img src="../Verification/Test Results/bench_test_sensors.png" width="600">
     </td>
     <!-- Data Table -->
     <td width="30%" align="center">
