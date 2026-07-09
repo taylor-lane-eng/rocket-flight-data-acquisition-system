@@ -10,10 +10,11 @@ An initial prototype was developed to demonstrate initial technical feasibility 
 
 The system is being developed to:
 
-- Measure rocket altitude and acceleration
+- Measure rocket flight altitude and acceleration
 - Collect and store flight data
 - Support post-flight flight performance analysis
 - Demonstrate a requirements-based systems engineering workflow
+  
 ---
 # Current Project Status
 **Current Phase: Verificaiton and Validation of requirements
