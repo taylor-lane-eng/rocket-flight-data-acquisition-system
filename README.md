@@ -22,14 +22,13 @@ The system is being developed to:
 - ✅ Initial avionics prototype developed  
 - ✅ System requirement development 
 - ✅ Functional Decomposition and traceability
-- ✅ System architecture development (physical architecture traceability to functions)
+- ✅ System architecture development (physical architecture traceability)
 
 ## In Progress
 
 - 🔄 Trade Studies
-- 🔄 Verification and Validation (V&V) 
-
-
+- 🔄 Verification and Validation (V&V)
+  
 ---
 
 # Prototype Overview
@@ -70,7 +69,6 @@ The initial prototype demonstrates:
   </tr>
 </table>
 
-
 ---
 
 # Systems Engineering Approach
@@ -93,7 +91,7 @@ This approach establishes traceability between system requirements, functions, c
 ---
 # System Requirements
 
-The requirements process started with operational requirements and got more refined moving to system requirements > performance requirements > component requirments 
+The requirements process started with operational requirements and got more refined moving to system requirements > performance requirements > component requirments. The performance requirements are listed below.
 
 ## Performance requirements
 
@@ -101,6 +99,9 @@ The requirements process started with operational requirements and got more refi
 
 ---
 # Functional Analysis 
+After developing the performance requirements, functions were developed to satisfy the performance requirements. After modeling the functions in a functtional block diagram, the functions were traced to their corresponding requirements in a functional traceability matrix to ensure that all requirements are met.
+
+## Functional Block Diagram
 <img src="images/functional block diagram.png" width="700">
 
 ## Functional Traceability Matrix
