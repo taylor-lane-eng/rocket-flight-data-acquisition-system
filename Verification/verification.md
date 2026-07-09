@@ -128,7 +128,9 @@ The Verification Cross-Reference Matrix (VCRM) maps system requirements to their
           <td>9.47</td>
         </tr>
       </table>
-      [Sample data shown. Full dataset available here.](Verification/Test%20Results/sensor_data_raw.csv)
+      <td>
+      <a href="Verification/Test%20Results/sensor_data_raw.csv">Sample data shown. Full dataset available here.</a>
+      </td>
     </td>
   </tr>
 </table>
