@@ -209,7 +209,7 @@ testing something:
   <tr>
     <td align="center" width="50%">
       <b>Accelerometer Bench Test Results</b><br><br>
-      <img src="Verification/test%20results/bench_test_sensors.png" width="450">
+      <img src="../Verification/Test Results/bench_test_sensors.png" width="600">
     </td>
     <td align="center" width="50%">
       <b>Raw Sensor Data</b><br><br>
