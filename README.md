@@ -142,8 +142,9 @@ After conducting a functional analysis, the system's physical architecture was d
 
 # Verification and Validation (V&V)
 
-After determining the appropriate hardware to utilize and assembling a prototype, a systematic V&V process was conducted to ensure all of the requirments are met at the neccessary standard. As seen below, bench testing has been conducted for REQ..... and bench tests are planned for V1.1 for REQ...
+After determining the appropriate hardware to utilize and assembling a prototype, a systematic V&V process was conducted to ensure all of the requirments are met at the neccessary standard. Below is a verification table that highlights the verificaiton process across the system. For a full Verification Cross-Reference Matrix (VCRM) along with the documented test results and further details, please look at the verificaiton section.
 
+<img src="images/verification table.png" width="700">
 
 ---
 
