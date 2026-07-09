@@ -63,7 +63,7 @@ The initial prototype demonstrates:
   <tr>
     <td align="center">
       <strong>Prototype</strong><br>
-      <img src="images/cad_proto3..png" width="250">
+      <img src="images/cad_proto3.png" width="250">
     </td>
     <td align="center">
       <strong>CAD Avionics Bay</strong><br>
