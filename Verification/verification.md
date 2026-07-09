@@ -295,3 +295,69 @@ testing something:
     </td>
   </tr>
 </table>
+
+
+---
+
+# More testing
+
+<table>
+  <tr>
+    <!-- Graph -->
+    <td width="70%" align="center">
+      <h3>Accelerometer Bench Test Results</h3>
+      <img src="Verification/Test Results/bench_test_sensors.png" width="750">
+    </td>
+
+    <!-- Data Table -->
+    <td width="30%" align="center">
+      <h3>Raw Sensor Data</h3>
+
+      <table>
+        <tr>
+          <th>Time</th>
+          <th>Alt</th>
+          <th>Ax</th>
+          <th>Ay</th>
+          <th>Az</th>
+        </tr>
+
+        <tr>
+          <td>0.338</td>
+          <td>2.83</td>
+          <td>0.24</td>
+          <td>-0.27</td>
+          <td>9.20</td>
+        </tr>
+
+        <tr>
+          <td>0.353</td>
+          <td>3.12</td>
+          <td>0.24</td>
+          <td>-0.25</td>
+          <td>9.27</td>
+        </tr>
+
+        <tr>
+          <td>0.366</td>
+          <td>2.46</td>
+          <td>0.16</td>
+          <td>-0.35</td>
+          <td>9.38</td>
+        </tr>
+
+        <tr>
+          <td>0.380</td>
+          <td>3.43</td>
+          <td>0.09</td>
+          <td>-0.30</td>
+          <td>9.47</td>
+        </tr>
+
+      </table>
+
+      <p><i>Sample data shown. Full dataset available below.</i></p>
+
+    </td>
+  </tr>
+</table>
