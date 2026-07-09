@@ -13,7 +13,7 @@ The Verification Cross-Reference Matrix (VCRM) maps system requirements to their
     <td><b>REQ-01</b></td>
     <td>System accepts user ON/OFF input</td>
     <td>Demonstration</td>
-    <td>Demonstration</td>
+    <td>Hi</td>
     <td><span style="color:green"><b>Pass</b></span></td>
   </tr>
 
