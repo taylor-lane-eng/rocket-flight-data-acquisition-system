@@ -5,6 +5,7 @@ The Verification Cross-Reference Matrix (VCRM) maps system requirements to their
     <th>REQ ID</th>
     <th>Requirement Description</th>
     <th>Verification Method</th>
+    <th>Evidence / Supporting Documents</th>
     <th>Pass / Fail Status</th>
   </tr>
 
