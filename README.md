@@ -4,6 +4,7 @@
 This project involves the development of a model rocket avionics system designed to collect, store, and analyze flight data. 
 
 An initial prototype was developed to demonstrate initial technical feasibility of embedded sensor integration and flight data acquisition. Following prototype development, a formal systems engineering process is being applied to define requirements and functions, establish architecture, and conduct verificationa and validation.
+
 ---
 # Project Objectives
 
