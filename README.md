@@ -148,9 +148,9 @@ After conducting a functional analysis, the system's physical architecture was d
 <img src="images/physical architecture.png" width="700">
 ---
 
-# Verification and Validation (V&V)
+# Verification and Testing
 
-After determining the appropriate hardware to utilize and assembling a prototype, a systematic V&V process was conducted to ensure all of the requirments are met at the neccessary standard. Below is a verification table that highlights the verificaiton process across the system. For a full Verification Cross-Reference Matrix (VCRM) along with the documented test results and further details, please look at the verificaiton section.
+After determining the appropriate hardware to utilize and assembling a prototype, a systematic V&V process was conducted to ensure all of the requirments are met at the neccessary standard. Below is a verification table that highlights the verificaiton process across the system.
 
 <table>
   <tr>
@@ -170,28 +170,28 @@ After determining the appropriate hardware to utilize and assembling a prototype
   <tr>
     <td><b>REQ-02</b></td>
     <td>System samples barometric pressure at 45 Hz</td>
-    <td>Test</td>
+    <td>Sensor Bench Test</td>
     <td><font color="green"><b>Pass</b></font></td>
   </tr>
 
   <tr>
     <td><b>REQ-03</b></td>
     <td>System samples 3-axis acceleration at 45 Hz</td>
-    <td>Test</td>
+    <td>Sensor Bench Test</td>
     <td><font color="green"><b>Pass</b></font></td>
   </tr>
 
   <tr>
     <td><b>REQ-04</b></td>
     <td>System timestamps data at 22.2 ms intervals</td>
-    <td>Test</td>
+    <td>Sensor Bench Test</td>
     <td><font color="green"><b>Pass</b></font></td>
   </tr>
 
   <tr>
     <td><b>REQ-05</b></td>
     <td>System stores data to onboard micro SD card module</td>
-    <td>Test</td>
+    <td>Sensor Bench Test</td>
     <td><font color="green"><b>Pass</b></font></td>
   </tr>
 
@@ -205,7 +205,7 @@ After determining the appropriate hardware to utilize and assembling a prototype
   <tr>
     <td><b>REQ-07</b></td>
     <td>Continuous data logging for 180 seconds</td>
-    <td>Test</td>
+    <td>Data Storage Test</td>
     <td><font color="green"><b>Pass</b></font></td>
   </tr>
 
@@ -227,7 +227,7 @@ For a full Verification Cross-Reference Matrix (VCRM) along with the documented 
   <tr>
     <!-- Graph -->
     <td width="70%" align="center">
-      <h3>Accelerometer Bench Test Results</h3>
+      <h3>Sensor Bench Test Results</h3>
       <img src="Verification/Test%20Results/bench_test_sensors.png" width="600">
     </td>
     <!-- Data Table -->
