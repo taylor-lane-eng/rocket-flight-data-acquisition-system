@@ -148,6 +148,19 @@ After conducting a functional analysis, the system's physical architecture was d
 <img src="images/physical architecture.png" width="700">
 ---
 
+# Component Selection and Trade Studies
+
+<img src="Component Selection/pressure selection.png" width="400">
+
+
+
+
+
+
+
+
+
+---
 # Verification and Testing
 
 After determining the appropriate hardware to utilize and assembling a prototype, a systematic V&V process was conducted to ensure all of the requirments are met at the neccessary standard. Below is a verification table that highlights the verificaiton process across the system.
