@@ -227,7 +227,7 @@ The Sensor Bench Test assessed the performance of the avionics system prototype 
 
 This system verified the following requirements:
 
-- ✅  <li><strong>REQ-001:<strong> The system acquired pressure measurements which were converted to altitude values. The average sampling rate across the pressure measurements was 67 Hz (67 samples/sec) 
+- ✅  <li><strong>REQ-001:<strong>The system acquired pressure measurements which were converted to altitude values. The average sampling rate across the pressure measurements was 67 Hz (67 samples/sec) 
 - ✅ REQ-03: The system acquired 3-axis acceleration measurements. The sampling rate across the accelerations measurements was 67 Hz (67 samples/sec).  
 - ✅ REQ-04: The system succesfully timestamped all data measurements at a 15 ms interval and stored all of the data to a CSV in the onboard micro SD card.
 
