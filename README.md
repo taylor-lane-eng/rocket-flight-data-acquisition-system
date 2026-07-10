@@ -218,7 +218,7 @@ After determining the appropriate hardware to utilize and assembling a prototype
 
 </table>
 
-For a full Verification Cross-Reference Matrix (VCRM) along with the documented test results and further details, please look at the verificaiton section.  
+For a full Verification Cross-Reference Matrix (VCRM) along with the documented test results and further details, see the following link:
       <p>
         <a href="Verification/verification.md">See Verification Cross-Reference Matrix (VCRM) here.</a>
         </a>
