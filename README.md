@@ -228,7 +228,7 @@ For a full Verification Cross-Reference Matrix (VCRM) along with the documented 
     <!-- Graph -->
     <td width="70%" align="center">
       <h3>Accelerometer Bench Test Results</h3>
-      <img src="../Verification/Test%20Results/bench_test_sensors.png" width="600">
+      <img src="Verification/Test%20Results/bench_test_sensors.png" width="600">
     </td>
     <!-- Data Table -->
     <td width="30%" align="center">
