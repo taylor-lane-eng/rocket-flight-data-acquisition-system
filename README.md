@@ -225,12 +225,6 @@ For a full Verification Cross-Reference Matrix (VCRM) along with the documented 
 
 The Sensor Bench Test assessed the performance of the avionics system prototype by turning the system on at the base of a standard 3-meter staricase and taking the system to the top of the stairscase. After briefly pausing at the top, the system prototype decended 1.5-meters down the staircase and puased briefly before returning the the starting position at the bottom of the staircase. 
 
-This system verified the following requirements:
-
-- ✅  <li><strong>REQ-001:<strong>The system acquired pressure measurements which were converted to altitude values. The average sampling rate across the pressure measurements was 67 Hz (67 samples/sec) 
-- ✅ REQ-03: The system acquired 3-axis acceleration measurements. The sampling rate across the accelerations measurements was 67 Hz (67 samples/sec).  
-- ✅ REQ-04: The system succesfully timestamped all data measurements at a 15 ms interval and stored all of the data to a CSV in the onboard micro SD card.
-
 <table>
   <tr>
     <!-- Graph -->
@@ -287,7 +281,11 @@ This system verified the following requirements:
   </tr>
 </table>
 
+This system verified the following requirements:
 
+- ✅ REQ-02:he system acquired pressure measurements which were converted to altitude values. The average sampling rate across the pressure measurements was 67 Hz (67 samples/sec) 
+- ✅ REQ-03: The system acquired 3-axis acceleration measurements. The sampling rate across the accelerations measurements was 67 Hz (67 samples/sec).  
+- ✅ REQ-04: The system succesfully timestamped all data measurements at a 15 ms interval and stored all of the data to a CSV in the onboard micro SD card.
 
 
 
