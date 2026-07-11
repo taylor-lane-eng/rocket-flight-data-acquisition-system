@@ -144,7 +144,7 @@ The full calucations can be seen here: [Full Engineering Requirement Calculation
 
 ---
 
-# Functional Analysis
+# Functional Analysis - Functional Block Diagram
 After developing the performance requirements, functions were developed to satisfy the performance requirements. A functional block diagram was developed to model the function flow and point-out all interfaces.
 
 ## Functional Allocation
@@ -174,6 +174,8 @@ After modeling the functions in the functional block diagram, the functions were
     </td>
   </tr>
 </table>
+
+---
 
 # Physical Architecture
 
