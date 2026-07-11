@@ -240,7 +240,7 @@ Pressure sensors were evaluated based on pressure accuracy, weight, output data 
 
 ---
 
-# Prototype Overview
+# Prototype Development
 
 The initial prototype demonstrates:
 
@@ -280,7 +280,7 @@ The initial prototype demonstrates:
 
 ----
 
-# Verification and Testing
+# Verification Planning
 
 After determining the appropriate hardware to utilize and assembling a prototype, a systematic V&V process was conducted to ensure all of the requirments are met at the neccessary standard. Below is a verification table that highlights the verificaiton process across the system.
 
