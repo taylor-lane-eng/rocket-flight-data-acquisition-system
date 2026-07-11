@@ -437,7 +437,9 @@ The Sensor Bench Test assessed the performance of the avionics system prototype 
   </tr>
 </table>
 
-<img src="Verification/Test Results/Sensor Bench Test Results.png" width="600">
+<a href="../Verification/Test Results/sensor_data_raw.csv">
+  Sample data shown. Full dataset available here.
+
 
 This system verified the following requirements:
 
