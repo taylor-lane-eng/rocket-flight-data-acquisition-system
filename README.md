@@ -44,9 +44,9 @@ Functional Allocation
         ↓
 Physical Architecture
         ↓
-Component Selection / Trade off Analysis
+Component Selection / Trade-off Analysis
         ↓
-Prototype Build
+Prototype development
         ↓
 Verification Planning (VCRM)
         ↓
