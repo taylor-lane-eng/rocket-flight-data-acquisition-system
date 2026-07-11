@@ -52,7 +52,7 @@ Following initial prototype development, the system is being matured using the f
 <br>
 ↓
 <br>
-<a href="#component-selection-trade-off-analysis">Component Selection / Trade-off Analysis</a>
+<a href="#component-selection--trade-off-analysis">Component Selection / Trade off Analysis</a>
 <br>
 ↓
 <br>
