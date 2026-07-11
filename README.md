@@ -58,6 +58,63 @@ Validation
 This approach establishes traceability between system requirements, functions, components and the verification process.
 
 ---
+
+# Test
+
+Following initial prototype development, the system is being matured using the following structured systems engineering process:
+
+<table>
+  <tr>
+    <td><a href="#performance-requirements">Performance Requirements</a></td>
+    <td>↓</td>
+    <td><a href="#functional-analysis">Functional Analysis</a></td>
+    <td>↓</td>
+    <td><a href="#functional-allocation">Functional Allocation</a></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>↓</td>
+    <td></td>
+    <td>↓</td>
+  </tr>
+  <tr>
+    <td><a href="#physical-architecture">Physical Architecture</a></td>
+    <td>↓</td>
+    <td><a href="#component-selection-trade-off-analysis">Component Selection / Trade-off Analysis</a></td>
+    <td>↓</td>
+    <td><a href="#prototype-development">Prototype Development</a></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>↓</td>
+    <td></td>
+    <td>↓</td>
+  </tr>
+  <tr>
+    <td><a href="#verification-planning-vcrm">Verification Planning (VCRM)</a></td>
+    <td>↓</td>
+    <td><a href="#verification-testing">Verification Testing</a></td>
+    <td>↓</td>
+    <td><a href="#validation">Validation</a></td>
+  </tr>
+</table>
+
+This approach establishes traceability between system requirements, functions, components, and the verification process.
+
+
+
+
+
+
+
+
+
+
+
+---
+
 # Performance Requirements
 
 An estimation of the rocket trajectory - apogee, acceleration, velocity and total operation time (pre-launch to recovery) were made to develop these performance requirements for the flight of a 1:10 scale Nike Smoke rocket with a C6:5 engine. From the engine specifications sheet, the C6:5 will have a max thrust of 14.1 N, and it was determined that the rocket avionics system must withstand up to 15g Forces.
