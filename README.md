@@ -202,6 +202,7 @@ After conducting a functional analysis, the system's physical architecture was d
 <strong>Physical Architecture Allocation Matrix</strong><br>
 
 <img src="images/physical architecture.png" width="700">
+
 ---
 
 # Component Selection / Trade-off Analysis
