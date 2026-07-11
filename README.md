@@ -201,6 +201,47 @@ Pressure sensors were evaluated based on pressure accuracy, weight, output data 
 </table>
 
 ---
+
+# Prototype Overview
+
+The initial prototype demonstrates:
+
+- Microcontroller-based flight data acquisition
+- I²C sensor communication
+- SPI data storage
+- Embedded flight data logging
+
+## Prototype Hardware Configuration
+
+| Component | Function |
+|---|---|
+| Raspberry Pi Pico | Flight computer |
+| BMP280 | Barometric altitude sensing |
+| MPU6500 | 3-axis acceleration measurement |
+| MicroSD Module | Flight data storage |
+| Battery System | Distributed Power source |
+
+## Initial Prototype
+
+<table>
+  <tr>
+    <td align="center">
+      <strong>Prototype</strong><br>
+      <img src="images/cad_proto3.png" width="250">
+    </td>
+    <td align="center">
+      <strong>CAD Avionics Bay</strong><br>
+      <img src="images/avionics_bay.png" width="250">
+    </td>
+    <td align="center">
+      <strong>Avionics Bay</strong><br>
+      <img src="images/prototype.png" width="250">
+    </td>
+  </tr>
+</table>
+
+----
+
 # Verification and Testing
 
 After determining the appropriate hardware to utilize and assembling a prototype, a systematic V&V process was conducted to ensure all of the requirments are met at the neccessary standard. Below is a verification table that highlights the verificaiton process across the system.
@@ -279,54 +320,6 @@ For a full Verification Cross-Reference Matrix (VCRM) along with the documented 
 
 ---
 
-# Prototype Overview
-
-The initial prototype demonstrates:
-
-- Microcontroller-based flight data acquisition
-- I²C sensor communication
-- SPI data storage
-- Embedded flight data logging
-
-## Prototype Hardware Configuration
-
-| Component | Function |
-|---|---|
-| Raspberry Pi Pico | Flight computer |
-| BMP280 | Barometric altitude sensing |
-| MPU6500 | 3-axis acceleration measurement |
-| MicroSD Module | Flight data storage |
-| Battery System | Distributed Power source |
-
-## Initial Prototype
-
-<table>
-  <tr>
-    <td align="center">
-      <strong>Prototype</strong><br>
-      <img src="images/cad_proto3.png" width="250">
-    </td>
-    <td align="center">
-      <strong>CAD Avionics Bay</strong><br>
-      <img src="images/avionics_bay.png" width="250">
-    </td>
-    <td align="center">
-      <strong>Avionics Bay</strong><br>
-      <img src="images/prototype.png" width="250">
-    </td>
-  </tr>
-</table>
-
-
-
-
-
-
-
-
-
----
-
 # Verification and Testing 
 
 The Sensor Bench Test assessed the performance of the avionics system prototype by turning the system on at the base of a standard 3-meter staricase and taking the system to the top of the stairscase. After briefly pausing at the top, the system prototype decended 1.5-meters down the staircase and puased briefly before returning the the starting position at the bottom of the staircase. 
@@ -394,9 +387,6 @@ This system verified the following requirements:
 - ✅ REQ-03: The system acquired 3-axis acceleration measurements. The sampling rate across the accelerations measurements was 67 Hz (67 samples/sec).  
 - ✅ REQ-04: The system succesfully timestamped all data measurements at an avaerge interval of 15 ms.
 - ✅ REQ-05: The system succesfully stored all of the data to a CSV in the onboard micro SD card.
-
-
-
 
 ---
 
