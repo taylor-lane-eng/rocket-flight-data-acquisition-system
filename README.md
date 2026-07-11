@@ -63,8 +63,6 @@ The requirements process started with operational requirements and got more refi
 
 ## Performance requirements
 
-<img src="images/performance requirements.png" width="700" height="800">
-
 <table style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
     <tr style="background-color:#c9c9c9;">
         <th colspan="2" align="left" style="padding:14px; font-size:28px; border:1px solid #999;">
