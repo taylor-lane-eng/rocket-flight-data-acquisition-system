@@ -150,6 +150,16 @@ After conducting a functional analysis, the system's physical architecture was d
 
 # Component Selection and Trade Studies
 
+The process for selecting components was the following:
+
+- Define the criteria to compare the alternatives (based on meeting the performance requirements)
+- Assign a weight to each of the criteria (total weight across all criteria must be one, higher score means greater importance). 
+- Rate (1-5) each candidate component on how well they perform the criteria (1 is worst, 5 is best).
+- Score each candidate component (weigh X Rate = Score).
+- Plot the scores of each candidate component across each of the grading criteria
+
+## The table below summarizes the findings. Further details can be viewed here.
+
 <table>
   <tr>
     <td width="60%" align="center">
@@ -159,7 +169,7 @@ After conducting a functional analysis, the system's physical architecture was d
 
 ### Microcontroller Selection
 
-Three microcontrollers were evaluated against the project requirements for cost, processing capability, power consumption, weight, and ease of development. The **Raspberry Pi Pico** achieved the highest overall score because it provides sufficient processing performance to sample multiple sensors while maintaining low power consumption and a very low cost. Native MicroPython support also accelerated software development and testing, making it the best balance of capability and simplicity for this prototype.
+Three microcontrollers were evaluated against the project requirements for flash memory, weight, cost, BUS speed, and number of BUS channels. The **Raspberry Pi Pico** was selected as the system's microcontroller because it provides sufficient processing performance to sample multiple sensors while being light weight and low cost. See the link below for specifications of the microcontrollers that were analyzed and the weight scale and score for each of the criteria.
 
 </td>
   </tr>
