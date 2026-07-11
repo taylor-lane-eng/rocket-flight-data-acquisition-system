@@ -59,7 +59,9 @@ This approach establishes traceability between system requirements, functions, c
 
 ---
 
-# Test
+# Systems Engineering Approach
+
+Following initial prototype development, the system is being matured using the following structured systems engineering process:
 
 <p>
 <a href="#performance-requirements">Performance Requirements</a>
@@ -97,13 +99,7 @@ This approach establishes traceability between system requirements, functions, c
 <a href="#validation">Validation</a>
 </p>
 
-
-
-
-
-
-
-
+This approach establishes traceability between system requirements, functions, components and the verification process.
 
 
 ---
