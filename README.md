@@ -63,7 +63,13 @@ The requirements process started with operational requirements and got more refi
 
 ## Performance requirements
 
-An estimation of the rocket trajectory - apogee, acceleration, velocity and total operation time (pre-launch to recovery) were made to develop these performance requirements for the flight of a 1:10 scale Nike Smoke rcoket with a C6:5 engine. The full calucations can be seen here: [Engineering Requirement Calculations](Calculations/req_calculations.pdf)
+An estimation of the rocket trajectory - apogee, acceleration, velocity and total operation time (pre-launch to recovery) were made to develop these performance requirements for the flight of a 1:10 scale Nike Smoke rcoket with a C6:5 engine. 
+
+From these calculations, the apogee was estimated at 412 meters. With a minimum sampling rate of 45 Hz, the avionics system would acquire 206 pressure and acceleration samples upon reaching its apogee which satisfies an intial baseline performance for a minimum sampling rate. 
+
+In addition, the total operation time from pre-launch to recovery was estimated as 104 seconds. This total oepration time drove the power capacity requirement. The power performance requirement was set to 180 seconds to provide a safety factor in case of unexpected recovery conflicts.
+
+The full calucations can be seen here: [Full Engineering Requirement Calculations](Calculations/req_calculations.pdf)
 
 
 
