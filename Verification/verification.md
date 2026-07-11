@@ -82,7 +82,6 @@ The Verification Cross-Reference Matrix (VCRM) maps system requirements to their
 # Sensor Bench Test - Test Results
 
 <img src="../Verification/Test Results/bench_test_sensors.png" width="600">
-Verification/Test Results/bench_test_sensors.png
 
 "The system successfully recorded atmospheric pressure-derived altitude throughout the simulated flight profile. The data demonstrates acquisition, timestamping, and onboard storage functionality."
 
