@@ -379,7 +379,7 @@ For a full Verification Cross-Reference Matrix (VCRM) along with the documented 
 
 # Verification Test Results
 
-The Sensor Bench Test assessed the performance of the avionics system prototype by turning the system on at the base of a standard 3-meter staricase and taking the system to the top of the stairscase. After briefly pausing at the top, the system prototype decended 1.5-meters down the staircase and puased briefly before returning the the starting position at the bottom of the staircase. 
+The Sensor Bench Test assessed the performance of the avionics system prototype by turning the system on at the base of a standard 3-meter staricase and taking the system to the top of the stairscase. After briefly pausing at the top, the system prototype decended 1.5-meters down the staircase and puased briefly before returning the the starting position at the bottom of the staircase. <a href="../Verification/Test Results/sensor_data_raw.csv"> Full data set with accelerometer measurements availaable here. </a>
 
 <table>
   <tr>
@@ -436,9 +436,6 @@ The Sensor Bench Test assessed the performance of the avionics system prototype 
     </td>
   </tr>
 </table>
-
-<a href="../Verification/Test Results/sensor_data_raw.csv">
-  Full data set with accelerometer measurements availaable here. </a>
 
 
 This system verified the following requirements:
