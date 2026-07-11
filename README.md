@@ -61,48 +61,41 @@ This approach establishes traceability between system requirements, functions, c
 
 # Test
 
-Following initial prototype development, the system is being matured using the following structured systems engineering process:
-
-<table>
-  <tr>
-    <td><a href="#performance-requirements">Performance Requirements</a></td>
-    <td>↓</td>
-    <td><a href="#functional-analysis">Functional Analysis</a></td>
-    <td>↓</td>
-    <td><a href="#functional-allocation">Functional Allocation</a></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td>↓</td>
-    <td></td>
-    <td>↓</td>
-  </tr>
-  <tr>
-    <td><a href="#physical-architecture">Physical Architecture</a></td>
-    <td>↓</td>
-    <td><a href="#component-selection-trade-off-analysis">Component Selection / Trade-off Analysis</a></td>
-    <td>↓</td>
-    <td><a href="#prototype-development">Prototype Development</a></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td>↓</td>
-    <td></td>
-    <td>↓</td>
-  </tr>
-  <tr>
-    <td><a href="#verification-planning-vcrm">Verification Planning (VCRM)</a></td>
-    <td>↓</td>
-    <td><a href="#verification-testing">Verification Testing</a></td>
-    <td>↓</td>
-    <td><a href="#validation">Validation</a></td>
-  </tr>
-</table>
-
-This approach establishes traceability between system requirements, functions, components, and the verification process.
-
+<p>
+<a href="#performance-requirements">Performance Requirements</a>
+<br>
+↓
+<br>
+<a href="#functional-analysis">Functional Analysis</a>
+<br>
+↓
+<br>
+<a href="#functional-allocation">Functional Allocation</a>
+<br>
+↓
+<br>
+<a href="#physical-architecture">Physical Architecture</a>
+<br>
+↓
+<br>
+<a href="#component-selection-trade-off-analysis">Component Selection / Trade-off Analysis</a>
+<br>
+↓
+<br>
+<a href="#prototype-development">Prototype Development</a>
+<br>
+↓
+<br>
+<a href="#verification-planning-vcrm">Verification Planning (VCRM)</a>
+<br>
+↓
+<br>
+<a href="#verification-testing">Verification Testing</a>
+<br>
+↓
+<br>
+<a href="#validation">Validation</a>
+</p>
 
 
 
