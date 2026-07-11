@@ -150,11 +150,6 @@ After conducting a functional analysis, the system's physical architecture was d
 
 # Component Selection and Trade Studies
 
-<img src="Component Selection/mcu selection.png" width="600">
-<img src="Component Selection/accelerometer selection.png" width="600">
-<img src="Component Selection/pressure selection.png" width="600">
-
-
 <table>
   <tr>
     <td width="60%" align="center">
