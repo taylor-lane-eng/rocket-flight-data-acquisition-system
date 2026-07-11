@@ -167,7 +167,8 @@ The process for selecting components was the following:
 
 ### Microcontroller Selection
 
-Three microcontrollers were evaluated against the project requirements for flash memory, weight, cost, BUS speed, and number of BUS channels. The **Raspberry Pi Pico** was selected as the system's microcontroller because it provides sufficient processing performance to sample multiple sensors while being light weight and low cost. See the link below for specifications of the microcontrollers that were analyzed and the weight scale and score for each of the criteria.
+Three microcontrollers were evaluated against the project requirements for flash memory, weight, cost, BUS speed, and number of BUS channels. The **Raspberry Pi Pico** was selected as the system's microcontroller because it provides sufficient processing performance to sample and timestamp multiple sensors above 65 Hz (REQ-04
+) while being light weight and low cost. See the link below for specifications of the microcontrollers that were analyzed and the weight scale and score for each of the criteria.
 
 </td>
   </tr>
@@ -180,7 +181,7 @@ Three microcontrollers were evaluated against the project requirements for flash
 
 ### Accelerometer Selection
 
-Three inertial measurement units were compared using acceleration range, resolution, output data rate, weight, and cost. The **MPU-6500** was selected because it provides adequate measurement range for model rocket flight while supporting high sampling rates and low power operation. Its integrated gyroscope also provides future expansion capability without increasing system complexity.
+Three inertial measurement units were compared using acceleration range, weight, Output Data Rate (ODR), and cost. The **MPU-6050** was selected because it is the cheapest alternative that still meets the performance requirements - specifically on achieving a minimum sampling rate of 65 Hz (REQ-03). The MPU 6050 meets the performance requirement of measuring acceleration up to 15g (REQ-06) while being a lightweight sensor.
 
 </td>
   </tr>
@@ -193,17 +194,11 @@ Three inertial measurement units were compared using acceleration range, resolut
 
 ### Pressure Sensor Selection
 
-Pressure sensors were evaluated based on pressure accuracy, output data rate, weight, and cost. The **BMP280** received the highest weighted score due to its excellent altitude measurement accuracy, fast update rate, lightweight package, and low cost. These characteristics make it well suited for estimating rocket altitude while remaining within the project's size, weight, and budget constraints.
+Pressure sensors were evaluated based on pressure accuracy, weight, output data rate, and cost. The **BMP280** was selected due to its ability to successfully satisfy accurate pressure measurements at a sampling rate of 65 hz (REQ-02) at the lowest cost. These characteristics make it well suited for estimating rocket altitude while remaining within the project's size, weight, and budget constraints.
 
 </td>
   </tr>
 </table>
-
-
-
-
-
-
 
 ---
 # Verification and Testing
