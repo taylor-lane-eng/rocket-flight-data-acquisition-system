@@ -107,7 +107,7 @@ The full calucations can be seen here: [Full Engineering Requirement Calculation
             REQ-02
         </td>
         <td style="padding:14px; font-size:22px; border:1px solid #999;">
-            The system shall sample atmospheric pressure at a minimum rate of 45 Hz during powered ascent, coast, and descent.
+            The system shall sample barometric pressure at a minimum rate of 45 Hz during powered ascent, coast, and descent.
         </td>
     </tr>
     <tr>
@@ -181,7 +181,7 @@ After modeling the functions in the functional block diagram, the functions were
       <strong>Requirements</strong>
       <ul style="font-size: 11px; line-height: 1.2;">
         <li><strong>REQ-001:<strong> The system shall accept a user-initiated power-on command through the designated power switch.</li>
-        <li><strong>REQ-002:<strong> The system shall sample atmospheric pressure at a minimum rate of 45 Hz during powered ascent, coast, and descent.</li>
+        <li><strong>REQ-002:<strong> The system shall sample barometric pressure at a minimum rate of 45 Hz during powered ascent, coast, and descent.</li>
         <li><strong>REQ-003:<strong> The system shall sample three-axis acceleration at a minimum rate of 45 Hz from launch detection until end of flight logging.</li>
         <li><strong>REQ-004:<strong> The system shall assign timestamps to all measurements with a resolution of ≤22.2 ms.</li>
         <li><strong>REQ-005:<strong> The system shall record all acquired timestamped sensor measurements to onboard storage.</li>
