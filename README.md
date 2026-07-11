@@ -36,7 +36,7 @@ The system is being developed to:
 Following initial prototype development, the system is being matured using the following structured systems engineering process:
 
 ```
-[Performance Requirements](#performance-requirements)
+<a href="#performance-requirements">Performance Requirements</a>
         ↓
 Functional Analysis
         ↓
