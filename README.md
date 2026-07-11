@@ -11,22 +11,23 @@ The system is being developed to:
 
 - Measure rocket flight altitude and acceleration
 - Collect and store flight data
-- Support post-flight flight performance analysis
-- Demonstrate a requirements-based systems engineering workflow
+- Support post-flight performance analysis to drive model rocket design improvements
   
 ---
+
 # Current Project Status
-**Current Phase: Verificaiton and Validation of requirements
+**Current Phase: Engineering Design Development
+
 ## Completed
+
+- ✅ System requirements development 
+- ✅ System Functional Analysis
+- ✅ System architecture development
 - ✅ Initial avionics prototype developed  
-- ✅ System requirement development 
-- ✅ Functional Decomposition and traceability
-- ✅ System architecture development (physical architecture traceability)
 
 ## In Progress
 
-- 🔄 Trade Studies
-- 🔄 Verification and Validation (V&V)
+- 🔄 Validation
   
 ---
 
