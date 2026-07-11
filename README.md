@@ -31,46 +31,6 @@ The system is being developed to:
   
 ---
 
-# Prototype Overview
-
-The initial prototype demonstrates:
-
-- Microcontroller-based flight data acquisition
-- I²C sensor communication
-- SPI data storage
-- Embedded flight data logging
-
-## Prototype Hardware Configuration
-
-| Component | Function |
-|---|---|
-| Raspberry Pi Pico | Flight computer |
-| BMP280 | Barometric altitude sensing |
-| MPU6500 | 3-axis acceleration measurement |
-| MicroSD Module | Flight data storage |
-| Battery System | Distributed Power source |
-
-## Initial Prototype
-
-<table>
-  <tr>
-    <td align="center">
-      <strong>Prototype</strong><br>
-      <img src="images/cad_proto3.png" width="250">
-    </td>
-    <td align="center">
-      <strong>CAD Avionics Bay</strong><br>
-      <img src="images/avionics_bay.png" width="250">
-    </td>
-    <td align="center">
-      <strong>Avionics Bay</strong><br>
-      <img src="images/prototype.png" width="250">
-    </td>
-  </tr>
-</table>
-
----
-
 # Systems Engineering Approach
 
 Following initial prototype development, the system is being matured using the following structured systems engineering process:
