@@ -35,7 +35,7 @@ The system is being developed to:
 
 Following initial prototype development, the system is being matured using the following structured systems engineering process:
 
-```
+
 <a href="#performance-requirements">Performance Requirements</a>
         ↓
 Functional Analysis
@@ -53,7 +53,7 @@ Verification Planning (VCRM)
 Verification Testing
         ↓
 Validation
-```
+
 This approach establishes traceability between system requirements, functions, components and the verification process.
 
 ---
