@@ -36,7 +36,7 @@ The system is being developed to:
 Following initial prototype development, the system is being matured using the following structured systems engineering process:
 
 ```
-System Requirements
+Performance Requirements
         ↓
 Functional Analysis
         ↓
@@ -57,9 +57,7 @@ Validation
 This approach establishes traceability between system requirements, functions, components and the verification process.
 
 ---
-# System Requirements
-
-The requirements process started with operational requirements and got more refined moving to system requirements > performance requirements > component requirments. The performance requirements are listed below.
+# Performance Requirements
 
 ## Performance requirements
 
