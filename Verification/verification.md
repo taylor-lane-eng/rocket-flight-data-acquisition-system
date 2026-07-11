@@ -83,7 +83,7 @@ The Verification Cross-Reference Matrix (VCRM) maps system requirements to their
 
 <img src="../Verification/Test Results/bench_test_sensors.png" width="600">
 
-"The system successfully recorded atmospheric pressure-derived altitude throughout the simulated flight profile. The data demonstrates acquisition, timestamping, and onboard storage functionality."
+The system successfully recorded atmospheric pressure-derived altitude throughout the simulated flight profile. The data demonstrates acquisition, timestamping, and onboard storage functionality.
 
 
 
@@ -142,3 +142,5 @@ The Verification Cross-Reference Matrix (VCRM) maps system requirements to their
     </td>
   </tr>
 </table>
+
+Accelerometer measurements are presented as raw sensor outputs. Variations are expected due to gravity projection, sensor orientation changes, and mechanical movement. Additional filtering and sensor fusion would be implemented in future iterations for flight-quality acceleration estimation.
