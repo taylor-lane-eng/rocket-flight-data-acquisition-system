@@ -82,7 +82,7 @@ An estimation of the rocket trajectory - apogee, acceleration, velocity and tota
 
 From these calculations, the apogee was estimated to be 412 meters, reached approximately 11.01 seconds after launch. With a minimum sampling rate of 45 Hz, the avionics system would acquire 495 pressure and acceleration samples upon reaching its apogee which satisfies an intial baseline performance for a minimum sampling rate. furthermore, at the selected sampling rate of 45 Hz, the rocket will vertically displace less than 2 meters per sample at its maximum expected velocity (89.88 meters/second), ensuring adequate resolution for flight data reconstruction.
 
-In addition, the total operation time from pre-launch to recovery was estimated as 104 seconds. This total oepration time drove the power capacity requirement. The power performance requirement was set to 180 seconds to provide a safety factor in case of unexpected recovery delays.
+In addition, the total operation time from pre-launch to recovery was estimated as 104 seconds. This total oepration time drove the power capacity requirement. The power performance requirement was set to 180 seconds to provide a conservative time estimate in case of unexpected recovery delays.
 
 The full calucations can be seen here: [Full Engineering Requirement Calculations](Calculations/req_calculations.pdf)
 
