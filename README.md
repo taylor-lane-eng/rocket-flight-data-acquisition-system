@@ -59,8 +59,6 @@ This approach establishes traceability between system requirements, functions, c
 ---
 # Performance Requirements
 
-## Performance requirements
-
 An estimation of the rocket trajectory - apogee, acceleration, velocity and total operation time (pre-launch to recovery) were made to develop these performance requirements for the flight of a 1:10 scale Nike Smoke rcoket with a C6:5 engine. 
 
 From these calculations, the apogee was estimated at 412 meters. With a minimum sampling rate of 45 Hz, the avionics system would acquire 206 pressure and acceleration samples upon reaching its apogee which satisfies an intial baseline performance for a minimum sampling rate. 
