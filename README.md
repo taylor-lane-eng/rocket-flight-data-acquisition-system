@@ -204,7 +204,7 @@ After conducting a functional analysis, the system's physical architecture was d
 <img src="images/physical architecture.png" width="700">
 ---
 
-# Component Selection/Trade-Off Analysis
+# Component Selection / Trade-Off Analysis
 
 The process for selecting components was the following:
 
