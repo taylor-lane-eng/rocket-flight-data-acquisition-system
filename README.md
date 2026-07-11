@@ -146,7 +146,7 @@ The full calucations can be seen here: [Full Engineering Requirement Calculation
 # Functional Analysis 
 After developing the performance requirements, functions were developed to satisfy the performance requirements. A functional block diagram was developed to model the function flow and point-out all interfaces.
 
-## Functional Block Diagram
+## Functional Allocation
 <img src="images/functional block diagram.png" width="700">
 
 ## Functional Traceability Matrix
@@ -174,9 +174,7 @@ After modeling the functions in the functional block diagram, the functions were
   </tr>
 </table>
 
-# System Architecture
-
-## Physical Architecture
+# Physical Architecture
 
 After conducting a functional analysis, the system's physical architecture was defined and components were mapped to specific functions in an architecture allocation matrix to ensure that the selected physical architecture met the defined system functions.
 
