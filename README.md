@@ -60,7 +60,7 @@ Following initial prototype development, the system is being matured using the f
 <br>
 ↓
 <br>
-<a href="#verification-planning-vcrm">Verification Planning and Testing</a>
+<a href="#verification-planning-and-testing">Verification Planning and Testing</a>
 <br>
 ↓
 <br>
