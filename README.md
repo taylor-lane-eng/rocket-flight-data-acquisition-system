@@ -457,5 +457,73 @@ In addition, further trade studies will be conducted to make incremental advance
 
 ---
 
+# test
 
+<h2>Functional Requirements Traceability Matrix</h2>
+
+<table>
+  <tr>
+    <th>Function</th>
+    <th>Requirement ID</th>
+    <th>Requirement Description</th>
+    <th>Traceability</th>
+  </tr>
+
+  <tr>
+    <td><b>FUNC-01</b><br>Accepts user ON/OFF input</td>
+    <td>REQ-001</td>
+    <td>The system shall accept a user-initiated power-on command through the designated power switch.</td>
+    <td align="center">X</td>
+  </tr>
+
+  <tr>
+    <td><b>FUNC-02</b><br>Acquire pressure measurement</td>
+    <td>REQ-002</td>
+    <td>The system shall sample atmospheric pressure at a minimum rate of 45 Hz during powered ascent, coast, and descent.</td>
+    <td align="center">X</td>
+  </tr>
+
+  <tr>
+    <td><b>FUNC-03</b><br>Acquire acceleration measurement</td>
+    <td>REQ-003</td>
+    <td>The system shall sample three-axis acceleration at a minimum rate of 45 Hz from launch detection until end of flight logging.</td>
+    <td align="center">X</td>
+  </tr>
+
+  <tr>
+    <td><b>FUNC-04</b><br>Timestamp and process sensor data</td>
+    <td>REQ-004</td>
+    <td>The system shall assign timestamps to all measurements with a resolution of ≤22.2 ms.</td>
+    <td align="center">X</td>
+  </tr>
+
+  <tr>
+    <td><b>FUNC-05</b><br>Store sensor data</td>
+    <td>REQ-005</td>
+    <td>The system shall record all acquired timestamped sensor measurements to onboard storage.</td>
+    <td align="center">X</td>
+  </tr>
+
+  <tr>
+    <td><b>FUNC-06</b><br>Distributed Power</td>
+    <td>REQ-007</td>
+    <td>The system shall support continuous operation for at least 3 minutes of active logging time.</td>
+    <td align="center">X</td>
+  </tr>
+
+  <tr>
+    <td><b>FUNC-07</b><br>Manage mass distribution</td>
+    <td>REQ-008</td>
+    <td>The system shall ensure the rocket center of gravity remains at least 1.0 body diameter forward of the center of pressure for all flight configurations.</td>
+    <td align="center">X</td>
+  </tr>
+
+  <tr>
+    <td><b>FUNC-08</b><br>Maintain structural loads</td>
+    <td>REQ-006</td>
+    <td>The system shall remain fully functional after exposure to shock loads up to 15g peak acceleration and vibration representative of model rocket ignition and ascent.</td>
+    <td align="center">X</td>
+  </tr>
+
+</table>
 
