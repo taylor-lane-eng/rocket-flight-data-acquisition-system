@@ -1,9 +1,8 @@
 # Rocket Flight Data Acquisition System
 
 ## Overview
-This project involves the development of a model rocket avionics system designed to collect, store, and analyze flight data. 
 
-An initial prototype was developed to demonstrate initial technical feasibility of embedded sensor integration and flight data acquisition. Following prototype development, a formal systems engineering process is being applied to define requirements and functions, establish architecture, and conduct verificationa and validation.
+This project involves the development of a model rocket avionics system capable of collecting, storing, and analyzing flight performance data. The objective of the system is to provide quantitative flight feedback that enables data-driven design improvements, such as optimizing nose cone geometry, fin design, and weight distribution to improve overall rocket performance.
 
 ---
 # Project Objectives
