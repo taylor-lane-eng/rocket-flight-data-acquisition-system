@@ -86,7 +86,7 @@ The Verification Cross-Reference Matrix (VCRM) maps system requirements to their
     <!-- Graph -->
     <td width="70%" align="center">
       <h3>Accelerometer Bench Test Results</h3>
-      <img src="../ Verification/Test Results/Sensor Bench Test Results.png" width="600">
+      <img src="../Verification/Test Results/Sensor Bench Test Results.png" width="600">
     </td>
     <!-- Data Table -->
     <td width="30%" align="center">
