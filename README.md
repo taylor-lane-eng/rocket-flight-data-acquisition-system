@@ -35,34 +35,6 @@ The system is being developed to:
 
 Following initial prototype development, the system is being matured using the following structured systems engineering process:
 
-```
-Performance Requirements
-        ↓
-Functional Analysis
-        ↓
-Functional Allocation
-        ↓
-Physical Architecture
-        ↓
-Component Selection / Trade-off Analysis
-        ↓
-Prototype development
-        ↓
-Verification Planning (VCRM)
-        ↓
-Verification Testing
-        ↓
-Validation
-```
-
-This approach establishes traceability between system requirements, functions, components and the verification process.
-
----
-
-# Systems Engineering Approach
-
-Following initial prototype development, the system is being matured using the following structured systems engineering process:
-
 <p>
 <a href="#performance-requirements">Performance Requirements</a>
 <br>
