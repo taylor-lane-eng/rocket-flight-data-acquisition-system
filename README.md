@@ -155,7 +155,46 @@ After conducting a functional analysis, the system's physical architecture was d
 <img src="Component Selection/pressure selection.png" width="600">
 
 
+<table>
+  <tr>
+    <td width="60%" align="center">
+      <img src="Component Selection/mcu selection.png" width="600">
+    </td>
+    <td width="40%" valign="top">
 
+### Microcontroller Selection
+
+Three microcontrollers were evaluated against the project requirements for cost, processing capability, power consumption, weight, and ease of development. The **Raspberry Pi Pico** achieved the highest overall score because it provides sufficient processing performance to sample multiple sensors while maintaining low power consumption and a very low cost. Native MicroPython support also accelerated software development and testing, making it the best balance of capability and simplicity for this prototype.
+
+</td>
+  </tr>
+
+  <tr>
+    <td width="60%" align="center">
+      <img src="Component Selection/accelerometer selection.png" width="600">
+    </td>
+    <td width="40%" valign="top">
+
+### Accelerometer Selection
+
+Three inertial measurement units were compared using acceleration range, resolution, output data rate, weight, and cost. The **MPU-6500** was selected because it provides adequate measurement range for model rocket flight while supporting high sampling rates and low power operation. Its integrated gyroscope also provides future expansion capability without increasing system complexity.
+
+</td>
+  </tr>
+
+  <tr>
+    <td width="60%" align="center">
+      <img src="Component Selection/pressure selection.png" width="600">
+    </td>
+    <td width="40%" valign="top">
+
+### Pressure Sensor Selection
+
+Pressure sensors were evaluated based on pressure accuracy, output data rate, weight, and cost. The **BMP280** received the highest weighted score due to its excellent altitude measurement accuracy, fast update rate, lightweight package, and low cost. These characteristics make it well suited for estimating rocket altitude while remaining within the project's size, weight, and budget constraints.
+
+</td>
+  </tr>
+</table>
 
 
 
