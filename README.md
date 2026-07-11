@@ -63,6 +63,10 @@ The requirements process started with operational requirements and got more refi
 
 ## Performance requirements
 
+An estimation of the rocket trajectory - apogee, acceleration, velocity and total operation time (pre-launch to recovery) were made to develop these performance requirements for the flight of a 1:10 scale Nike Smoke rcoket with a C6:5 engine. The full calucations can be seen here: Engineering requirement calculations
+
+
+
 <table style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
     <tr style="background-color:#c9c9c9;">
         <th colspan="2" align="left" style="padding:14px; font-size:28px; border:1px solid #999;">
