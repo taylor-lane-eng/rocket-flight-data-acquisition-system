@@ -280,7 +280,7 @@ The initial prototype demonstrates:
 
 ----
 
-# Verification Planning
+# Verification Planning and Testing
 
 After determining the appropriate hardware to utilize and assembling a prototype, a systematic V&V process was conducted to ensure all of the requirments are met at the neccessary standard. Below is a verification table that highlights the verificaiton process across the system.
 
@@ -358,7 +358,7 @@ For a full Verification Cross-Reference Matrix (VCRM) along with the documented 
 
 ---
 
-# Verification Testing
+# Verification Test Results
 
 The Sensor Bench Test assessed the performance of the avionics system prototype by turning the system on at the base of a standard 3-meter staricase and taking the system to the top of the stairscase. After briefly pausing at the top, the system prototype decended 1.5-meters down the staircase and puased briefly before returning the the starting position at the bottom of the staircase. 
 
