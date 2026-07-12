@@ -179,13 +179,6 @@ After modeling the functions in the functional block diagram, the functions were
     </td>
     <td width="35%" align="left" valign="top">
       <strong>Requirements</strong>
-      <table style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
-        <tr style="background-color:#c9c9c9;">
-          <th align="left" style="padding:14px; font-size:28px; border:1px solid #999;">
-            Requirement
-          </th>
-        </tr>
-      </table>
     </td>
   </tr>
 </table>
