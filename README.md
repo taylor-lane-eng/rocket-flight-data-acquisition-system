@@ -498,7 +498,7 @@ The Sensor Bench Test assessed the performance of the avionics system prototype 
     <!-- Graph -->
     <td width="70%" align="center">
       <h3>Sensor Bench Test Results</h3>
-      <img src="Verification/Test%20Results/bench_test_sensors.png" width="600">
+      <img src="Verification/Test%20Results/alt_labeled.png.png" width="600">
     </td>
     <!-- Data Table -->
     <td width="30%" align="center">
