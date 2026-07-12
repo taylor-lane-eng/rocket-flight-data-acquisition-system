@@ -178,7 +178,17 @@ After modeling the functions in the functional block diagram, the functions were
       <img src="images/function allocation table.png" width="700">
     </td>
     <td width="35%" align="left" valign="top">
-      <strong>Requirements</strong>
+      <strong>Summarized Requirements</strong>
+<ul>
+  <li><strong>REQ-01</strong> User power control</li>
+  <li><strong>REQ-02</strong> Pressure acquisition ≥45 Hz</li>
+  <li><strong>REQ-03</strong> Acceleration acquisition ≥45 Hz</li>
+  <li><strong>REQ-04</strong> Timestamp resolution ≤22.2 ms</li>
+  <li><strong>REQ-05</strong> Onboard sensor data storage</li>
+  <li><strong>REQ-06</strong> 15g shock/vibration survivability</li>
+  <li><strong>REQ-07</strong> 3 min operational duration</li>
+  <li><strong>REQ-08</strong> CG margin ≥1D forward of CP</li>
+</ul>
     </td>
   </tr>
 </table>
