@@ -8,6 +8,27 @@ After scoring each candidate component, each of the component alternatives are c
 
 # Micro controller Selection
 
+<table>
+  <tr>
+    <td align="center">
+      <img src="mcu%20selection.png" width="400"><br>
+      <em>MCU Selection Trade Study</em>
+    </td>
+    <td align="center">
+      <img src="other_graph.png" width="400"><br>
+      <em>Component Comparison</em>
+    </td>
+  </tr>
+</table>
+
+
+
+
+
+
+
+
+
 ## micro controller weight table
 ![MCU Weight Table](trade%20analysis%20data/MCU%20weight%20table.png)
 
