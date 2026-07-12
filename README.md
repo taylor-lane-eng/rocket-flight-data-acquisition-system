@@ -558,6 +558,76 @@ This system verified the following requirements:
 - ✅ REQ-04: The system succesfully timestamped all data measurements at an avaerge interval of 15 ms.
 - ✅ REQ-05: The system succesfully stored all of the data to a CSV in the onboard micro SD card.
 
+## [DT-02] Developmental Test Results
+
+Developmental Test 02 [DT-02] assessed the data storagae capacity. <a href="Verification/verification.md"> Full data set with accelerometer graphs availaable here. </a>
+
+<table>
+  <tr>
+    <!-- Graph -->
+    <td width="70%" align="center">
+      <h3>DT-01 Altitude Test Results</h3>
+      <img src="Verification/Test%20Results/DT02.png" width="600">
+    </td>
+    <!-- Data Table -->
+    <td width="30%" align="center">
+      <h3>Raw Sensor Data</h3>
+      <table>
+        <tr>
+          <th>Time</th>
+          <th>Alt</th>
+          <th>Ax</th>
+          <th>Ay</th>
+          <th>Az</th>
+        </tr>
+        <tr>
+          <td>0.338</td>
+          <td>2.83</td>
+          <td>0.24</td>
+          <td>-0.27</td>
+          <td>9.20</td>
+        </tr>
+        <tr>
+          <td>0.353</td>
+          <td>3.12</td>
+          <td>0.24</td>
+          <td>-0.25</td>
+          <td>9.27</td>
+        </tr>
+        <tr>
+          <td>0.366</td>
+          <td>2.46</td>
+          <td>0.16</td>
+          <td>-0.35</td>
+          <td>9.38</td>
+        </tr>
+        <tr>
+          <td>0.380</td>
+          <td>3.43</td>
+          <td>0.09</td>
+          <td>-0.30</td>
+          <td>9.47</td>
+        </tr>
+      </table>
+      <p>
+        <a href="../Verification/Test Results/sensor_data_raw.csv">
+          Sample data shown. Full dataset available here.
+        </a>
+      </p>
+    </td>
+  </tr>
+</table>
+
+
+This system verified the following requirements:
+
+- ✅ REQ-01: The system succesfully accepetd the ON/OFF command from the user - component requirement satisfied by a switch on the power source.
+- ✅ REQ-02: The system acquired pressure measurements which were converted to altitude values. The average sampling rate across the pressure measurements was 67 Hz (67 samples/sec) 
+- ✅ REQ-03: The system acquired 3-axis acceleration measurements. The sampling rate across the accelerations measurements was 67 Hz (67 samples/sec).  
+- ✅ REQ-04: The system succesfully timestamped all data measurements at an avaerge interval of 15 ms.
+- ✅ REQ-05: The system succesfully stored all of the data to a CSV in the onboard micro SD card.
+
+
 ---
 
 # Next Steps
