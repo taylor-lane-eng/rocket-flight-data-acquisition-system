@@ -415,7 +415,7 @@ The Verification Cross-Reference Matrix (VCRM) maps system requirements to their
 
 ---
 
-# Sensor Bench Test - Test Results
+# Developmental Test 01 [DT-01] - Test Results
 
 <img src="../Verification/Test Results/bench_test_sensors.png" width="600">
 
