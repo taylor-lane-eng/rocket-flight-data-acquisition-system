@@ -497,7 +497,7 @@ The Sensor Bench Test assessed the performance of the avionics system prototype 
   <tr>
     <!-- Graph -->
     <td width="70%" align="center">
-      <h3>Sensor Bench Test Results</h3>
+      <h3>DT-01 Altitude Test Results</h3>
       <img src="Verification/Test%20Results/alt_labeled.png" width="600">
     </td>
     <!-- Data Table -->
