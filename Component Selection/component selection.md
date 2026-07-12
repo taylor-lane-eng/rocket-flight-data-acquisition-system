@@ -56,7 +56,7 @@ After scoring each candidate component, each of the component alternatives are c
       <strong>Acceleromter Alternatives</strong><br>
       <img src="trade%20analysis%20data/accel%20alts.png" width="450"><br><br>
       <strong>Component Selection Graph</strong><br>
-      <img src="accel%20selection.png" width="450">
+      <img src="accelerometer%20selection.png" width="450">
     </td>
   </tr>
 </table>
