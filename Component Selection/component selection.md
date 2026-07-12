@@ -12,7 +12,7 @@ After scoring each candidate component, each of the component alternatives are c
 <table>
   <tr>
     <td align="center">
-      <strong>Microcontroller Weight Table</strong><br>
+      <strong>Pressure Weight Table</strong><br>
       <img src="trade%20analysis%20data/MCU%20weight%20table.png" width="450">
     </td>
     <td align="center">
@@ -31,14 +31,14 @@ After scoring each candidate component, each of the component alternatives are c
 <table>
   <tr>
     <td align="center">
-      <strong>Microcontroller Weight Table</strong><br>
-      <img src="trade%20analysis%20data/pressure%20weight%20table.png" width="450">
+      <strong>Acceleromter Weight Table</strong><br>
+      <img src="trade%20analysis%20data/accel%20weight%20table.png" width="450">
     </td>
     <td align="center">
       <strong>Microcontroller Alternatives</strong><br>
-      <img src="trade%20analysis%20data/pressure%20alts.png" width="450"><br><br>
+      <img src="trade%20analysis%20data/accel%20alts.png" width="450"><br><br>
       <strong>Component Selection Graph</strong><br>
-      <img src="pressure%20selection.png" width="450">
+      <img src="accel%20selection.png" width="450">
     </td>
   </tr>
 </table>
