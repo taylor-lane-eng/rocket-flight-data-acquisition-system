@@ -214,6 +214,8 @@ The process for selecting components was the following:
 - Score each candidate component (weigh X Rate = Score).
 - Plot the scores of each candidate component across each of the grading criteria
 
+More details on component selection can be found [here](Component%20Selection/component_selection.md).
+
 <table>
   <tr>
     <td width="60%" align="center">
