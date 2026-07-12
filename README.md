@@ -165,6 +165,8 @@ The full calucations can be seen here: [Full Engineering Requirement Calculation
 # Functional Analysis 
 After developing the performance requirements, functions were developed to satisfy the performance requirements. A functional block diagram was developed to model the function flow and point-out all interfaces.
 
+
+
 ## Functional Allocation
 After modeling the functions in the functional block diagram, the functions were traced to their corresponding requirements in a functional traceability matrix to ensure that all requirements are met.
 
