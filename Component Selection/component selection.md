@@ -11,16 +11,15 @@ After scoring each candidate component, each of the component alternatives are c
 <table>
   <tr>
     <td align="center">
-      <img src="mcu%20selection.png" width="400"><br>
-      <em>MCU Selection Trade Study</em>
+      <strong>Microcontroller Weight Table</strong><br>
+      <img src="trade%20analysis%20data/MCU%20weight%20table.png" width="450">
     </td>
     <td align="center">
-      <img src="other_graph.png" width="400"><br>
-      <em>Component Comparison</em>
+      <strong>Microcontroller Alternatives</strong><br>
+      <img src="trade%20analysis%20data/mcu%20alts.png" width="450">
     </td>
   </tr>
 </table>
-
 
 
 
