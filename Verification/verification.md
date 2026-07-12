@@ -117,59 +117,6 @@ that the prototype satisfies critical technical requirements and specifications 
 flight testing.
 </p>
 
-<h3>DT-03: Shock and Acceleration Load Test</h3>
-
-<h4>Planned Approach</h4>
-
-<p>
-The avionics system will be subjected to controlled acceleration loading up to 
-15g to evaluate the ability of the hardware and electrical connections to 
-maintain functionality under expected launch loading conditions. Following 
-exposure, system operation and telemetry storage capability will be evaluated.
-</p>
-
-<h4>Planned Configuration Description</h4>
-
-<p>
-The test configuration will consist of the integrated avionics assembly including 
-the microcontroller, sensors, power system, and data storage components. The final 
-test fixture and loading method will be determined prior to test execution.
-</p>
-
-<h4>Test Objectives</h4>
-
-<ul>
-<li>Verify avionics functionality following exposure to up to 15g acceleration loading.</li>
-<li>Verify continued sensor operation after applied loading.</li>
-<li>Verify telemetry storage capability remains functional.</li>
-<li>Identify any mechanical or electrical failures resulting from acceleration loading.</li>
-</ul>
-
-<h4>Results</h4>
-
-<table>
-<tr>
-<th>Parameter</th>
-<th>Status</th>
-</tr>
-
-<tr>
-<td>15g acceleration load exposure</td>
-<td>Planned</td>
-</tr>
-
-<tr>
-<td>Post-test system functionality</td>
-<td>Planned</td>
-</tr>
-
-<tr>
-<td>Telemetry storage integrity</td>
-<td>Planned</td>
-</tr>
-
-</table>
-
 <h3>DT-01: Data Acquisition Performance Test</h3>
 
 <h4>Method of Approach</h4>
@@ -278,6 +225,58 @@ The same avionics configuration utilized during DT-01 was used for this test.
 
 </table>
 
+<h3>DT-03: Shock and Acceleration Load Test</h3>
+
+<h4>Planned Approach</h4>
+
+<p>
+The avionics system will be subjected to controlled acceleration loading up to 
+15g to evaluate the ability of the hardware and electrical connections to 
+maintain functionality under expected launch loading conditions. Following 
+exposure, system operation and telemetry storage capability will be evaluated.
+</p>
+
+<h4>Planned Configuration Description</h4>
+
+<p>
+The test configuration will consist of the integrated avionics assembly including 
+the microcontroller, sensors, power system, and data storage components. The final 
+test fixture and loading method will be determined prior to test execution.
+</p>
+
+<h4>Test Objectives</h4>
+
+<ul>
+<li>Verify avionics functionality following exposure to up to 15g acceleration loading.</li>
+<li>Verify continued sensor operation after applied loading.</li>
+<li>Verify telemetry storage capability remains functional.</li>
+<li>Identify any mechanical or electrical failures resulting from acceleration loading.</li>
+</ul>
+
+<h4>Results</h4>
+
+<table>
+<tr>
+<th>Parameter</th>
+<th>Status</th>
+</tr>
+
+<tr>
+<td>15g acceleration load exposure</td>
+<td>Planned</td>
+</tr>
+
+<tr>
+<td>Post-test system functionality</td>
+<td>Planned</td>
+</tr>
+
+<tr>
+<td>Telemetry storage integrity</td>
+<td>Planned</td>
+</tr>
+
+</table>
 
 
 
