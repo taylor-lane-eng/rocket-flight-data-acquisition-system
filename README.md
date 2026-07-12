@@ -356,26 +356,6 @@ incremental developmental testing followed by future operational testing.
 </td>
 </tr>
 
-<tr>
-<td>Developmental Test & Evaluation (DT&E)</td>
-<td>
-DT&E verifies critical avionics functions prior to flight testing. Completed tests 
-verified data acquisition performance, timestamping, data storage, and continuous 
-operation. DT-01 achieved an average sampling frequency of 66.7 Hz with a 15 ms 
-sample interval. DT-03 will evaluate system functionality under up to 15g loading.
-</td>
-</tr>
-
-<tr>
-<td>Operational Test & Evaluation (OT&E)</td>
-<td>
-Future OT&E will evaluate the integrated avionics system under representative 
-rocket flight conditions. Objectives include verifying launch operation, sensor 
-performance, flight profile generation, flight data recovery, and system 
-survivability after flight loads.
-</td>
-</tr>
-
 </table>
 
 
@@ -462,6 +442,8 @@ For a full Verification Cross-Reference Matrix (VCRM) along with the documented 
 
 Developmental Test 01 [DT-01] assessed the performance of the avionics system prototype by turning the system on at the base of a standard 3-meter staricase and taking the system to the top of the stairscase. After briefly pausing at the top, the system prototype decended 1.5-meters down the staircase and puased briefly before returning the the starting position at the bottom of the staircase. <a href="Verification/verification.md"> Full data set with accelerometer graphs availaable here. </a>
 
+DT-01 verified data acquisition performance, timestamping, data storage, and continuous operation. DT-01 achieved an average sampling frequency of 66.7 Hz with a 15 ms sample interval. 
+
 <table>
   <tr>
     <!-- Graph -->
@@ -529,7 +511,7 @@ This system verified the following requirements:
 
 ## [DT-02] Developmental Test Results
 
-Developmental Test 02 [DT-02] assessed the data storagae capacity. <a href="Verification/verification.md"> Full data set with accelerometer graphs availaable here. </a>
+Developmental Test 02 [DT-02] assessed the data storagae capacity of &ge180s. <a href="Verification/verification.md"> Full data set with accelerometer graphs availaable here. </a>
 
 <table>
   <tr>
