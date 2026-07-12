@@ -226,14 +226,7 @@ The same avionics configuration utilized during DT-01 was used for this test.
 
 </table>
 
-<tr>
-<td>Developmental Test</td>
-<td>DT-03</td>
-<td>
-Structural and electronic survivability test under acceleration loading up to 15g.
-</td>
-<td>Planned</td>
-</tr>
+
 
 
 <h2>4. Operational Test and Evaluation (OT&E)</h2>
