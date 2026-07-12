@@ -6,22 +6,7 @@ Score = weight x value
 
 After scoring each candidate component, each of the component alternatives are compared to each other. In this instance, the results were documented in graphs. 
 
-# Micro controller Selection
-
-<table>
-  <tr>
-    <td align="center">
-      <strong>Microcontroller Weight Table</strong><br>
-      <img src="trade%20analysis%20data/MCU%20weight%20table.png" width="450">
-    </td>
-    <td align="center">
-      <strong>Microcontroller Alternatives</strong><br>
-      <img src="trade%20analysis%20data/mcu%20alts.png" width="450">
-    </td>
-  </tr>
-</table>
-
-
+# Microcontroller Selection
 
 
 <table>
@@ -39,8 +24,4 @@ After scoring each candidate component, each of the component alternatives are c
   </tr>
 </table>
 
-
-
-
-![Component Selection Graph](mcu%20selection.png)
 
