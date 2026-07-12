@@ -1,4 +1,3 @@
-# Test and Evaluation Master Plan (TEMP)
 
 <h1>Test and Evaluation Master Plan (TEMP)</h1>
 
