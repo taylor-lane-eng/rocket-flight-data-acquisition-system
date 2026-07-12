@@ -5,9 +5,9 @@
 
 <h3>Mission Description</h3>
 <p>
-The Rocket Flight Data Acquisition System is a prototype avionics system designed 
-to collect and store flight telemetry data during model rocket operations. The 
-system measures atmospheric pressure, acceleration, and timing data to support 
+The Rocket Flight Data Acquisition System is an avionics system designed 
+to collect and store flight data during model rocket operations. The 
+system measures barometric pressure, acceleration, and timing data to support 
 post-flight performance analysis and future flight validation.
 </p>
 
@@ -20,7 +20,6 @@ characterized by:
 <ul>
   <li>High acceleration during powered ascent</li>
   <li>Rapid altitude changes</li>
-  <li>Mechanical vibration and shock loading</li>
   <li>Short-duration flight operations</li>
   <li>Limited onboard power and storage capacity</li>
 </ul>
@@ -28,9 +27,9 @@ characterized by:
 <h3>System Description</h3>
 <p>
 The system consists of a Raspberry Pi Pico microcontroller, BMP280 barometric 
-pressure sensor, MPU-6500 accelerometer, microSD storage module, battery power 
+pressure sensor, MPU-6050 accelerometer, microSD storage module, battery power 
 source, and 3D printed avionics enclosure. The system collects sensor data, 
-timestamps measurements, and stores telemetry for post-test analysis.
+timestamps measurements, and stores the data for post-test analysis.
 </p>
 
 <h3>Critical Technical Parameters</h3>
@@ -42,7 +41,7 @@ timestamps measurements, and stores telemetry for post-test analysis.
 </tr>
 
 <tr>
-<td>Pressure Sampling Rate</td>
+<td>Pressure and acceleration Sampling Rate</td>
 <td>&ge;45 Hz</td>
 </tr>
 
@@ -53,7 +52,7 @@ timestamps measurements, and stores telemetry for post-test analysis.
 
 <tr>
 <td>Timestamping</td>
-<td>Measurement time recorded for each sample</td>
+<td>Measurement time recorded for each sample at &ge;22.2 ms </td>
 </tr>
 
 <tr>
@@ -63,7 +62,7 @@ timestamps measurements, and stores telemetry for post-test analysis.
 
 <tr>
 <td>Data Output</td>
-<td>Stored telemetry file for analysis</td>
+<td>Stored flight data file for analysis</td>
 </tr>
 
 </table>
