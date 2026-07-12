@@ -621,12 +621,7 @@ Developmental Test 02 [DT-02] assessed the data storagae capacity. <a href="Veri
 
 This system verified the following requirements:
 
-- ✅ REQ-01: The system succesfully accepetd the ON/OFF command from the user - component requirement satisfied by a switch on the power source.
-- ✅ REQ-02: The system acquired pressure measurements which were converted to altitude values. The average sampling rate across the pressure measurements was 67 Hz (67 samples/sec) 
-- ✅ REQ-03: The system acquired 3-axis acceleration measurements. The sampling rate across the accelerations measurements was 67 Hz (67 samples/sec).  
-- ✅ REQ-04: The system succesfully timestamped all data measurements at an avaerge interval of 15 ms.
-- ✅ REQ-05: The system succesfully stored all of the data to a CSV in the onboard micro SD card.
-
+- ✅ REQ-07: The system succesfully stored 180 seconds of sensor data.
 
 ---
 
