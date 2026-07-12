@@ -301,7 +301,7 @@ The initial prototype demonstrates:
 
 # Verification Planning and Testing
 
-After determining the appropriate hardware to utilize and assembling a prototype, a verification and developmental test process was conducted to ensure all of the requirments were met at the required standard. Below is the summarized Test and Evaluation Master Plan (TEMP) and the Verificaiton Cross-Reference Matrix.
+After determining the appropriate hardware to utilize and assembling a prototype, a verification and developmental test process was conducted to ensure all of the requirments were met at the required standard. Below is the Integrated Test Program from the Test and Evaluation Master Plan (TEMP) as well as the Verificaiton Cross-Reference Matrix.
 
 <a href="Verification/verification.md">The full TEMP can be seen here.</a>
 
