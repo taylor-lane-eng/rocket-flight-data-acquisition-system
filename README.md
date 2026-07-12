@@ -413,7 +413,7 @@ survivability after flight loads.
 
 
 
-## VCRM
+## VCRM Summary 
 
 <table>
   <tr>
@@ -426,49 +426,49 @@ survivability after flight loads.
   <tr>
     <td><b>REQ-01</b></td>
     <td>System accepts user ON/OFF input</td>
-    <td>Demonstration</td>
+    <td>Test [DT-01]</td>
     <td><span style="color:green"><b>Pass</b></span></td>
   </tr>
 
   <tr>
     <td><b>REQ-02</b></td>
     <td>System samples barometric pressure at 45 Hz</td>
-    <td>Sensor Bench Test</td>
+    <td>Test [DT-01]</td>
     <td><font color="green"><b>Pass</b></font></td>
   </tr>
 
   <tr>
     <td><b>REQ-03</b></td>
     <td>System samples 3-axis acceleration at 45 Hz</td>
-    <td>Sensor Bench Test</td>
+    <td>Test [DT-01]</td>
     <td><font color="green"><b>Pass</b></font></td>
   </tr>
 
   <tr>
     <td><b>REQ-04</b></td>
     <td>System timestamps data at 22.2 ms intervals</td>
-    <td>Sensor Bench Test</td>
+    <td>Test [DT-01]</td>
     <td><font color="green"><b>Pass</b></font></td>
   </tr>
 
   <tr>
     <td><b>REQ-05</b></td>
     <td>System stores data to onboard micro SD card module</td>
-    <td>Sensor Bench Test</td>
+    <td>Test [DT-01]</td>
     <td><font color="green"><b>Pass</b></font></td>
   </tr>
 
   <tr>
     <td><b>REQ-06</b></td>
     <td>System maintains function across forces up to 15g</td>
-    <td>Test</td>
+    <td>Test Test [DT-03]</td>
     <td><font color="orange"><b>Pending</b></font></td>
   </tr>
 
   <tr>
     <td><b>REQ-07</b></td>
     <td>Continuous data logging for 180 seconds</td>
-    <td>Data Storage Test</td>
+    <td>Test [DT-02]</td>
     <td><font color="green"><b>Pass</b></font></td>
   </tr>
 
