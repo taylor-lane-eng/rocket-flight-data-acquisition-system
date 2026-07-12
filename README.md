@@ -208,15 +208,15 @@ After conducting a functional analysis, the system's physical architecture was d
 
 ### Component Selection Method
 
-- Component selection was performed using the **Subjective Value Method (SVM)**.
-- Candidate components were evaluated against defined selection criteria.
+- Component selection was performed using the **Subjective Value Method** as seen in Kossiakoff's Sytems Engineering Principles and Practices.
+- Candidate components were evaluated against various different criterion.
 - Each criterion was assigned a **value** from **1–5**:
   - **1** = Poor
   - **2** = Fair
   - **3** = Satisfactory
   - **4** = Good
   - **5** = Superior
-- Each criterion was assigned a **weight** based on its relative importance (total weight = **100%**).
+- Each candidate component was assigned a **weight** for each criterion based on its relative performance (total weight = **100%**).
 - Candidate scores were calculated using:
 
   **Score = Weight × Value**
