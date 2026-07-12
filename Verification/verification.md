@@ -98,6 +98,13 @@ incremental developmental testing followed by future operational testing.
 </tr>
 
 <tr>
+<td>Developmental Test</td>
+<td>DT-03</td>
+<td>Shock and Acceleration Load verification</td>
+<td>Planned</td>
+</tr>
+
+<tr>
 <td>Operational Test</td>
 <td>OT-01</td>
 <td>Integrated rocket flight test and mission performance evaluation</td>
