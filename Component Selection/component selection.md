@@ -24,15 +24,23 @@ After scoring each candidate component, each of the component alternatives are c
 
 
 
+<table>
+  <tr>
+    <td align="center">
+      <strong>Microcontroller Weight Table</strong><br>
+      <img src="trade%20analysis%20data/MCU%20weight%20table.png" width="450">
+    </td>
+    <td align="center">
+      <strong>Microcontroller Alternatives</strong><br>
+      <img src="trade%20analysis%20data/mcu%20alts.png" width="450"><br><br>
+      <strong>Component Selection Graph</strong><br>
+      <img src="mcu%20selection.png" width="450">
+    </td>
+  </tr>
+</table>
 
 
 
-## micro controller weight table
-![MCU Weight Table](trade%20analysis%20data/MCU%20weight%20table.png)
-
-
-## micro controller Alternatives 
-![MCU Weight Table](trade%20analysis%20data/mcu%20alts.png)
 
 ![Component Selection Graph](mcu%20selection.png)
 
