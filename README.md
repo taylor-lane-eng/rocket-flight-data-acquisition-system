@@ -365,7 +365,7 @@ incremental developmental testing followed by future operational testing.
     <th>REQ ID</th>
     <th>Requirement Description</th>
     <th>Verification Method</th>
-    <th>Evidence / Supporting Documents *** make these links!</th>
+    <th>Supporting Documents / Notes</th>
     <th>Pass / Fail Status</th>
   </tr>
 
@@ -413,7 +413,7 @@ incremental developmental testing followed by future operational testing.
     <td><b>REQ   -06</b></td>
     <td>System maintains function across forces up to 15g</td>
     <td>Test      [DT-03]</td>
-    <td> </td>
+    <td> Planning</td>
     <td><font color="orange"><b>Pending</b></font></td>
   </tr>
 
@@ -429,7 +429,7 @@ incremental developmental testing followed by future operational testing.
     <td><b>REQ   -08</b></td>
     <td>System maintains rocket CG aft of CP by 49 mm</td>
     <td>Analysis</td>
-    <td> </td>
+    <td> Planning </td>
     <td><font color="orange"><b>Pending</b></font></td>
   </tr>
 
