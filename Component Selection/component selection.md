@@ -8,7 +8,6 @@ After scoring each candidate component, each of the component alternatives are c
 
 # Microcontroller Selection
 
-
 <table>
   <tr>
     <td align="center">
@@ -36,7 +35,7 @@ After scoring each candidate component, each of the component alternatives are c
     </td>
     <td align="center">
       <strong>Barometer Alternatives</strong><br>
-      <img src="trade%20analysis%20data/accel%20alts.png" width="450"><br><br>
+      <img src="trade%20analysis%20data/pressure%20alts.png" width="450"><br><br>
       <strong>Component Selection Graph</strong><br>
       <img src="accel%20selection.png" width="450">
     </td>
