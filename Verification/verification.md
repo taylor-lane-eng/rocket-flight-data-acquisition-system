@@ -46,13 +46,13 @@ timestamps measurements, and stores the data for post-test analysis.
 </tr>
 
 <tr>
-<td>Acceleration Measurement</td>
+<td>Pressure and Acceleration Measurement</td>
 <td>Continuous sensor acquisition</td>
 </tr>
 
 <tr>
 <td>Timestamping</td>
-<td>Measurement time recorded for each sample at &ge;22.2 ms </td>
+<td>Measurement time recorded at intervals &lt;22.2 ms </td>
 </tr>
 
 <tr>
@@ -124,7 +124,7 @@ flight testing.
 
 <p>
 The avionics system was powered on and configured to continuously collect pressure, 
-acceleration, and timestamp data. Recorded telemetry was analyzed to determine 
+acceleration, and timestamp data. Recorded test data was analyzed to determine 
 sampling performance, timestamp consistency, and successful data storage.
 </p>
 
@@ -133,9 +133,9 @@ sampling performance, timestamp consistency, and successful data storage.
 <ul>
 <li>Raspberry Pi Pico microcontroller</li>
 <li>BMP280 pressure sensor</li>
-<li>MPU-6500 accelerometer</li>
+<li>MPU-6050 accelerometer</li>
 <li>MicroSD storage module</li>
-<li>Battery power source</li>
+<li>AA Battery power source</li>
 </ul>
 
 <h4>Test Objectives</h4>
@@ -249,8 +249,8 @@ installed within the model rocket platform.
 <li>Flight vehicle integration</li>
 <li>Onboard power system</li>
 <li>Flight sensors</li>
-<li>Telemetry storage system</li>
-<li>Avionics enclosure</li>
+<li>Flight Data storage system</li>
+<li>Avionics Bay</li>
 </ul>
 
 
@@ -260,22 +260,10 @@ installed within the model rocket platform.
 <li>Verify successful system operation during launch.</li>
 <li>Evaluate sensor performance during flight acceleration.</li>
 <li>Generate altitude and acceleration flight profiles.</li>
-<li>Recover and analyze stored telemetry data.</li>
+<li>Recover and analyze stored flight data.</li>
 <li>Evaluate system survivability after flight loads.</li>
 </ul>
 
-
-
-
-
-## Integrated Test Program Summary:
-
-
-## Developmental Test and Evaluation
-
-## Operational Test and Evaluation
-
-## Test and Evaluation Resource Summary 
 
 
 ---
