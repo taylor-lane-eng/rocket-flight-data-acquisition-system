@@ -179,18 +179,77 @@ After modeling the functions in the functional block diagram, the functions were
     </td>
     <td width="35%" align="left" valign="top">
       <strong>Requirements</strong>
-      <ul style="font-size: 11px; line-height: 1.2;">
-        <li><strong>REQ-001:<strong> The system shall accept a user-initiated power-on command through the designated power switch.</li>
-        <li><strong>REQ-002:<strong> The system shall sample barometric pressure at a minimum rate of 45 Hz during powered ascent, coast, and descent.</li>
-        <li><strong>REQ-003:<strong> The system shall sample three-axis acceleration at a minimum rate of 45 Hz from launch detection until end of flight logging.</li>
-        <li><strong>REQ-004:<strong> The system shall assign timestamps to all measurements with a resolution of ≤22.2 ms.</li>
-        <li><strong>REQ-005:<strong> The system shall record all acquired timestamped sensor measurements to onboard storage.</li>
-        <li><strong>REQ-006:<strong> The system shall remain fully functional after exposure to shock loads up to 15g peak acceleration and vibration representative of model rocket ignition and ascent.</li>
-        <li><strong>REQ-007:<strong> The system shall support continuous operation for at least 3 minutes of active logging time.</li>
-        <li><strong>REQ-008:<strong> The system shall ensure the rocket center of gravity remains at least 1.0 body diameter forward of the center of pressure for all flight configurations.</li>
-      </ul>
-    </td>
-  </tr>
+<table style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
+    <tr style="background-color:#c9c9c9;">
+        <th colspan="2" align="left" style="padding:14px; font-size:28px; border:1px solid #999;">
+            Performance Requirements
+        </th>
+    </tr>
+    <tr>
+        <td width="24%" valign="top" style="padding:14px; font-size:24px; font-weight:bold; border:1px solid #999;">
+            REQ-01
+        </td>
+        <td style="padding:14px; font-size:22px; border:1px solid #999;">
+            The system shall accept a user-initiated power-on command through the designated power switch.
+        </td>
+    </tr>
+    <tr>
+        <td valign="top" style="padding:14px; font-size:24px; font-weight:bold; border:1px solid #999;">
+            REQ-02
+        </td>
+        <td style="padding:14px; font-size:22px; border:1px solid #999;">
+            The system shall sample barometric pressure at a minimum rate of 45 Hz during powered ascent, coast, and descent.
+        </td>
+    </tr>
+    <tr>
+        <td valign="top" style="padding:14px; font-size:24px; font-weight:bold; border:1px solid #999;">
+            REQ-03
+        </td>
+        <td style="padding:14px; font-size:22px; border:1px solid #999;">
+            The system shall sample three-axis acceleration at a minimum rate of 45 Hz from launch detection until end of flight logging.
+        </td>
+    </tr>
+    <tr>
+        <td valign="top" style="padding:14px; font-size:24px; font-weight:bold; border:1px solid #999;">
+            REQ-04
+        </td>
+        <td style="padding:14px; font-size:22px; border:1px solid #999;">
+            The system shall assign timestamps to all measurements with a resolution of ≤22.2 ms.
+        </td>
+    </tr>
+    <tr>
+        <td valign="top" style="padding:14px; font-size:24px; font-weight:bold; border:1px solid #999;">
+            REQ-05
+        </td>
+        <td style="padding:14px; font-size:22px; border:1px solid #999;">
+            The system shall record all acquired timestamped sensor measurements to onboard storage.
+        </td>
+    </tr>
+    <tr>
+        <td valign="top" style="padding:14px; font-size:24px; font-weight:bold; border:1px solid #999;">
+            REQ-06
+        </td>
+        <td style="padding:14px; font-size:22px; border:1px solid #999;">
+            The system shall remain fully functional after exposure to shock loads up to 15g peak acceleration and vibration representative of model rocket ignition and ascent.
+        </td>
+    </tr>
+    <tr>
+        <td valign="top" style="padding:14px; font-size:24px; font-weight:bold; border:1px solid #999;">
+            REQ-07
+        </td>
+        <td style="padding:14px; font-size:22px; border:1px solid #999;">
+            The system shall support continuous operation for at least 3 minutes of active logging time.
+        </td>
+    </tr>
+    <tr>
+        <td valign="top" style="padding:14px; font-size:24px; font-weight:bold; border:1px solid #999;">
+            REQ-08
+        </td>
+        <td style="padding:14px; font-size:22px; border:1px solid #999;">
+            The system shall ensure the rocket center of gravity remains at least 1.0 body diameter forward of the center of pressure for all flight configurations.
+        </td>
+    </tr>
+</table>
 </table>
 
 ---
