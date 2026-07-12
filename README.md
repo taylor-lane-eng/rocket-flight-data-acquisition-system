@@ -441,7 +441,7 @@ incremental developmental testing followed by future operational testing.
 
 ## [DT-01] Developmental Test Results
 
-Developmental Test 01 [DT-01] assessed the performance of the avionics system prototype by turning the system on at the base of a standard 3-meter staricase and taking the system to the top of the stairscase. After briefly pausing at the top, the system prototype decended 1.5-meters down the staircase and puased briefly before returning the the starting position at the bottom of the staircase. [DT-01 full test results](Verification/verification.md#developmental-test-01-dt-01---test-results)
+Developmental Test 01 (DT-01) evaluated the performance of the avionics system prototype during a controlled altitude change test. The system was powered on at the base of a standard 3-meter staircase and transported to the top of the staircase to simulate an increase in altitude. After a brief static hold period at the maximum elevation point, the prototype was lowered approximately 1.5 meters and paused before returning to the original starting position. Sensor data collected throughout the test was analyzed to evaluate altitude measurement response and system performance during ascent, descent, and static conditions.[DT-01 full test results](Verification/verification.md#developmental-test-01-dt-01---test-results)
 
 DT-01 verified data acquisition performance, timestamping, data storage, and continuous operation. DT-01 achieved an average sampling frequency of 66.7 Hz with a 15 ms sample interval. 
 
@@ -454,8 +454,13 @@ DT-01 verified data acquisition performance, timestamping, data storage, and con
     </td>
     <!-- Data Table -->
     <td width="30%" align="center">
-      <h3>Raw Sensor Data</h3>
-      DT-01 TEST PROCESS SUMMARY
+      <h3>DT-01 Test Procedure</h3>
+      1. System powered on at the base of a 3-meter staircase.
+      2. Prototype moved to the top of the staircase to simulate ascent.
+      3. System held at maximum elevation for steady-state measurement.
+      4. Prototype lowered 1.5 meters to evaluate descent response.
+      5. Prototype returned to starting position.
+      6. Recorded altitude data analyzed for sensor response and repeatability.
       <p>
         <a href="../Verification/Test Results/sensor_data_raw.csv">
           Sample data shown. Full dataset available here.
