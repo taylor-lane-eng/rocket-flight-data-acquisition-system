@@ -1,1 +1,1 @@
-![Component Trade Analysis](Trade%20Analysis%20Data/mcu selection.png)
+![Component Trade Analysis](Trade%20Analysis%20Data/MCU weight table.png)
