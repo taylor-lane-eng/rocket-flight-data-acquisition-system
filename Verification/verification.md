@@ -1,3 +1,293 @@
+# Test and Evaluation Master Plan (TEMP)
+
+<h1>Test and Evaluation Master Plan (TEMP)</h1>
+
+<h2>1. System Introduction</h2>
+
+<h3>Mission Description</h3>
+<p>
+The Rocket Flight Data Acquisition System is a prototype avionics system designed 
+to collect and store flight telemetry data during model rocket operations. The 
+system measures atmospheric pressure, acceleration, and timing data to support 
+post-flight performance analysis and future flight validation.
+</p>
+
+<h3>Operational Environment</h3>
+<p>
+The avionics system is intended to operate within a model rocket environment 
+characterized by:
+</p>
+
+<ul>
+  <li>High acceleration during powered ascent</li>
+  <li>Rapid altitude changes</li>
+  <li>Mechanical vibration and shock loading</li>
+  <li>Short-duration flight operations</li>
+  <li>Limited onboard power and storage capacity</li>
+</ul>
+
+<h3>System Description</h3>
+<p>
+The system consists of a Raspberry Pi Pico microcontroller, BMP280 barometric 
+pressure sensor, MPU-6500 accelerometer, microSD storage module, battery power 
+source, and 3D printed avionics enclosure. The system collects sensor data, 
+timestamps measurements, and stores telemetry for post-test analysis.
+</p>
+
+<h3>Critical Technical Parameters</h3>
+
+<table>
+<tr>
+<th>Parameter</th>
+<th>Requirement</th>
+</tr>
+
+<tr>
+<td>Pressure Sampling Rate</td>
+<td>&ge;45 Hz</td>
+</tr>
+
+<tr>
+<td>Acceleration Measurement</td>
+<td>Continuous sensor acquisition</td>
+</tr>
+
+<tr>
+<td>Timestamping</td>
+<td>Measurement time recorded for each sample</td>
+</tr>
+
+<tr>
+<td>Data Storage Duration</td>
+<td>&ge;180 seconds</td>
+</tr>
+
+<tr>
+<td>Data Output</td>
+<td>Stored telemetry file for analysis</td>
+</tr>
+
+</table>
+
+
+<h2>2. Integrated Test Program Summary</h2>
+
+<p>
+The integrated test program evaluates avionics system performance through 
+incremental developmental testing followed by future operational testing.
+</p>
+
+<table>
+<tr>
+<th>Test Phase</th>
+<th>Test ID</th>
+<th>Description</th>
+<th>Status</th>
+</tr>
+
+<tr>
+<td>Developmental Test</td>
+<td>DT-01</td>
+<td>Data acquisition rate, timestamping, and data storage verification</td>
+<td>Complete</td>
+</tr>
+
+<tr>
+<td>Developmental Test</td>
+<td>DT-02</td>
+<td>Continuous operation and 180-second storage verification</td>
+<td>Complete</td>
+</tr>
+
+<tr>
+<td>Operational Test</td>
+<td>OT-01</td>
+<td>Integrated rocket flight test and mission performance evaluation</td>
+<td>Planned</td>
+</tr>
+
+</table>
+
+
+<h2>3. Developmental Test and Evaluation (DT&E)</h2>
+
+<h3>Purpose</h3>
+
+<p>
+Developmental testing verifies individual avionics system functions and confirms 
+that the prototype satisfies critical technical requirements prior to operational 
+flight testing.
+</p>
+
+
+<h3>DT-01: Data Acquisition Performance Test</h3>
+
+<h4>Method of Approach</h4>
+
+<p>
+The avionics system was powered on and configured to continuously collect pressure, 
+acceleration, and timestamp data. Recorded telemetry was analyzed to determine 
+sampling performance, timestamp consistency, and successful data storage.
+</p>
+
+<h4>Configuration Description</h4>
+
+<ul>
+<li>Raspberry Pi Pico microcontroller</li>
+<li>BMP280 pressure sensor</li>
+<li>MPU-6500 accelerometer</li>
+<li>MicroSD storage module</li>
+<li>Battery power source</li>
+</ul>
+
+<h4>Test Objectives</h4>
+
+<ul>
+<li>Verify minimum data acquisition rate requirement.</li>
+<li>Verify timestamp generation.</li>
+<li>Verify telemetry storage functionality.</li>
+</ul>
+
+<h4>Results</h4>
+
+<table>
+<tr>
+<th>Parameter</th>
+<th>Result</th>
+</tr>
+
+<tr>
+<td>Average Sample Interval</td>
+<td>15 ms</td>
+</tr>
+
+<tr>
+<td>Average Sampling Frequency</td>
+<td>66.7 Hz</td>
+</tr>
+
+<tr>
+<td>Timestamp Recording</td>
+<td>Verified</td>
+</tr>
+
+<tr>
+<td>Data Storage</td>
+<td>Verified</td>
+</tr>
+
+</table>
+
+
+<h3>DT-02: Continuous Operation and Storage Test</h3>
+
+<h4>Method of Approach</h4>
+
+<p>
+The avionics system was operated continuously for a minimum duration of 180 seconds 
+while recording telemetry data. The resulting data file was inspected for 
+completeness and storage integrity.
+</p>
+
+<h4>Configuration Description</h4>
+
+<p>
+The same avionics configuration utilized during DT-01 was used for this test.
+</p>
+
+<h4>Test Objectives</h4>
+
+<ul>
+<li>Verify three-minute operational duration requirement.</li>
+<li>Verify continuous telemetry recording.</li>
+<li>Verify stored data integrity.</li>
+</ul>
+
+<h4>Results</h4>
+
+<table>
+<tr>
+<th>Parameter</th>
+<th>Status</th>
+</tr>
+
+<tr>
+<td>180-second operating requirement</td>
+<td>Verified</td>
+</tr>
+
+<tr>
+<td>Telemetry file generation</td>
+<td>Verified</td>
+</tr>
+
+<tr>
+<td>Data integrity</td>
+<td>Verified</td>
+</tr>
+
+</table>
+
+
+<h2>4. Operational Test and Evaluation (OT&E)</h2>
+
+<h3>Purpose</h3>
+
+<p>
+Operational testing will evaluate the complete avionics system under representative 
+rocket flight conditions and determine system performance within the intended 
+operational environment.
+</p>
+
+
+<h3>Configuration Description</h3>
+
+<p>
+The operational test configuration will consist of the integrated avionics system 
+installed within the model rocket platform.
+</p>
+
+<ul>
+<li>Flight vehicle integration</li>
+<li>Onboard power system</li>
+<li>Flight sensors</li>
+<li>Telemetry storage system</li>
+<li>Avionics enclosure</li>
+</ul>
+
+
+<h3>Test Objectives</h3>
+
+<ul>
+<li>Verify successful system operation during launch.</li>
+<li>Evaluate sensor performance during flight acceleration.</li>
+<li>Generate altitude and acceleration flight profiles.</li>
+<li>Recover and analyze stored telemetry data.</li>
+<li>Evaluate system survivability after flight loads.</li>
+</ul>
+
+
+
+
+
+## Integrated Test Program Summary:
+
+
+## Developmental Test and Evaluation
+
+## Operational Test and Evaluation
+
+## Test and Evaluation Resource Summary 
+
+
+---
+
+
+
+
+
+
+
 # Verification Cross-Reference Matrix (VCRM)
 
 The Verification Cross-Reference Matrix (VCRM) maps system requirements to their planned verification method and current verification status. Verification methods include Test, Demonstration, Inspection, and Analysis.
