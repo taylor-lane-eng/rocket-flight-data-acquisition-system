@@ -319,37 +319,6 @@ incremental developmental testing followed by future operational testing.
 </tr>
 
 <tr>
-<td>System Introduction</td>
-<td>
-The Rocket Flight Data Acquisition System is an avionics system designed to 
-collect and store flight data during model rocket operations. The system measures 
-barometric pressure, acceleration, and timing data to support post-flight 
-performance analysis and future flight validation.
-</td>
-</tr>
-
-<tr>
-<td>Operational Environment</td>
-<td>
-Model rocket environment consisting of high acceleration during powered ascent, 
-rapid altitude changes, short-duration flight operations, and limited onboard 
-power and storage capacity.
-</td>
-</tr>
-
-<tr>
-<td>Critical Technical Parameters</td>
-<td>
-<ul>
-<li>Pressure and acceleration sampling rate: &ge;45 Hz</li>
-<li>Timestamp interval: &le;22.2 ms</li>
-<li>Data storage duration: &ge;180 seconds</li>
-<li>Stored flight data file for analysis</li>
-</ul>
-</td>
-</tr>
-
-<tr>
 <td>Integrated Test Program</td>
 <td>
 <table>
