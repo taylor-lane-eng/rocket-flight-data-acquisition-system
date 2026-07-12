@@ -441,7 +441,7 @@ incremental developmental testing followed by future operational testing.
 
 ## [DT-01] Developmental Test Results
 
-Developmental Test 01 [DT-01] assessed the performance of the avionics system prototype by turning the system on at the base of a standard 3-meter staricase and taking the system to the top of the stairscase. After briefly pausing at the top, the system prototype decended 1.5-meters down the staircase and puased briefly before returning the the starting position at the bottom of the staircase. <a href="Verification/verification.md"> Full data set with accelerometer graphs availaable here. </a>
+Developmental Test 01 [DT-01] assessed the performance of the avionics system prototype by turning the system on at the base of a standard 3-meter staricase and taking the system to the top of the stairscase. After briefly pausing at the top, the system prototype decended 1.5-meters down the staircase and puased briefly before returning the the starting position at the bottom of the staircase. [DT-01 full test results](verification/verification.md#developmental-test-01-dt-01---test-results)
 
 DT-01 verified data acquisition performance, timestamping, data storage, and continuous operation. DT-01 achieved an average sampling frequency of 66.7 Hz with a 15 ms sample interval. 
 
