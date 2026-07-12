@@ -206,13 +206,22 @@ After conducting a functional analysis, the system's physical architecture was d
 
 # Component Selection / Trade off Analysis
 
-The process for selecting components was the following:
+### Component Selection Method
 
-- Define the criteria to compare the alternatives (based on meeting the performance requirements)
-- Assign a weight to each of the criteria (total weight across all criteria must be one, higher score means greater importance). 
-- Rate (1-5) each candidate component on how well they perform the criteria (1 is worst, 5 is best).
-- Score each candidate component (weigh X Rate = Score).
-- Plot the scores of each candidate component across each of the grading criteria
+- Component selection was performed using the **Subjective Value Method (SVM)**.
+- Candidate components were evaluated against defined selection criteria.
+- Each criterion was assigned a **value** from **1–5**:
+  - **1** = Poor
+  - **2** = Fair
+  - **3** = Satisfactory
+  - **4** = Good
+  - **5** = Superior
+- Each criterion was assigned a **weight** based on its relative importance (total weight = **100%**).
+- Candidate scores were calculated using:
+
+  **Score = Weight × Value**
+
+- Total scores were compared to identify the preferred component for system integration.
 
 More details on component selection can be found [here](Component%20Selection/component%20selection.md).
 
