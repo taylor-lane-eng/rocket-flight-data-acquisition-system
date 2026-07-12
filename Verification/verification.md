@@ -390,7 +390,7 @@ The Verification Cross-Reference Matrix (VCRM) maps system requirements to their
   <tr>
     <td><b>REQ-06</b></td>
     <td>System maintains function across forces up to 15g</td>
-    <td>Test</td>
+    <td>Test [DT-03]</td>
     <td> </td>
     <td><font color="orange"><b>Pending</b></font></td>
   </tr>
