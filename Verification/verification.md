@@ -52,7 +52,7 @@ timestamps measurements, and stores the data for post-test analysis.
 
 <tr>
 <td>Timestamping</td>
-<td>Measurement time recorded at intervals &lt;22.2 ms </td>
+<td>Measurement time recorded at intervals &le;22.2 ms </td>
 </tr>
 
 <tr>
@@ -113,7 +113,7 @@ incremental developmental testing followed by future operational testing.
 
 <p>
 Developmental testing verifies individual avionics system functions and confirms 
-that the prototype satisfies critical technical requirements prior to operational 
+that the prototype satisfies critical technical requirements and specifications prior to operational 
 flight testing.
 </p>
 
