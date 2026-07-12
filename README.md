@@ -179,7 +179,7 @@ After modeling the functions in the functional block diagram, the functions were
     </td>
     <td width="35%" align="left" valign="top">
       <strong>Requirements</strong>
-<table style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
+      <table style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
     <tr style="background-color:#c9c9c9;">
         <th colspan="2" align="left" style="padding:14px; font-size:28px; border:1px solid #999;">
             Performance Requirements
@@ -249,7 +249,7 @@ After modeling the functions in the functional block diagram, the functions were
             The system shall ensure the rocket center of gravity remains at least 1.0 body diameter forward of the center of pressure for all flight configurations.
         </td>
     </tr>
-</table>
+  </table>
 </table>
 
 ---
