@@ -455,12 +455,14 @@ DT-01 verified data acquisition performance, timestamping, data storage, and con
     <!-- Data Table -->
     <td width="30%" align="center">
       <h3>DT-01 Test Procedure</h3>
-      -  System powered on at the base of a 3-meter staircase.
-      -  Prototype moved to the top of the staircase to simulate ascent.
-      -  System held at maximum elevation for steady-state measurement.
-      -  Prototype lowered 1.5 meters to evaluate descent response.
-      -  Prototype returned to starting position.
-      -  Recorded altitude data analyzed for sensor response and repeatability.
+      <ul style="margin: 0;">
+        <li>System powered on at the base of a 3-meter staircase.</li>
+        <li>Prototype moved to the top of the staircase to simulate ascent.</li>
+        <li>System held at maximum elevation for steady-state measurement.</li>
+        <li>Prototype lowered 1.5 meters to evaluate descent response.</li>
+        <li>Prototype returned to the starting position.</li>
+        <li>Altitude data analyzed for sensor response and repeatability.</li>
+      </ul>
       <p>
         <a href="../Verification/Test Results/sensor_data_raw.csv">
           Sample data shown. Full dataset available here.
