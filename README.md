@@ -183,7 +183,7 @@ After modeling the functions in the functional block diagram, the functions were
     <tr style="background-color:#c9c9c9;">
         <th colspan="2" align="left" style="padding:14px; font-size:28px; border:1px solid #999;">
             
-</table>
+  </table>
 
 ---
 
