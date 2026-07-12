@@ -5,4 +5,4 @@
 
 
 ## micro controller Alternatives 
-![MCU Weight Table](trade%20analysis%20data/mcu%20alt.png)
+![MCU Weight Table](trade%20analysis%20data/mcu%20alts.png)
