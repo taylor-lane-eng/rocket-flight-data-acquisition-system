@@ -184,11 +184,34 @@ After modeling the functions in the functional block diagram, the functions were
         <th colspan="2" align="left" style="padding:14px; font-size:28px; border:1px solid #999;">
          </th>
        </tr>
-       <table>
     </td>
   </tr>
 </table>
 
+## Functional Block Diagram
+<img src="images/functional block diagram.png" width="700">
+
+## Functional Allocation
+After modeling the functions in the functional block diagram, the functions were traced to their corresponding requirements in a functional traceability matrix to ensure that all requirements are met.
+
+<table width="100%">
+  <tr>
+    <td width="65%" align="center">
+      <strong>Functional Traceability Matrix</strong><br>
+      <img src="images/function allocation table.png" width="700">
+    </td>
+    <td width="35%" align="left" valign="top">
+      <strong>Requirements</strong>
+      <table style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
+        <tr style="background-color:#c9c9c9;">
+          <th align="left" style="padding:14px; font-size:28px; border:1px solid #999;">
+            Requirement
+          </th>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
 ---
 
 # Physical Architecture
