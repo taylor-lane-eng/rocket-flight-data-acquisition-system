@@ -31,13 +31,13 @@ After scoring each candidate component, each of the component alternatives are c
   <tr>
     <td align="center">
       <strong>Barometer Weight Table</strong><br>
-      <img src="trade%20analysis%20data/accel%20weight%20table.png" width="450">
+      <img src="trade%20analysis%20data/pressure%20weight%20table.png" width="450">
     </td>
     <td align="center">
       <strong>Barometer Alternatives</strong><br>
       <img src="trade%20analysis%20data/pressure%20alts.png" width="450"><br><br>
       <strong>Component Selection Graph</strong><br>
-      <img src="accel%20selection.png" width="450">
+      <img src="pressure%20selection.png" width="450">
     </td>
   </tr>
 </table>
@@ -50,13 +50,13 @@ After scoring each candidate component, each of the component alternatives are c
   <tr>
     <td align="center">
       <strong>Acceleromter Weight Table</strong><br>
-      <img src="trade%20analysis%20data/MCU%20weight%20table.png" width="450">
+      <img src="trade%20analysis%20data/accel%20weight%20table.png" width="450">
     </td>
     <td align="center">
       <strong>Acceleromter Alternatives</strong><br>
-      <img src="trade%20analysis%20data/mcu%20alts.png" width="450"><br><br>
+      <img src="trade%20analysis%20data/accel%20alts.png" width="450"><br><br>
       <strong>Component Selection Graph</strong><br>
-      <img src="mcu%20selection.png" width="450">
+      <img src="accel%20selection.png" width="450">
     </td>
   </tr>
 </table>
