@@ -15,4 +15,5 @@ After scoring each candidate component, each of the component alternatives are c
 ## micro controller Alternatives 
 ![MCU Weight Table](trade%20analysis%20data/mcu%20alts.png)
 
-![Component Selection Graph](graph.png)
+![Component Selection Graph](mcu selection.png)
+
