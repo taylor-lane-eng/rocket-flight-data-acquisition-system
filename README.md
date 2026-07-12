@@ -303,6 +303,8 @@ The initial prototype demonstrates:
 
 After determining the appropriate hardware to utilize and assembling a prototype, a systematic V&V process was conducted to ensure all of the requirments are met at the neccessary standard. Below is a verification table that highlights the verificaiton process across the system.
 
+Below are summarized versions of the TEMP and VCRM.
+
 <h2>Test and Evaluation Master Plan (TEMP) Summary</h2>
 
 <p>
@@ -409,10 +411,6 @@ survivability after flight loads.
 
 
 
-
-
-
-
 ## VCRM Summary 
 
 <table>
@@ -461,7 +459,7 @@ survivability after flight loads.
   <tr>
     <td><b>REQ-06</b></td>
     <td>System maintains function across forces up to 15g</td>
-    <td>Test Test [DT-03]</td>
+    <td>Test [DT-03]</td>
     <td><font color="orange"><b>Pending</b></font></td>
   </tr>
 
