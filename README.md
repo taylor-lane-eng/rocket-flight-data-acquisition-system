@@ -312,40 +312,28 @@ The integrated test program evaluates avionics system performance through
 incremental developmental testing followed by future operational testing.
 </p>
 
-<h3>System Introduction</h3>
-
 <table>
 <tr>
 <th>Category</th>
-<th>Description</th>
+<th>Summary</th>
 </tr>
 
 <tr>
-<td>Mission Description</td>
+<td>System Introduction</td>
 <td>
-The Rocket Flight Data Acquisition System is an avionics system designed 
-to collect and store flight data during model rocket operations. The system 
-measures barometric pressure, acceleration, and timing data to support 
-post-flight performance analysis and future flight validation.
+The Rocket Flight Data Acquisition System is an avionics system designed to 
+collect and store flight data during model rocket operations. The system measures 
+barometric pressure, acceleration, and timing data to support post-flight 
+performance analysis and future flight validation.
 </td>
 </tr>
 
 <tr>
 <td>Operational Environment</td>
 <td>
-Model rocket environment characterized by high acceleration during powered 
-ascent, rapid altitude changes, short-duration flight operations, and limited 
-onboard power and storage capacity.
-</td>
-</tr>
-
-<tr>
-<td>System Description</td>
-<td>
-The system consists of a Raspberry Pi Pico microcontroller, BMP280 barometric 
-pressure sensor, MPU-6050 accelerometer, microSD storage module, battery power 
-source, and 3D printed avionics enclosure. The system collects sensor data, 
-timestamps measurements, and stores the data for post-test analysis.
+Model rocket environment consisting of high acceleration during powered ascent, 
+rapid altitude changes, short-duration flight operations, and limited onboard 
+power and storage capacity.
 </td>
 </tr>
 
@@ -354,171 +342,78 @@ timestamps measurements, and stores the data for post-test analysis.
 <td>
 <ul>
 <li>Pressure and acceleration sampling rate: &ge;45 Hz</li>
-<li>Pressure and acceleration measurement: Continuous sensor acquisition</li>
-<li>Timestamping: Measurement time recorded at intervals &le;22.2 ms</li>
+<li>Timestamp interval: &le;22.2 ms</li>
 <li>Data storage duration: &ge;180 seconds</li>
-<li>Data output: Stored flight data file for analysis</li>
+<li>Stored flight data file for analysis</li>
 </ul>
 </td>
 </tr>
 
-</table>
-
-
-<h3>Integrated Test Program Summary</h3>
-
+<tr>
+<td>Integrated Test Program</td>
+<td>
 <table>
 <tr>
-<th>Test Phase</th>
 <th>Test ID</th>
 <th>Description</th>
 <th>Status</th>
 </tr>
 
 <tr>
-<td>Developmental Test</td>
 <td>DT-01</td>
 <td>Data acquisition rate, timestamping, and data storage verification</td>
 <td>Complete</td>
 </tr>
 
 <tr>
-<td>Developmental Test</td>
 <td>DT-02</td>
 <td>Continuous operation and 180-second storage verification</td>
 <td>Complete</td>
 </tr>
 
 <tr>
-<td>Developmental Test</td>
 <td>DT-03</td>
-<td>Shock and Acceleration Load verification</td>
+<td>Shock and acceleration load verification up to 15g</td>
 <td>Planned</td>
 </tr>
 
 <tr>
-<td>Operational Test</td>
 <td>OT-01</td>
 <td>Integrated rocket flight test and mission performance evaluation</td>
 <td>Planned</td>
 </tr>
 
 </table>
-
-
-<h3>Developmental Test and Evaluation (DT&E)</h3>
-
-<table>
-<tr>
-<th>Test</th>
-<th>Purpose</th>
-<th>Method of Approach</th>
-<th>Results</th>
-</tr>
-
-<tr>
-<td>DT-01: Data Acquisition Performance Test</td>
-<td>
-Verify minimum data acquisition rate, timestamp generation, and data storage functionality.
-</td>
-<td>
-The avionics system was powered on and configured to continuously collect 
-pressure, acceleration, and timestamp data. Recorded test data was analyzed 
-to determine sampling performance, timestamp consistency, and successful data storage.
-</td>
-<td>
-<ul>
-<li>Average Sample Interval: 15 ms</li>
-<li>Average Sampling Frequency: 66.7 Hz</li>
-<li>Timestamp Recording: Verified</li>
-<li>Data Storage: Verified</li>
-</ul>
 </td>
 </tr>
 
 <tr>
-<td>DT-02: Continuous Operation and Storage Test</td>
+<td>Developmental Test & Evaluation (DT&E)</td>
 <td>
-Verify three-minute operational duration requirement, continuous data recording, 
-and stored data integrity.
-</td>
-<td>
-The avionics system was operated continuously for a minimum duration of 180 seconds 
-while recording telemetry data. The resulting data file was inspected for 
-completeness and storage integrity.
-</td>
-<td>
-<ul>
-<li>180-second operating requirement: Verified</li>
-<li>Test data file generation: Verified</li>
-<li>Data integrity: Verified</li>
-</ul>
+DT&E verifies critical avionics functions prior to flight testing. Completed tests 
+verified data acquisition performance, timestamping, data storage, and continuous 
+operation. DT-01 achieved an average sampling frequency of 66.7 Hz with a 15 ms 
+sample interval. DT-03 will evaluate system functionality under up to 15g loading.
 </td>
 </tr>
 
 <tr>
-<td>DT-03: Shock and Acceleration Load Test</td>
+<td>Operational Test & Evaluation (OT&E)</td>
 <td>
-Verify avionics functionality following exposure to up to 15g acceleration loading, 
-continued sensor operation, and telemetry storage capability.
-</td>
-<td>
-The avionics system will be subjected to controlled acceleration loading up to 
-15g to evaluate the ability of the hardware and electrical connections to maintain 
-functionality under expected launch loading conditions.
-</td>
-<td>
-<ul>
-<li>15g acceleration load exposure: Planned</li>
-<li>Post-test system functionality: Planned</li>
-<li>Telemetry storage integrity: Planned</li>
-</ul>
+Future OT&E will evaluate the integrated avionics system under representative 
+rocket flight conditions. Objectives include verifying launch operation, sensor 
+performance, flight profile generation, flight data recovery, and system 
+survivability after flight loads.
 </td>
 </tr>
 
 </table>
 
 
-<h3>Operational Test and Evaluation (OT&E)</h3>
 
-<table>
-<tr>
-<th>Category</th>
-<th>Description</th>
-</tr>
 
-<tr>
-<td>Purpose</td>
-<td>
-Operational testing will evaluate the complete avionics system under representative 
-rocket flight conditions and determine system performance within the intended 
-operational environment.
-</td>
-</tr>
 
-<tr>
-<td>Configuration Description</td>
-<td>
-The operational test configuration will consist of the integrated avionics system 
-installed within the model rocket platform including flight vehicle integration, 
-onboard power system, flight sensors, flight data storage system, and avionics bay.
-</td>
-</tr>
 
-<tr>
-<td>Test Objectives</td>
-<td>
-<ul>
-<li>Verify successful system operation during launch.</li>
-<li>Evaluate sensor performance during flight acceleration.</li>
-<li>Generate altitude and acceleration flight profiles.</li>
-<li>Recover and analyze stored flight data.</li>
-<li>Evaluate system survivability after flight loads.</li>
-</ul>
-</td>
-</tr>
-
-</table>
 
 ## VCRM
 
