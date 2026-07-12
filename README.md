@@ -301,9 +301,9 @@ The initial prototype demonstrates:
 
 # Verification Planning and Testing
 
-After determining the appropriate hardware to utilize and assembling a prototype, a systematic V&V process was conducted to ensure all of the requirments are met at the neccessary standard. Below is a verification table that highlights the verificaiton process across the system.
+After determining the appropriate hardware to utilize and assembling a prototype, a verification and developmental test process was conducted to ensure all of the requirments were met at the required standard. Below is the summarized Test and Evaluation Master Plan (TEMP) and the Verificaiton Cross-Reference Matrix.
 
-Below are summarized versions of the TEMP and VCRM.
+<a href="Verification/verification.md">The full TEMP can be seen here.</a>
 
 <h2>Test and Evaluation Master Plan (TEMP) Summary</h2>
 
