@@ -27,7 +27,8 @@ The system is being developed to:
 
 ## In Progress
 
-- 🔄 Validation
+- 🔄 Complete Developmental testing
+  
   
 ---
 
