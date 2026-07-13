@@ -363,7 +363,7 @@ After determining the appropriate hardware to utilize and assembling a prototype
 
 
 
-<h2>Test and Evaluation Master Plan (TEMP) Summary</h2>
+<h2>Integrated Test Plan</h2>
 
 <p>
 The integrated test program evaluates avionics system performance through 
@@ -547,16 +547,29 @@ Developmental Test 02 [DT-02] assessed the data storagae capacity from REQ-07. [
     </td>
     <!-- Data Table -->
     <td width="30%" align="center">
-      <h3>Raw Sensor Data</h3>
-      DT-02 Test summary here
-      <p>
-        <a href="../Verification/Test Results/sensor_data_raw.csv">
-          Sample data shown. Full dataset available here.
-        </a>
-      </p>
+      <h3>DT-02 Test Procedure</h3>
+      <ul style="margin: 0;">
+      <li>System initialized and configured prior to testing./li>
+      <li>Prototype subjected to the defined test scenario to evaluate functional performance.</li>
+      <li>Sensor data collected and stored for post-test analysis.</li>
+      <li>Recorded data analyzed against applicable performance requirements.</li>
+      <li>Results used to verify system compliance and identify areas for improvement.</li>
+      </ul>
     </td>
   </tr>
 </table>
+
+
+- 
+- 
+- 
+-
+
+
+
+
+
+
 
 
 This system verified the following requirements:
