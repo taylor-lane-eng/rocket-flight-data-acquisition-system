@@ -338,6 +338,47 @@ The initial prototype demonstrates:
   </tr>
 </table>
 
+
+
+
+<details>
+<table>
+  <tr>
+    <td align="center">
+      <strong>Prototype CAD Model</strong>
+      <div>
+        <img src="images/wiring_diagram.png" width="300">
+      </div>
+      <div>
+        <small>CAD model used to define avionics packaging and mechanical integration.</small>
+      </div>
+    </td>
+    <td align="center">
+      <strong>Initial Hardware Integration</strong>
+      <div>
+        <img src="images/pinout.png" width="300">
+      </div>
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ----
 
 # Verification Planning and Testing
