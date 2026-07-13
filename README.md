@@ -298,7 +298,7 @@ The initial prototype demonstrates:
       <img src="images/cad_proto3.png" width="250">
     </td>
     <td align="center">
-      <strong>CAD Avionics Bay</strong><br>
+      <strong>Initial Hardware Integration</strong><br>
       <img src="images/breadboard.png" width="250">
     </td>
     <td align="center">
