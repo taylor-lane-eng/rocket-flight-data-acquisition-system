@@ -229,7 +229,7 @@ After conducting a functional analysis, the system's physical architecture was d
 
 The graphs comparing each candidate component can be seen below.
 
-[More details on component selection can be found here](Component%20Selection/component%20selection.md).
+[More details on component selection and specification can be found here](Component%20Selection/component%20selection.md).
 
 <table>
   <tr>
@@ -241,7 +241,7 @@ The graphs comparing each candidate component can be seen below.
 ### Microcontroller Selection
 
 Three microcontrollers were evaluated against the project requirements for flash memory, weight, cost, BUS speed, and number of BUS channels. The **Raspberry Pi Pico** was selected as the system's microcontroller because it provides sufficient processing performance to sample and timestamp multiple sensors with a resolution of ≤22.2 ms (REQ-04
-) while being light weight and low cost. See the link below for specifications of the microcontrollers that were analyzed and the weight scale and score for each of the criteria.
+) while being light weight and low cost.
 
 </td>
   </tr>
