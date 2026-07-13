@@ -567,7 +567,7 @@ This system verified the following requirements:
 
 # Next Steps
 
-## Mmoving forward to V1.1:
+## Moving forward to V1.1:
 Building on flight data acquisition system V1.0, further developmental testing (DT-03) will be completed for structural integrity and the verification of REQ-06. Also, simulations will be conducted to ensure that the embedded avionics system satisfies the center of gravity requirement (REQ-08), ensuring in-flight rocket stability. 
 
 Upon completion and success of developmental testing and verificaiton, an initial operational test (OT-01) will be conducted to test the complete embedded system and analyze the flight of a 1:10 Nike Smoke model rocket on a C6:5 engine. 
