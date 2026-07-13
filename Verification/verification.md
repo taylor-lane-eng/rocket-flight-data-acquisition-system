@@ -341,7 +341,7 @@ The Verification Cross-Reference Matrix (VCRM) maps system requirements to their
     <td><b>REQ-01</b></td>
     <td>System accepts user ON/OFF input</td>
     <td>Test [DT-01]</td>
-    <td>user input results</td>
+    <td>user input success</td>
     <td><span style="color:green"><b>Pass</b></span></td>
   </tr>
 
@@ -381,7 +381,7 @@ The Verification Cross-Reference Matrix (VCRM) maps system requirements to their
     <td><b>REQ-06</b></td>
     <td>System maintains function across forces up to 15g</td>
     <td>Test [DT-03]</td>
-    <td> </td>
+    <td> Planning</td>
     <td><font color="orange"><b>Pending</b></font></td>
   </tr>
 
@@ -397,7 +397,7 @@ The Verification Cross-Reference Matrix (VCRM) maps system requirements to their
     <td><b>REQ-08</b></td>
     <td>System maintains rocket CG aft of CP by 49 mm</td>
     <td>Analysis</td>
-    <td> </td>
+    <td> Planning</td>
     <td><font color="orange"><b>Pending</b></font></td>
   </tr>
 
