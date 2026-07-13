@@ -69,11 +69,11 @@ Following initial prototype development, the system is being matured using the f
 <br>
 ↓
 <br>
-<a href="#Next Steps">Next steps</a>
+<a href="#next-steps">Next steps</a>
 </p>
 ↓
 <br>
-<a href="#Lessons Learned">Lessons Learned</a>
+<a href="#lessons-learned">Lessons Learned</a>
 </p>
 
 This approach establishes traceability between system requirements, functions, components and the verification process.
@@ -565,6 +565,7 @@ This system verified the following requirements:
 ---
 
 # Next Steps
+
 ## Mmoving forward to V1.1:
 Building on flight data acquisition system V1.0, further testing will be completed for structural integrity under flight loads as well as simulations to ensure that the embedded avionivs system satisfies the center of gravity requirement, ensuring in-flight rocket stability. 
 
@@ -574,7 +575,9 @@ In addition, further trade studies will be conducted to make incremental advance
 
 ---
 
-# Lessons Leearned
+# Lessons Learned
+
+
 
 
 
