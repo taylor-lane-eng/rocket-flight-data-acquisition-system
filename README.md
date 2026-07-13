@@ -69,7 +69,11 @@ Following initial prototype development, the system is being matured using the f
 <br>
 ↓
 <br>
-<a href="#validation">Validation</a>
+<a href="#Next Steps">Next steps</a>
+</p>
+↓
+<br>
+<a href="#Lessons Learned">Lessons Learned</a>
 </p>
 
 This approach establishes traceability between system requirements, functions, components and the verification process.
