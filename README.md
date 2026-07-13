@@ -148,7 +148,7 @@ The full calucations can be seen here: [Full Engineering Requirement Calculation
             REQ-07
         </td>
         <td style="padding:14px; font-size:22px; border:1px solid #999;">
-            The system shall support continuous operation for at least 3 minutes of active logging time.
+            The system shall support continuous operation for at least 180 seconds of active logging time.
         </td>
     </tr>
     <tr>
