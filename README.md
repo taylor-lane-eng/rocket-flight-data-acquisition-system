@@ -26,8 +26,7 @@ The system is being developed to:
 
 ## In Progress
 
-- 🔄 Complete Developmental testing
-  
+- 🔄 Developmental testing (DT-03)
   
 ---
 
@@ -76,7 +75,6 @@ Following initial prototype development, the system is being matured using the f
 </p>
 
 This approach establishes traceability between system requirements, functions, components and the verification process.
-
 
 ---
 
