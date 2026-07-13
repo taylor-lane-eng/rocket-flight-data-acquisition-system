@@ -581,6 +581,6 @@ In addition, further trade studies and component selection will be conducted to 
 
 This project provided valuable experience in developing an embedded avionics system from requirements definition through verification. Key lessons learned include the importance of requirements traceability, iterative testing, and early identification of design limitations. The project strengthened my practical understanding of embedded communication protocols (I2C and SPI), sensor integration, data quality analysis, and the impact of mechanical design decisions on rocket stability and system performance.
 
-[Back to Top](#rocket-flight-data-acquisition-system)
+[Back to Top](#systems-engineering-approach)
 
 
