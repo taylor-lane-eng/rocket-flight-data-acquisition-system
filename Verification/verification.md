@@ -431,21 +431,19 @@ data acquisition, timestamping, and onboard data storage requirements.
 <tr>
 <td><strong>1</strong></td>
 <td>
-Assemble the avionics system consisting of the Raspberry Pi Pico, BMP280
+Orient the avionics system consisting of the Raspberry Pi Pico, BMP280
 barometric pressure sensor, MPU-6050 accelerometer, microSD storage module,
-and battery power source.
+and battery power source in flight configuration in which the accelerometer's y-axis is aligned with the gravitational force.
 </td>
 <td>
-Hardware assembled and ready for operation.
+Hardware oriented and ready for operation.
 </td>
 </tr>
 
 <tr>
 <td><strong>2</strong></td>
 <td>
-Power on the avionics system and allow the firmware to initialize. Verify
-that all sensors are detected and that a telemetry file is created on the
-microSD card.
+Power on the avionics system and allow the firmware to initialize.
 </td>
 <td>
 Successful system initialization and data logging begins.
@@ -456,7 +454,7 @@ Successful system initialization and data logging begins.
 <td><strong>3</strong></td>
 <td>
 Allow the system to continuously acquire and record pressure, acceleration,
-altitude, and timestamp data for a representative operating period.
+altitude, and timestamp data for the duration of the test procedure.
 </td>
 <td>
 Continuous sensor acquisition without interruption.
@@ -467,10 +465,10 @@ Continuous sensor acquisition without interruption.
 <td><strong>4</strong></td>
 <td>
 Power off the system after data collection is complete. Remove the microSD
-card and transfer the recorded telemetry file to a computer for analysis.
+card and transfer the recorded test data file to a computer for analysis.
 </td>
 <td>
-Telemetry file successfully recovered and accessible.
+Test data file successfully recovered and accessible.
 </td>
 </tr>
 
@@ -488,8 +486,8 @@ Sampling performance metrics successfully calculated.
 <tr>
 <td><strong>6</strong></td>
 <td>
-Generate engineering plots including altitude vs. time, pressure vs. time,
-acceleration vs. time, and sampling interval vs. sample number.
+Generate engineering plots including altitude vs. time, pressure vs. time, and
+acceleration vs. time.
 </td>
 <td>
 Plots generated for engineering analysis and verification.
@@ -500,7 +498,7 @@ Plots generated for engineering analysis and verification.
 <td><strong>7</strong></td>
 <td>
 Compare measured system performance against the applicable system
-requirements and document verification results.
+requirements and document verification results. 
 </td>
 <td>
 Requirements verified and verification status documented.
@@ -512,9 +510,10 @@ Requirements verified and verification status documented.
 <h4>Success Criteria</h4>
 
 <ul>
+<li>System accepted user power on input.</li>
 <li>Pressure and acceleration data were continuously acquired.</li>
 <li>Average sampling frequency met or exceeded 45 Hz.</li>
-<li>Timestamps were successfully recorded for each measurement.</li>
+<li>Timestamps were successfully recorded for each measurement with an average interval rate no greater than 22.2 ms.</li>
 <li>Telemetry data was successfully stored to the microSD card.</li>
 <li>The recorded data was successfully imported and analyzed.</li>
 </ul>
