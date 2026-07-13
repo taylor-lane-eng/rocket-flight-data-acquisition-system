@@ -301,10 +301,12 @@ The initial prototype demonstrates:
     <td align="center">
       <strong>Initial Hardware Integration</strong><br>
       <img src="images/breadboard.png" width="300">
+      <sub>CAD model used to define avionics packaging and mechanical integration.</sub>
     </td>
     <td align="center">
       <strong>Avionics Bay</strong><br>
       <img src="images/prototype.png" width="300">
+      <sub>CAD model used to define avionics packaging and mechanical integration.</sub>
     </td>
   </tr>
 </table>
