@@ -576,4 +576,28 @@ Requirements verified and verification status documented.
   </tr>
 </table>
 
+From the test data from DT-01, The avionics prototype successfully acheived the following performance requirements:
+
+- REQ-01: The system shall accept a user-initiated power-on command through the designated power switch.
+
+The system successfully powered on and initialized following the users power-on input.
+
+- REQ-02: The system shall sample atmospheric pressure at a minimum rate of 45 Hz during powered ascent, coast, and descent.
+
+The system achieved a pressure sampling rate of 66.7 Hz through DT-01.
+
+- REQ-03: The system shall sample three-axis acceleration at a minimum rate of 45 Hz from launch detection until end of flight logging.
+
+The system achieved a 3- axis acceleration sampling rate of 66.7 Hz through DT-01.
+
+- REQ-04: The system shall assign timestamps to all measurements with a resolution of ≤22.2 ms.
+
+The system timestamped all data with an average time interval of 15 ms.
+
+
+- REQ-05: The system shall record all acquired timestamped sensor measurements to onboard storage.
+
+The system successfully stored all test data on the onboard microSD card storage.
+
+
 Accelerometer measurements are presented as raw sensor outputs. Variations are expected due to gravity projection, sensor orientation changes, and mechanical movement. Additional filtering and sensor fusion would be implemented in future iterations for flight-quality acceleration estimation.
