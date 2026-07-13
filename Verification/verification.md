@@ -410,7 +410,7 @@ The Verification Cross-Reference Matrix (VCRM) maps system requirements to their
 
 ---
 
-# Developmental Test 01 [DT-01] 
+# Developmental Test 01 (DT-01)
 
 The purpose of Developmental Test 01 was to determine if the component selection and fully constructed prototype could meet the performance requirements (See the [Performance Requirements](../README.md#performance-requirements) section.) - mainly powering on via user input signal (REQ-01), acheive a data sampling rate of no less than 45 Hz (REQ-02, REQ-03) and successfully store the timestamped data with an interval of no more than 22.2 ms (REQ-04) in onboard micro SD card storage (REQ-05).
 
