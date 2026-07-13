@@ -239,15 +239,15 @@ The same avionics configuration utilized during DT-01 was used for this test.
 <p>
 The avionics system will be subjected to controlled acceleration loading up to 
 15g to evaluate the ability of the hardware and electrical connections to 
-maintain functionality under expected launch loading conditions. Following 
-exposure, system operation and telemetry storage capability will be evaluated.
+maintain functionality under expected launch loading conditions of a C6:5 model rocket engine. Following 
+exposure, system operation and test data storage capability will be evaluated.
 </p>
 
 <h4>Planned Configuration Description</h4>
 
 <p>
 The test configuration will consist of the integrated avionics assembly including 
-the microcontroller, sensors, power system, and data storage components. The final 
+the microcontroller, sensors, power system, and onboard SD card modeul. The final 
 test fixture and loading method will be determined prior to test execution.
 </p>
 
@@ -256,7 +256,7 @@ test fixture and loading method will be determined prior to test execution.
 <ul>
 <li>Verify avionics functionality following exposure to up to 15g acceleration loading.</li>
 <li>Verify continued sensor operation after applied loading.</li>
-<li>Verify telemetry storage capability remains functional.</li>
+<li>Verify test data storage capability remains functional.</li>
 <li>Identify any mechanical or electrical failures resulting from acceleration loading.</li>
 </ul>
 
@@ -279,13 +279,11 @@ test fixture and loading method will be determined prior to test execution.
 </tr>
 
 <tr>
-<td>Telemetry storage integrity</td>
+<td>Test data storage integrity</td>
 <td>Planned</td>
 </tr>
 
 </table>
-
-
 
 <h2>4. Operational Test and Evaluation (OT&E)</h2>
 
@@ -302,7 +300,7 @@ operational environment.
 
 <p>
 The operational test configuration will consist of the integrated avionics system 
-installed within the model rocket platform.
+installed within the 1:10 scale Nike Smoke model rocket platform utilizing a C6:5 engine.
 </p>
 
 <ul>
@@ -324,10 +322,7 @@ installed within the model rocket platform.
 <li>Evaluate system survivability after flight loads.</li>
 </ul>
 
-
-
 ---
-
 
 # Verification Cross-Reference Matrix (VCRM)
 
