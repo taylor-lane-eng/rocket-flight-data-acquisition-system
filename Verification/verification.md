@@ -412,7 +412,9 @@ The Verification Cross-Reference Matrix (VCRM) maps system requirements to their
 
 # Developmental Test 01 [DT-01] 
 
-The purpose of Developmental Test 01 was to determine if the component selection and fully constructed prototype could meet the performance requirements (See the [Performance Requirements](../README.md#performance-requirements) section.) - mainly acheive a data sampling rate of no less than 45 Hz and successfully store the timestamped data in onboard micro SD card storage.
+The purpose of Developmental Test 01 was to determine if the component selection and fully constructed prototype could meet the performance requirements (See the [Performance Requirements](../README.md#performance-requirements) section.) - mainly powering on via user input signal (REQ-01), acheive a data sampling rate of no less than 45 Hz (REQ-02, REQ-03) and successfully store the timestamped data with an interval of no more than 22.2 ms (REQ-04) in onboard micro SD card storage (REQ-05).
+
+Developmental Test 01 (DT-01) was conducted to verify that the avionics prototype could successfully measure changes in altitude and acceleration while recording data for post-test performance analysis. The test began by powering on the avionics prototype using the onboard power system and orienting the system in its nominal flight configuration, with the y-axis parallel to the force of gravity. Following system initialization, the prototype was carried up a 3-meter staircase to simulate an ascent. At the top of the staircase, the system remained stationary for a brief period before descending halfway down the staircase, where it again paused briefly. The prototype then returned to its original starting position at the base of the staircase. After the test sequence was complete, the system was powered off and the microSD card was removed for data retrieval and post-test analysis. The recorded altitude and acceleration measurements were evaluated to determine whether the system accurately captured the motion profile and produced data suitable for reconstructing the test event.
 
 <h3>DT-01 Test Procedure</h3>
 
@@ -433,7 +435,7 @@ data acquisition, timestamping, and onboard data storage requirements.
 <td>
 Orient the avionics system consisting of the Raspberry Pi Pico, BMP280
 barometric pressure sensor, MPU-6050 accelerometer, microSD storage module,
-and battery power source in flight configuration in which the accelerometer's y-axis is aligned with the gravitational force.
+and battery power source in flight configuration in which the accelerometer's y-axis is parallel with the gravitational force.
 </td>
 <td>
 Hardware oriented and ready for operation.
@@ -517,14 +519,6 @@ Requirements verified and verification status documented.
 <li>Telemetry data was successfully stored to the microSD card.</li>
 <li>The recorded data was successfully imported and analyzed.</li>
 </ul>
-
-
-
-
-
-
-
-
 
 <table>
   <tr>
