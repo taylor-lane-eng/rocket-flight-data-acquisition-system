@@ -559,19 +559,6 @@ Developmental Test 02 [DT-02] assessed the data storagae capacity from REQ-07. [
   </tr>
 </table>
 
-
-- 
-- 
-- 
--
-
-
-
-
-
-
-
-
 This system verified the following requirements:
 
 - ✅ REQ-07: The system succesfully stored 180 seconds of sensor data.
@@ -581,13 +568,14 @@ This system verified the following requirements:
 # Next Steps
 
 ## Mmoving forward to V1.1:
-Building on flight data acquisition system V1.0, further testing will be completed for structural integrity under flight loads as well as simulations to ensure that the embedded avionivs system satisfies the center of gravity requirement, ensuring in-flight rocket stability. 
+Building on flight data acquisition system V1.0, further developmental testing (DT-03) will be completed for structural integrity and the verification of REQ-06. Also, simulations will be conducted to ensure that the embedded avionics system satisfies the center of gravity requirement (REQ-08), ensuring in-flight rocket stability. 
 
-Upon completion and success of verificaiton and validation, an initial launch will be conducted to test the complete embedded system and analyze the flight of a 1:10 scale Nike Smoke model rocket on a C6:5 engine. 
+Upon completion and success of developmental testing and verificaiton, an initial operational test (OT-01) will be conducted to test the complete embedded system and analyze the flight of a 1:10 Nike Smoke model rocket on a C6:5 engine. 
 
-In addition, further trade studies will be conducted to make incremental advances on the performance of this avionivs system.
+In addition, further trade studies and component selection will be conducted to make incremental advances on the performance of this avionics system, with the priority given to accelerometer optimization due to the noise observed in the test data on DT-01.
 
----
+
+--- 
 
 # Lessons Learned
 
@@ -598,6 +586,6 @@ For test results and verification procedures, see [here](Verification/Verificati
 
 
 
-
+[Back to Top](#rocket-flight-data-acquisition-system)
 
 ---
