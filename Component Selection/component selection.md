@@ -23,6 +23,8 @@ After scoring each candidate component, each of the component alternatives are c
   </tr>
 </table>
 
+Number of BUS channels and BUS speed was weighted the most in the microcontroller criertion due to the fact that multiple sensors would be running simultanelously. In addition, with more channels, the avionics system is given room to scale up in the future with additional sensors. The Raspberry Pi Pico was ultimately selected due to its excellent performance and cost. 
+
 ---
 
 # Barometer Selection
@@ -41,6 +43,9 @@ After scoring each candidate component, each of the component alternatives are c
     </td>
   </tr>
 </table>
+
+
+
 
 ---
 
