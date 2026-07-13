@@ -296,6 +296,7 @@ The initial prototype demonstrates:
     <td align="center">
       <strong>Prototype</strong><br>
       <img src="images/cad_proto3.png" width="300">
+      <sub>CAD model used to define avionics packaging and mechanical integration.</sub>
     </td>
     <td align="center">
       <strong>Initial Hardware Integration</strong><br>
