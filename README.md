@@ -295,7 +295,7 @@ The initial prototype demonstrates:
   <tr>
     <td align="center">
       <strong>Prototype</strong><br>
-      <img src="images/cad_proto3.png" width="300">
+      <img src="images/cad_proto3.png" width="300"><br>
       <sub>CAD model used to define avionics packaging and mechanical integration.</sub>
     </td>
     <td align="center">
