@@ -240,7 +240,7 @@ The graphs comparing each candidate component can be seen below.
 
 ### Microcontroller Selection
 
-Three microcontrollers were evaluated against the project requirements for flash memory, weight, cost, BUS speed, and number of BUS channels. The **Raspberry Pi Pico** was selected as the system's microcontroller because it provides sufficient processing performance to sample and timestamp multiple sensors above 45 Hz (REQ-04
+Three microcontrollers were evaluated against the project requirements for flash memory, weight, cost, BUS speed, and number of BUS channels. The **Raspberry Pi Pico** was selected as the system's microcontroller because it provides sufficient processing performance to sample and timestamp multiple sensors with a resolution of ≤22.2 ms (REQ-04
 ) while being light weight and low cost. See the link below for specifications of the microcontrollers that were analyzed and the weight scale and score for each of the criteria.
 
 </td>
