@@ -329,11 +329,6 @@ installed within the model rocket platform.
 ---
 
 
-
-
-
-
-
 # Verification Cross-Reference Matrix (VCRM)
 
 The Verification Cross-Reference Matrix (VCRM) maps system requirements to their planned verification method and current verification status. Verification methods include Test, Demonstration, Inspection, and Analysis.
@@ -415,7 +410,122 @@ The Verification Cross-Reference Matrix (VCRM) maps system requirements to their
 
 ---
 
-# Developmental Test 01 [DT-01] - Test Results
+# Developmental Test 01 [DT-01] 
+
+The purpose of Developmental Test 01 was to determine if the component selection and fully constructed prototype could meet the performance requirements (See the [Performance Requirements](../README.md#performance-requirements) section.) - mainly acheive a data sampling rate of no less than 45 Hz and successfully store the timestamped data in onboard micro SD card storage.
+
+<h3>DT-01 Test Procedure</h3>
+
+<p>
+The following procedure was used to verify that the avionics system could satisfy the
+data acquisition, timestamping, and onboard data storage requirements.
+</p>
+
+<table>
+<tr>
+<th>Step</th>
+<th>Procedure</th>
+<th>Expected Result</th>
+</tr>
+
+<tr>
+<td><strong>1</strong></td>
+<td>
+Assemble the avionics system consisting of the Raspberry Pi Pico, BMP280
+barometric pressure sensor, MPU-6050 accelerometer, microSD storage module,
+and battery power source.
+</td>
+<td>
+Hardware assembled and ready for operation.
+</td>
+</tr>
+
+<tr>
+<td><strong>2</strong></td>
+<td>
+Power on the avionics system and allow the firmware to initialize. Verify
+that all sensors are detected and that a telemetry file is created on the
+microSD card.
+</td>
+<td>
+Successful system initialization and data logging begins.
+</td>
+</tr>
+
+<tr>
+<td><strong>3</strong></td>
+<td>
+Allow the system to continuously acquire and record pressure, acceleration,
+altitude, and timestamp data for a representative operating period.
+</td>
+<td>
+Continuous sensor acquisition without interruption.
+</td>
+</tr>
+
+<tr>
+<td><strong>4</strong></td>
+<td>
+Power off the system after data collection is complete. Remove the microSD
+card and transfer the recorded telemetry file to a computer for analysis.
+</td>
+<td>
+Telemetry file successfully recovered and accessible.
+</td>
+</tr>
+
+<tr>
+<td><strong>5</strong></td>
+<td>
+Import the telemetry data into Python and calculate the sample interval,
+average sampling frequency, and timestamp consistency.
+</td>
+<td>
+Sampling performance metrics successfully calculated.
+</td>
+</tr>
+
+<tr>
+<td><strong>6</strong></td>
+<td>
+Generate engineering plots including altitude vs. time, pressure vs. time,
+acceleration vs. time, and sampling interval vs. sample number.
+</td>
+<td>
+Plots generated for engineering analysis and verification.
+</td>
+</tr>
+
+<tr>
+<td><strong>7</strong></td>
+<td>
+Compare measured system performance against the applicable system
+requirements and document verification results.
+</td>
+<td>
+Requirements verified and verification status documented.
+</td>
+</tr>
+
+</table>
+
+<h4>Success Criteria</h4>
+
+<ul>
+<li>Pressure and acceleration data were continuously acquired.</li>
+<li>Average sampling frequency met or exceeded 45 Hz.</li>
+<li>Timestamps were successfully recorded for each measurement.</li>
+<li>Telemetry data was successfully stored to the microSD card.</li>
+<li>The recorded data was successfully imported and analyzed.</li>
+</ul>
+
+
+
+
+
+
+
+
 
 <table>
   <tr>
