@@ -289,6 +289,31 @@ The initial prototype demonstrates:
 | MicroSD Module | Flight data storage |
 | Battery System | Distributed Power source |
 
+<details>
+<summary><strong>Hardware Integration Details</strong></summary>
+
+<br>
+
+<strong>Raspberry Pi Pico Pinout</strong><br>
+<img src="images/pico pinout.png" width="700">
+
+<br><br>
+
+<strong>Wiring Diagram</strong><br>
+<img src="images/wiring_diagram.png" width="700">
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
 ## Initial Prototype
 
 <table>
