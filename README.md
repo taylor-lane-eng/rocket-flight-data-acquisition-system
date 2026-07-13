@@ -227,7 +227,9 @@ After conducting a functional analysis, the system's physical architecture was d
 
 - Total scores were compared to identify the preferred component for system integration.
 
-The graphs comparing each candidate component can be seen below. [More details on component selection can be found here](Component%20Selection/component%20selection.md).
+The graphs comparing each candidate component can be seen below.
+
+[More details on component selection can be found here](Component%20Selection/component%20selection.md).
 
 <table>
   <tr>
