@@ -94,7 +94,7 @@ The full calucations can be seen here: [Full Engineering Requirement Calculation
     <td align="center">
       <strong>Avionics system wiring diagram</strong>
       <div>
-        <img src="Calculations/req_calculations.pdf" width="800">
+        <a href="Calculations/req_calculations.pdf">View Requirement Calculations PDF</a>
       </div>
       <div>
         <small></small>
