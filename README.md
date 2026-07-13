@@ -209,7 +209,7 @@ After conducting a functional analysis, the system's physical architecture was d
 
 ### Component Selection Method
 
-- Component selection was performed using the **Subjective Value Method** as seen in Kossiakoff's Sytems Engineering Principles and Practices.
+- Component selection was performed using the **Subjective Value Method**, a systems engineering trade study approach described in *Systems Engineering Principles and Practice* by Kossiakoff et al.
 - Candidate components were evaluated against various different criterion.
 - Each criterion was assigned a **value** from **1–5**:
   - **1** = Poor
