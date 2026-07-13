@@ -326,14 +326,14 @@ installed within the 1:10 scale Nike Smoke model rocket platform utilizing a C6:
 
 # Verification Cross-Reference Matrix (VCRM)
 
-The Verification Cross-Reference Matrix (VCRM) maps system requirements to their planned verification method and current verification status. Verification methods include Test, Demonstration, Inspection, and Analysis.
+The Verification Cross-Reference Matrix (VCRM) maps system requirements to their planned verification method and current verification status.
 
 <table>
   <tr>
     <th>REQ ID</th>
     <th>Requirement Description</th>
     <th>Verification Method</th>
-    <th>Evidence / Supporting Documents *** make these links!</th>
+    <th>Evidence / Supporting Documents</th>
     <th>Pass / Fail Status</th>
   </tr>
 
