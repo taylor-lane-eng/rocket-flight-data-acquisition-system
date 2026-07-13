@@ -717,7 +717,7 @@ Requirement verification status documented.
     <!-- Graph -->
     <td width="70%" align="center">
       <h3> DT-01 Test Results</h3>
-      <img src="../Verification/Test Results/Sensor Bench Test Results.png" width="600">
+      <img src="../Verification/Test Results/DT02.png" width="600">
     </td>
     <!-- Data Table -->
     <td width="30%" align="center">
