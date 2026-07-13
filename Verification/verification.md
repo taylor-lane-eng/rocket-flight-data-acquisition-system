@@ -731,32 +731,32 @@ Requirement verification status documented.
           <th>Az</th>
         </tr>
         <tr>
-          <td>0.338</td>
-          <td>2.83</td>
-          <td>0.24</td>
-          <td>-0.27</td>
-          <td>9.20</td>
+          <td>0.340</td>
+          <td>-0.15</td>
+          <td>1.87</td>
+          <td>-0.04</td>
+          <td>8.98</td>
         </tr>
         <tr>
-          <td>0.353</td>
-          <td>3.12</td>
-          <td>0.24</td>
-          <td>-0.25</td>
-          <td>9.27</td>
+          <td>0.355</td>
+          <td>-0.15</td>
+          <td>1.87</td>
+          <td>-0.24</td>
+          <td>9.02</td>
         </tr>
         <tr>
-          <td>0.366</td>
-          <td>2.46</td>
-          <td>0.16</td>
-          <td>-0.35</td>
-          <td>9.38</td>
+          <td>0.368</td>
+          <td>0.00</td>
+          <td>1.87</td>
+          <td>-0.01</td>
+          <td>9.01</td>
         </tr>
         <tr>
-          <td>0.380</td>
-          <td>3.43</td>
-          <td>0.09</td>
-          <td>-0.30</td>
-          <td>9.47</td>
+          <td>0.382</td>
+          <td>-0.20</td>
+          <td>1.82</td>
+          <td>-0.04</td>
+          <td>9.07</td>
         </tr>
       </table>
       <p>
