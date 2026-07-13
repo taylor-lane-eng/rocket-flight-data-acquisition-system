@@ -87,32 +87,6 @@ In addition, the total operation time from pre-launch to recovery was estimated 
 
 The full calucations can be seen here: [Full Engineering Requirement Calculations](Calculations/req_calculations.pdf)
 
-<details>
-<summary><strong>Full Performance Requirement Calculations</strong></summary>
-  <table>
-  <tr>
-    <td align="center">
-      <strong>Avionics system wiring diagram</strong>
-      <div>
-        <a href="Calculations/req_calculations.pdf">View Requirement Calculations PDF</a>
-      </div>
-      <div>
-        <small></small>
-      </div>
-    </td>
-  </tr>
- </table>
-</details>
-
-
-
-
-
-
-
-
-
-
 
 <table style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
     <tr style="background-color:#c9c9c9;">
