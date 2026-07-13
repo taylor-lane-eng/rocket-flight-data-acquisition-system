@@ -778,14 +778,12 @@ Requirement verification status documented.
 <tr>
 <td><strong>REQ-07</strong></td>
 <td>
-The system shall support continuous operation and data logging for a minimum duration of 180 seconds.
+The system shall support continuous operation for at least 180 seconds of active logging time.
 </td>
 <td>
-<strong>PASS:</strong> The system successfully recorded continuous telemetry data for 180 seconds on the onboard microSD card without interruption or data loss.
+<strong>PASS:</strong> The system successfully recorded continuous test data for 180 seconds on the onboard microSD card without interruption or data loss.
 </td>
 </tr>
 
 </table>
-
-Accelerometer measurements are presented as raw sensor outputs. Variations were expected due to manual movement with the system during the test and sensor orientation changes. Additional filtering will be implemented in future iterations for flight-quality acceleration estimation. 
 
