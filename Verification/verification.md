@@ -349,7 +349,7 @@ The Verification Cross-Reference Matrix (VCRM) maps system requirements to their
     <td><b>REQ-02</b></td>
     <td>System samples barometric pressure at 45 Hz</td>
     <td>Test [DT-01]</td>
-    <td>[Developmental Test 01 Results](#developmental-test-01-dt-01)</td>
+    <td><a href="#developmental-test-01-dt-01">Developmental Test 01 Results</a></td>
     <td><font color="green"><b>Pass</b></font></td>
   </tr>
 
@@ -357,7 +357,7 @@ The Verification Cross-Reference Matrix (VCRM) maps system requirements to their
     <td><b>REQ-03</b></td>
     <td>System samples 3-axis acceleration at 45 Hz</td>
     <td>Test [DT-01]</td>
-    <td>[Developmental Test 01 Results](#developmental-test-01-dt-01)</td>
+    <td><a href="#developmental-test-01-dt-01">Developmental Test 01 Results</a></td>
     <td><font color="green"><b>Pass</b></font></td>
   </tr>
 
@@ -365,7 +365,7 @@ The Verification Cross-Reference Matrix (VCRM) maps system requirements to their
     <td><b>REQ-04</b></td>
     <td>System timestamps data at 22.2 ms intervals</td>
     <td>Test [DT-01]</td>
-    <td>[Developmental Test 01 Results](#developmental-test-01-dt-01)</td>
+    <td><a href="#developmental-test-01-dt-01">Developmental Test 01 Results</a></td>
     <td><font color="green"><b>Pass</b></font></td>
   </tr>
 
@@ -373,7 +373,7 @@ The Verification Cross-Reference Matrix (VCRM) maps system requirements to their
     <td><b>REQ-05</b></td>
     <td>System stores data to onboard micro SD card module</td>
     <td>Test [DT-01]</td>
-    <td>[Developmental Test 01 Results](#developmental-test-01-dt-01)</td>
+    <td><a href="#developmental-test-01-dt-01">Developmental Test 01 Results</a></td>
     <td><font color="green"><b>Pass</b></font></td>
   </tr>
 
@@ -389,7 +389,7 @@ The Verification Cross-Reference Matrix (VCRM) maps system requirements to their
     <td><b>REQ-07</b></td>
     <td>Continuous data logging for 180 seconds</td>
     <td>Test [DT-02]</td>
-    <td>[Developmental Test 02 Results](#developmental-test-02-dt-01)</td>
+    <td><a href="#developmental-test-02-dt-02">Developmental Test 02 Results</a></td>
     <td><font color="green"><b>Pass</b></font></td>
   </tr>
 
