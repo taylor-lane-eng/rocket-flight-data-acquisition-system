@@ -521,7 +521,6 @@ DT-01 verified data acquisition performance, timestamping, data storage, and con
       <li>Prototype returned to the starting position.</li>
       <li>Altitude data analyzed for sensor response and repeatability.</li>
       </ul>
-      <a href="Verification/verification.md#developmental-test-01-dt-01---test-results">Additional DT-01 Results</a>
     </td>
   </tr>
 </table>
