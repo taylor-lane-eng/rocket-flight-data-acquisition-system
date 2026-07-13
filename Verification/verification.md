@@ -705,13 +705,12 @@ Requirement verification status documented.
 
 <ul>
 <li>System accepted user power on input.</li>
-<li>Pressure and acceleration data were continuously acquired.</li>
+<li>Pressure and acceleration data were continuously acquired for a duration of 180 seconds.</li>
 <li>Average sampling frequency met or exceeded 45 Hz.</li>
-<li>Timestamps were successfully recorded for each measurement with an average interval rate no greater than 22.2 ms.</li>
-<li>Telemetry data was successfully stored to the microSD card.</li>
-<li>The recorded data was successfully imported and analyzed.</li>
+<li>Timestamped test data was successfully recorded and stored to onboard microSD storage. </li>
+<li>Recorded data was successfully recovered and analyzed.</li>
+<li>REQ-07 was successfully verified.</li>
 </ul>
-
 
 <table>
   <tr>
