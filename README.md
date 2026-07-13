@@ -431,7 +431,7 @@ incremental developmental testing followed by future operational testing.
     <td><b>REQ   -01</b></td>
     <td>System accepts user ON/OFF input</td>
     <td>Test      [DT-01]</td>
-    <td>user input results</td>
+    <td>user input success</td>
     <td><span style="color:green"><b>Pass</b></span></td>
   </tr>
 
@@ -439,7 +439,7 @@ incremental developmental testing followed by future operational testing.
     <td><b>REQ   -02</b></td>
     <td>System samples barometric pressure at 45 Hz</td>
     <td>Test      [DT-01]</td>
-    <td>BMP 280 barometric pressure test data</td>
+    <td><a href="Verification/verification.md#developmental-test-01-dt-01">Developmental Test 01 Results</a></td>
     <td><font color="green"><b>Pass</b></font></td>
   </tr>
 
