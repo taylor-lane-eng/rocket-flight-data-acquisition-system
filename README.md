@@ -329,7 +329,7 @@ The initial prototype demonstrates:
   <table>
   <tr>
     <td align="center">
-      <strong>**Avionics system wiring diagram**</strong>
+      <strong>Avionics system wiring diagram</strong>
       <div>
         <img src="images/wiring_diagram.png" width="400">
       </div>
@@ -338,7 +338,7 @@ The initial prototype demonstrates:
       </div>
     </td>
     <td align="center">
-      <strong>**Microcontroller pinout diagram**</strong>
+      <strong>Microcontroller pinout diagram</strong>
       <div>
         <img src="images/pinout.png" width="400">
       </div>
