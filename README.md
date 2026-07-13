@@ -305,7 +305,7 @@ The initial prototype demonstrates:
     <td align="center">
       <strong>Initial Hardware Integration</strong>
       <div>
-        <img src="images/breadboard.png" width="300">
+        <img src="images/breadboard.png" width="250">
       </div>
       <div>
         <small>Breadboard prototype used to validate sensor communication and data acquisition.</small>
