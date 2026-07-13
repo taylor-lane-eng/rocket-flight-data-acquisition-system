@@ -70,7 +70,7 @@ Following initial prototype development, the system is being matured using the f
 ↓
 <br>
 <a href="#next-steps">Next steps</a>
-</p>
+<br>
 ↓
 <br>
 <a href="#lessons-learned">Lessons Learned</a>
