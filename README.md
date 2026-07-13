@@ -329,21 +329,21 @@ The initial prototype demonstrates:
   <table>
   <tr>
     <td align="center">
-      <strong>Prototype CAD Model</strong>
+      <strong>Avionics system wiring diagram.</strong>
       <div>
-        <img src="images/wiring_diagram.png" width="300">
+        <img src="images/wiring_diagram.png" width="400">
       </div>
       <div>
-        <small>Avionics system wiring diagram.</small>
+        <small></small>
       </div>
     </td>
     <td align="center">
       <strong>Microcontroller pinout diagram.</strong>
       <div>
-        <img src="images/pinout.png" width="300">
+        <img src="images/pinout.png" width="400">
       </div>
       <div>
-        <small>CAD model used to define avionics packaging and mechanical integration.</small>
+        <small></small>
       </div>
     </td>
   </tr>
