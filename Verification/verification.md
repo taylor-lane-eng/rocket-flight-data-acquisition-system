@@ -626,3 +626,196 @@ Requirements verified and verification status documented.
 </table>
 
 Accelerometer measurements are presented as raw sensor outputs. Variations were expected due to manual movement with the system during the test and sensor orientation changes. Additional filtering will be implemented in future iterations for flight-quality acceleration estimation. 
+
+---
+
+# Developmental Test 02 [DT-02] 
+
+The purpose of Developmental Test 02 was to verify that the fully constructed avionics prototype could continuously operate and record test data for the required mission duration. This test specifically evaluated the system's ability to maintain continuous data acquisition and onboard storage for a minimum duration of 180 seconds [(REQ-07)](../README.md#performance-requirements). 
+
+Developmental Test 02 was conducted to verify that the avionics prototype could successfully record continuous timestamped sensor measurements for the required test duration. The test began by powering on the avionics prototype using the onboard power system. Following system initialization, the avionics system was allowed to continuously collect and store sensor measurements for a duration exceeding 180 seconds. Upon completion of the test duration, the system was powered off and the microSD card was removed for data retrieval and analysis. The recorded dataset was evaluated to verify that the system maintained continuous operation and successfully stored the complete test duration without data loss or interruption.
+
+<h3>DT-02 Test Procedure</h3>
+
+<p>
+The following procedure was used to verify the avionics system's continuous operation
+and onboard data storage duration requirements.
+</p>
+
+<table>
+<tr>
+<th>Step</th>
+<th>Procedure</th>
+<th>Expected Result</th>
+</tr>
+
+<tr>
+<td><strong>1</strong></td>
+<td>
+Power on the avionics system with the onbaord power source.
+</td>
+<td>
+Hardware initialized and continuous data recording begins.
+</td>
+</tr>
+
+<tr>
+<td><strong>2</strong></td>
+<td>
+Allow the system to continuously acquire and store timestamped sensor measurements for a minimum duration of 180 seconds.
+</td>
+<td>
+System maintains uninterrupted operation and records test data for the required duration.
+</td>
+</tr>
+
+<tr>
+<td><strong>3</strong></td>
+<td>
+Power off the system, remove the microSD card, and transfer the recorded dataset to a computer for analysis.
+</td>
+<td>
+Complete test dataset successfully recovered.
+</td>
+</tr>
+
+<tr>
+<td><strong>4</strong></td>
+<td>
+Analyze the recorded dataset to determine total recording duration and verify data completeness.
+</td>
+<td>
+Recorded duration meets or exceeds 180 seconds with no data loss.
+</td>
+</tr>
+
+<tr>
+<td><strong>5</strong></td>
+<td>
+Compare measured system performance against applicable system requirements and document verification results.
+</td>
+<td>
+Requirement verification status documented.
+</td>
+</tr>
+
+</table>
+
+<h4>Success Criteria</h4>
+
+<ul>
+<li>System accepted user power on input.</li>
+<li>Pressure and acceleration data were continuously acquired.</li>
+<li>Average sampling frequency met or exceeded 45 Hz.</li>
+<li>Timestamps were successfully recorded for each measurement with an average interval rate no greater than 22.2 ms.</li>
+<li>Telemetry data was successfully stored to the microSD card.</li>
+<li>The recorded data was successfully imported and analyzed.</li>
+</ul>
+
+
+<table>
+  <tr>
+    <!-- Graph -->
+    <td width="70%" align="center">
+      <h3> DT-01 Test Results</h3>
+      <img src="../Verification/Test Results/Sensor Bench Test Results.png" width="600">
+    </td>
+    <!-- Data Table -->
+    <td width="30%" align="center">
+      <h3>Raw Sensor Data</h3>
+      <table>
+        <tr>
+          <th>Time</th>
+          <th>Alt</th>
+          <th>Ax</th>
+          <th>Ay</th>
+          <th>Az</th>
+        </tr>
+        <tr>
+          <td>0.338</td>
+          <td>2.83</td>
+          <td>0.24</td>
+          <td>-0.27</td>
+          <td>9.20</td>
+        </tr>
+        <tr>
+          <td>0.353</td>
+          <td>3.12</td>
+          <td>0.24</td>
+          <td>-0.25</td>
+          <td>9.27</td>
+        </tr>
+        <tr>
+          <td>0.366</td>
+          <td>2.46</td>
+          <td>0.16</td>
+          <td>-0.35</td>
+          <td>9.38</td>
+        </tr>
+        <tr>
+          <td>0.380</td>
+          <td>3.43</td>
+          <td>0.09</td>
+          <td>-0.30</td>
+          <td>9.47</td>
+        </tr>
+      </table>
+      <p>
+        <a href="../Verification/Test Results/sensor_data_raw.csv">
+          Sample data shown. Full dataset available here.
+        </a>
+      </p>
+    </td>
+  </tr>
+</table>
+
+<table width="100%">
+  <tr>
+    <th align="left" width="15%">Requirement</th>
+    <th align="left" width="45%">Requirement Description</th>
+    <th align="left" width="40%">Verification Result</th>
+  </tr>
+
+  <tr>
+    <td><strong>REQ-01</strong></td>
+    <td>The system shall accept a user-initiated power-on command through the designated power switch.</td>
+    <td>
+      <strong>PASS:</strong> The system successfully powered on and initialized following user power-on input.
+    </td>
+  </tr>
+
+  <tr>
+    <td><strong>REQ-02</strong></td>
+    <td>The system shall sample atmospheric pressure at a minimum rate of 45 Hz during powered ascent, coast, and descent.</td>
+    <td>
+      <strong>PASS:</strong> The system achieved an atmospheric pressure sampling rate of 66.7 Hz during DT-01.
+    </td>
+  </tr>
+
+  <tr>
+    <td><strong>REQ-03</strong></td>
+    <td>The system shall sample three-axis acceleration at a minimum rate of 45 Hz from launch detection until end of flight logging.</td>
+    <td>
+      <strong>PASS:</strong> The system achieved a three-axis acceleration sampling rate of 66.7 Hz during DT-01.
+    </td>
+  </tr>
+
+  <tr>
+    <td><strong>REQ-04</strong></td>
+    <td>The system shall assign timestamps to all measurements with a resolution of ≤22.2 ms.</td>
+    <td>
+      <strong>PASS:</strong> The system timestamped all measurements with an average time interval of 15 ms.
+    </td>
+  </tr>
+
+  <tr>
+    <td><strong>REQ-05</strong></td>
+    <td>The system shall record all acquired timestamped sensor measurements to onboard storage.</td>
+    <td>
+      <strong>PASS:</strong> The system successfully recorded all test data to the onboard microSD card storage.
+    </td>
+  </tr>
+</table>
+
+Accelerometer measurements are presented as raw sensor outputs. Variations were expected due to manual movement with the system during the test and sensor orientation changes. Additional filtering will be implemented in future iterations for flight-quality acceleration estimation. 
+
