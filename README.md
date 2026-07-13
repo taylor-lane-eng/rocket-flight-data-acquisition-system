@@ -361,7 +361,7 @@ After determining the appropriate hardware to utilize and assembling a prototype
 
 <a href="Verification/verification.md">The full TEMP can be seen here.</a>
 
-[here](Verification/Verification.md#developmental-test-01-dt-01)
+[here](Verification/verification.md#developmental-test-01-dt-01)
 
 <h2>Test and Evaluation Master Plan (TEMP) Summary</h2>
 
