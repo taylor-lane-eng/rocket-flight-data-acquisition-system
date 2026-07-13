@@ -629,7 +629,7 @@ Accelerometer measurements are presented as raw sensor outputs. Variations were 
 
 ---
 
-# Developmental Test 02 [DT-02] 
+# Developmental Test 02 (DT-02)
 
 The purpose of Developmental Test 02 was to verify that the fully constructed avionics prototype could continuously operate and record test data for the required mission duration. This test specifically evaluated the system's ability to maintain continuous data acquisition and onboard storage for a minimum duration of 180 seconds [(REQ-07)](../README.md#performance-requirements). 
 
