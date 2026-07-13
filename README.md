@@ -363,7 +363,7 @@ After determining the appropriate hardware to utilize and assembling a prototype
 
 
 
-<h2>Integrated Test Plan</h2>
+<h2>Integrated Test Program</h2>
 
 <p>
 The integrated test program evaluates avionics system performance through 
@@ -549,7 +549,7 @@ Developmental Test 02 [DT-02] assessed the data storagae capacity from REQ-07. [
     <td width="30%" align="center">
       <h3>DT-02 Test Procedure</h3>
       <ul style="margin: 0;">
-      <li>System initialized and configured prior to testing./li>
+      <li>System initialized and configured prior to testing.</li>
       <li>Prototype subjected to the defined test scenario to evaluate functional performance.</li>
       <li>Sensor data collected and stored for post-test analysis.</li>
       <li>Recorded data analyzed against applicable performance requirements.</li>
