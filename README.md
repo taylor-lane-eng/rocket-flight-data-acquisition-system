@@ -342,7 +342,7 @@ The initial prototype demonstrates:
 
 
 <details>
-<table>
+  <table>
   <tr>
     <td align="center">
       <strong>Prototype CAD Model</strong>
@@ -358,6 +358,9 @@ The initial prototype demonstrates:
       <div>
         <img src="images/pinout.png" width="300">
       </div>
+    </td>
+  </tr>
+ </table>
 </details>
 
 
