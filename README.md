@@ -299,7 +299,7 @@ The initial prototype demonstrates:
     </td>
     <td align="center">
       <strong>CAD Avionics Bay</strong><br>
-      <img src="images/avionics_bay.png" width="250">
+      <img src="images/breadboard.png" width="250">
     </td>
     <td align="center">
       <strong>Avionics Bay</strong><br>
