@@ -533,3 +533,35 @@ In addition, further trade studies will be conducted to make incremental advance
 ---
 
 
+<table>
+  <tr>
+    <td align="center">
+      <strong>Prototype CAD Model</strong>
+      <div>
+        <img src="images/cad_proto3.png" width="300">
+      </div>
+      <div>
+        <small>CAD model used to define avionics packaging and mechanical integration.</small>
+      </div>
+    </td>
+    <td align="center">
+      <strong>Initial Hardware Integration</strong>
+      <div>
+        <img src="images/breadboard.png" width="300">
+      </div>
+      <div>
+        <small>Breadboard prototype used to validate sensor communication and data acquisition.</small>
+      </div>
+    </td>
+    <td align="center">
+      <strong>Avionics Bay</strong>
+      <div>
+        <img src="images/prototype.png" width="300">
+      </div>
+      <div>
+        <small>Final integrated avionics assembly and mechanical enclosure.</small>
+      </div>
+    </td>
+  </tr>
+</table>
+
