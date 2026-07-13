@@ -361,7 +361,6 @@ After determining the appropriate hardware to utilize and assembling a prototype
 
 <a href="Verification/verification.md">The full TEMP can be seen here.</a>
 
-[here](Verification/verification.md#developmental-test-01-dt-01)
 
 <h2>Test and Evaluation Master Plan (TEMP) Summary</h2>
 
@@ -499,7 +498,7 @@ incremental developmental testing followed by future operational testing.
 
 ## [DT-01] Developmental Test Results
 
-Developmental Test 01 (DT-01) evaluated the performance of the avionics system prototype during a controlled altitude change test. The system was powered on at the base of a standard 3-meter staircase and transported to the top of the staircase to simulate an increase in altitude. After a brief static hold period at the maximum elevation point, the prototype was lowered approximately 1.5 meters and paused before returning to the original starting position. Sensor data collected throughout the test was analyzed to evaluate altitude measurement response and system performance during ascent, descent, and static conditions.[DT-01 full test results](Verification/verification.md#developmental-test-01-dt-01---test-results)
+Developmental Test 01 (DT-01) evaluated the performance of the avionics system prototype during a controlled altitude change test. The system was powered on at the base of a standard 3-meter staircase and transported to the top of the staircase to simulate an increase in altitude. After a brief static hold period at the maximum elevation point, the prototype was lowered approximately 1.5 meters and paused before returning to the original starting position. Sensor data collected throughout the test was analyzed to evaluate altitude measurement response and system performance during ascent, descent, and static conditions.[DT-01 full test results](Verification/verification.md#developmental-test-01-dt-01)
 
 DT-01 verified data acquisition performance, timestamping, data storage, and continuous operation. DT-01 achieved an average sampling frequency of 66.7 Hz with a 15 ms sample interval. 
 
