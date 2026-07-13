@@ -16,7 +16,6 @@ The system is being developed to:
 ---
 
 # Current Project Status
-**Current Phase: Engineering Design Development
 
 ## Completed
 
