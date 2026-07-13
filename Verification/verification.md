@@ -189,7 +189,7 @@ sampling performance, timestamp consistency, and successful data storage.
 
 <p>
 The avionics system was operated continuously for a minimum duration of 180 seconds 
-while recording telemetry data. The resulting data file was inspected for 
+while recording test data. The resulting data file was inspected for 
 completeness and storage integrity.
 </p>
 
