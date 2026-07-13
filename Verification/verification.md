@@ -769,51 +769,22 @@ Requirement verification status documented.
 </table>
 
 <table width="100%">
-  <tr>
-    <th align="left" width="15%">Requirement</th>
-    <th align="left" width="45%">Requirement Description</th>
-    <th align="left" width="40%">Verification Result</th>
-  </tr>
+<tr>
+<th align="left" width="15%">Requirement</th>
+<th align="left" width="45%">Requirement Description</th>
+<th align="left" width="40%">Verification Result</th>
+</tr>
 
-  <tr>
-    <td><strong>REQ-01</strong></td>
-    <td>The system shall accept a user-initiated power-on command through the designated power switch.</td>
-    <td>
-      <strong>PASS:</strong> The system successfully powered on and initialized following user power-on input.
-    </td>
-  </tr>
+<tr>
+<td><strong>REQ-07</strong></td>
+<td>
+The system shall support continuous operation and data logging for a minimum duration of 180 seconds.
+</td>
+<td>
+<strong>PASS:</strong> The system successfully recorded continuous telemetry data for 180 seconds on the onboard microSD card without interruption or data loss.
+</td>
+</tr>
 
-  <tr>
-    <td><strong>REQ-02</strong></td>
-    <td>The system shall sample atmospheric pressure at a minimum rate of 45 Hz during powered ascent, coast, and descent.</td>
-    <td>
-      <strong>PASS:</strong> The system achieved an atmospheric pressure sampling rate of 66.7 Hz during DT-01.
-    </td>
-  </tr>
-
-  <tr>
-    <td><strong>REQ-03</strong></td>
-    <td>The system shall sample three-axis acceleration at a minimum rate of 45 Hz from launch detection until end of flight logging.</td>
-    <td>
-      <strong>PASS:</strong> The system achieved a three-axis acceleration sampling rate of 66.7 Hz during DT-01.
-    </td>
-  </tr>
-
-  <tr>
-    <td><strong>REQ-04</strong></td>
-    <td>The system shall assign timestamps to all measurements with a resolution of ≤22.2 ms.</td>
-    <td>
-      <strong>PASS:</strong> The system timestamped all measurements with an average time interval of 15 ms.
-    </td>
-  </tr>
-
-  <tr>
-    <td><strong>REQ-05</strong></td>
-    <td>The system shall record all acquired timestamped sensor measurements to onboard storage.</td>
-    <td>
-      <strong>PASS:</strong> The system successfully recorded all test data to the onboard microSD card storage.
-    </td>
-  </tr>
 </table>
 
 Accelerometer measurements are presented as raw sensor outputs. Variations were expected due to manual movement with the system during the test and sensor orientation changes. Additional filtering will be implemented in future iterations for flight-quality acceleration estimation. 
