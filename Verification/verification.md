@@ -349,7 +349,7 @@ The Verification Cross-Reference Matrix (VCRM) maps system requirements to their
     <td><b>REQ-02</b></td>
     <td>System samples barometric pressure at 45 Hz</td>
     <td>Test [DT-01]</td>
-    <td>BMP 280 barometric pressure test data</td>
+    <td>[Developmental Test 01 Results](#developmental-test-01-dt-01)</td>
     <td><font color="green"><b>Pass</b></font></td>
   </tr>
 
@@ -357,7 +357,7 @@ The Verification Cross-Reference Matrix (VCRM) maps system requirements to their
     <td><b>REQ-03</b></td>
     <td>System samples 3-axis acceleration at 45 Hz</td>
     <td>Test [DT-01]</td>
-    <td>MPU 6050 IMU Acceleration test data</td>
+    <td>[Developmental Test 01 Results](#developmental-test-01-dt-01)</td>
     <td><font color="green"><b>Pass</b></font></td>
   </tr>
 
@@ -365,7 +365,7 @@ The Verification Cross-Reference Matrix (VCRM) maps system requirements to their
     <td><b>REQ-04</b></td>
     <td>System timestamps data at 22.2 ms intervals</td>
     <td>Test [DT-01]</td>
-    <td>timestamp test data </td>
+    <td>[Developmental Test 01 Results](#developmental-test-01-dt-01)</td>
     <td><font color="green"><b>Pass</b></font></td>
   </tr>
 
@@ -373,7 +373,7 @@ The Verification Cross-Reference Matrix (VCRM) maps system requirements to their
     <td><b>REQ-05</b></td>
     <td>System stores data to onboard micro SD card module</td>
     <td>Test [DT-01]</td>
-    <td>micro SD storage test file/td>
+    <td>[Developmental Test 01 Results](#developmental-test-01-dt-01)</td>
     <td><font color="green"><b>Pass</b></font></td>
   </tr>
 
@@ -389,7 +389,7 @@ The Verification Cross-Reference Matrix (VCRM) maps system requirements to their
     <td><b>REQ-07</b></td>
     <td>Continuous data logging for 180 seconds</td>
     <td>Test [DT-02]</td>
-    <td>SD card logging test data</td>
+    <td>[Developmental Test 02 Results](#developmental-test-02-dt-01)</td>
     <td><font color="green"><b>Pass</b></font></td>
   </tr>
 
