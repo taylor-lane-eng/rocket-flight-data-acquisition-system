@@ -536,7 +536,7 @@ This system verified the following requirements:
 
 ## [DT-02] Developmental Test Results
 
-Developmental Test 02 [DT-02] assessed the data storagae capacity of &ge180s. <a href="Verification/verification.md"> Full data set with accelerometer graphs availaable here. </a>
+Developmental Test 02 [DT-02] assessed the data storagae capacity from REQ-07. [DT-02 full test report](Verification/verification.md#developmental-test-02-dt-02)
 
 <table>
   <tr>
