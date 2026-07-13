@@ -520,6 +520,7 @@ Requirements verified and verification status documented.
 <li>The recorded data was successfully imported and analyzed.</li>
 </ul>
 
+
 <table>
   <tr>
     <!-- Graph -->
@@ -576,28 +577,53 @@ Requirements verified and verification status documented.
   </tr>
 </table>
 
-From the test data from DT-01, The avionics prototype successfully acheived the following performance requirements:
+<table width="100%">
+  <tr>
+    <th align="left" width="15%">Requirement</th>
+    <th align="left" width="45%">Requirement Description</th>
+    <th align="left" width="40%">Verification Result</th>
+  </tr>
 
-- REQ-01: The system shall accept a user-initiated power-on command through the designated power switch.
+  <tr>
+    <td><strong>REQ-01</strong></td>
+    <td>The system shall accept a user-initiated power-on command through the designated power switch.</td>
+    <td>
+      <strong>PASS:</strong> The system successfully powered on and initialized following user power-on input.
+    </td>
+  </tr>
 
-The system successfully powered on and initialized following the users power-on input.
+  <tr>
+    <td><strong>REQ-02</strong></td>
+    <td>The system shall sample atmospheric pressure at a minimum rate of 45 Hz during powered ascent, coast, and descent.</td>
+    <td>
+      <strong>PASS:</strong> The system achieved an atmospheric pressure sampling rate of 66.7 Hz during DT-01.
+    </td>
+  </tr>
 
-- REQ-02: The system shall sample atmospheric pressure at a minimum rate of 45 Hz during powered ascent, coast, and descent.
+  <tr>
+    <td><strong>REQ-03</strong></td>
+    <td>The system shall sample three-axis acceleration at a minimum rate of 45 Hz from launch detection until end of flight logging.</td>
+    <td>
+      <strong>PASS:</strong> The system achieved a three-axis acceleration sampling rate of 66.7 Hz during DT-01.
+    </td>
+  </tr>
 
-The system achieved a pressure sampling rate of 66.7 Hz through DT-01.
+  <tr>
+    <td><strong>REQ-04</strong></td>
+    <td>The system shall assign timestamps to all measurements with a resolution of ≤22.2 ms.</td>
+    <td>
+      <strong>PASS:</strong> The system timestamped all measurements with an average time interval of 15 ms.
+    </td>
+  </tr>
 
-- REQ-03: The system shall sample three-axis acceleration at a minimum rate of 45 Hz from launch detection until end of flight logging.
-
-The system achieved a 3- axis acceleration sampling rate of 66.7 Hz through DT-01.
-
-- REQ-04: The system shall assign timestamps to all measurements with a resolution of ≤22.2 ms.
-
-The system timestamped all data with an average time interval of 15 ms.
-
-
-- REQ-05: The system shall record all acquired timestamped sensor measurements to onboard storage.
-
-The system successfully stored all test data on the onboard microSD card storage.
+  <tr>
+    <td><strong>REQ-05</strong></td>
+    <td>The system shall record all acquired timestamped sensor measurements to onboard storage.</td>
+    <td>
+      <strong>PASS:</strong> The system successfully recorded all test data to the onboard microSD card storage.
+    </td>
+  </tr>
+</table>
 
 
 Accelerometer measurements are presented as raw sensor outputs. Variations are expected due to gravity projection, sensor orientation changes, and mechanical movement. Additional filtering and sensor fusion would be implemented in future iterations for flight-quality acceleration estimation.
