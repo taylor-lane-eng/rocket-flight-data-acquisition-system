@@ -187,7 +187,7 @@ After modeling the functions in the functional block diagram, the functions were
   <li><strong>REQ-04</strong> Timestamp resolution ≤22.2 ms</li>
   <li><strong>REQ-05</strong> Onboard sensor data storage</li>
   <li><strong>REQ-06</strong> 15g shock/vibration survivability</li>
-  <li><strong>REQ-07</strong> 3 min operational duration</li>
+  <li><strong>REQ-07</strong> 180 seconds operational duration</li>
   <li><strong>REQ-08</strong> CG margin ≥1D forward of CP</li>
 </ul>
     </td>
