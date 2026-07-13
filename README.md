@@ -295,15 +295,15 @@ The initial prototype demonstrates:
   <tr>
     <td align="center">
       <strong>Prototype</strong><br>
-      <img src="images/cad_proto3.png" width="250">
+      <img src="images/cad_proto3.png" width="300">
     </td>
     <td align="center">
       <strong>Initial Hardware Integration</strong><br>
-      <img src="images/breadboard.png" width="250">
+      <img src="images/breadboard.png" width="300">
     </td>
     <td align="center">
       <strong>Avionics Bay</strong><br>
-      <img src="images/prototype.png" width="250">
+      <img src="images/prototype.png" width="300">
     </td>
   </tr>
 </table>
