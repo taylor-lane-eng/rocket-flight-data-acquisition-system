@@ -295,7 +295,7 @@ The initial prototype demonstrates:
 <br>
 
 <strong>Raspberry Pi Pico Pinout</strong><br>
-<img src="images/pico pinout.png" width="700">
+<img src="images/pinout.png" width="700">
 
 <br><br>
 
@@ -303,16 +303,6 @@ The initial prototype demonstrates:
 <img src="images/wiring_diagram.png" width="700">
 
 </details>
-
-
-
-
-
-
-
-
-
-
 
 ## Initial Prototype
 
