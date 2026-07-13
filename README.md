@@ -334,11 +334,11 @@ The initial prototype demonstrates:
         <img src="images/wiring_diagram.png" width="300">
       </div>
       <div>
-        <small>CAD model used to define avionics packaging and mechanical integration.</small>
+        <small>Avionics system wiring diagram.</small>
       </div>
     </td>
     <td align="center">
-      <strong>Initial Hardware Integration</strong>
+      <strong>Microcontroller pinout diagram.</strong>
       <div>
         <img src="images/pinout.png" width="300">
       </div>
