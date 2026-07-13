@@ -350,25 +350,6 @@ The initial prototype demonstrates:
  </table>
 </details>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ----
 
 # Verification Planning and Testing
