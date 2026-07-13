@@ -625,5 +625,4 @@ Requirements verified and verification status documented.
   </tr>
 </table>
 
-
-Accelerometer measurements are presented as raw sensor outputs. Variations are expected due to gravity projection, sensor orientation changes, and mechanical movement. Additional filtering and sensor fusion would be implemented in future iterations for flight-quality acceleration estimation.
+Accelerometer measurements are presented as raw sensor outputs. Variations were expected due to manual movement with the system during the test and sensor orientation changes. Additional filtering will be implemented in future iterations for flight-quality acceleration estimation. 
