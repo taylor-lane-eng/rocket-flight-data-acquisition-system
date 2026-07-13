@@ -45,7 +45,7 @@ Number of BUS channels and BUS speed was weighted the most in the microcontrolle
 </table>
 
 
-
+The Output Data Rate (ODR) was the most important criterion for the pressure sensor as it was thought to be the main data bottleneck during operations. The BMP 280 was selected due to its ability to achieve the performance requirements for sampling speed at the lowest cost compared to the alternatives.
 
 ---
 
@@ -66,5 +66,6 @@ Number of BUS channels and BUS speed was weighted the most in the microcontrolle
   </tr>
 </table>
 
----
+The Output Data Rate (ODR) was the most important criterion for the accelerometer as it was thought to be the main data bottleneck during operations. The MPU-6050 was selected due to its ability to achieve the performance requirements for sampling speed at the lowest cost compared to the alternatives.
+
 
