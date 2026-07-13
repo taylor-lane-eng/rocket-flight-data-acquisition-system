@@ -289,21 +289,6 @@ The initial prototype demonstrates:
 | MicroSD Module | Flight data storage |
 | Battery System | Distributed Power source |
 
-<details>
-<summary><strong>Hardware Integration Details</strong></summary>
-
-<br>
-
-<strong>Raspberry Pi Pico Pinout</strong><br>
-<img src="images/pinout.png" width="700">
-
-<br><br>
-
-<strong>Wiring Diagram</strong><br>
-<img src="images/wiring_diagram.png" width="700">
-
-</details>
-
 ## Initial Prototype
 
 <table>
@@ -339,9 +324,8 @@ The initial prototype demonstrates:
 </table>
 
 
-
-
 <details>
+<summary><strong>Hardware Integration Details</strong></summary>
   <table>
   <tr>
     <td align="center">
@@ -357,6 +341,9 @@ The initial prototype demonstrates:
       <strong>Initial Hardware Integration</strong>
       <div>
         <img src="images/pinout.png" width="300">
+      </div>
+      <div>
+        <small>CAD model used to define avionics packaging and mechanical integration.</small>
       </div>
     </td>
   </tr>
