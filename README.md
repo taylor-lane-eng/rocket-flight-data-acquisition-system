@@ -84,7 +84,7 @@ An estimation of the rocket trajectory - apogee, acceleration, velocity and tota
 
 From these calculations, the apogee was estimated to be 412 meters, reached approximately 11.01 seconds after launch. With a minimum sampling rate of 45 Hz, the avionics system would acquire 495 pressure and acceleration samples upon reaching its apogee which satisfies an intial baseline performance for a minimum sampling rate. furthermore, at the selected sampling rate of 45 Hz, the rocket will vertically displace less than 2 meters per sample at its maximum expected velocity (89.88 meters/second), ensuring adequate resolution for flight data reconstruction.
 
-In addition, the total operation time from pre-launch to recovery was estimated as 104 seconds. This total oepration time drove the power capacity requirement. The power performance requirement was set to 180 seconds to provide a conservative time estimate in case of unexpected recovery delays.
+In addition, the total operation time from pre-launch to recovery was estimated as 104 seconds. This total operation time drove the power capacity requirement. The power performance requirement was set to 180 seconds to provide a conservative time estimate in case of unexpected recovery delays.
 
 The full calucations can be seen here: [Full Engineering Requirement Calculations](Calculations/req_calculations.pdf)
 
@@ -536,7 +536,7 @@ This system verified the following requirements:
 
 ## [DT-02] Developmental Test Results
 
-Developmental Test 02 [DT-02] assessed the data storagae capacity from REQ-07. [DT-02 full test report](Verification/verification.md#developmental-test-02-dt-02)
+Developmental Test 02 [DT-02] assessed the data storage capacity from REQ-07. [DT-02 full test report](Verification/verification.md#developmental-test-02-dt-02)
 
 <table>
   <tr>
@@ -570,7 +570,7 @@ This system verified the following requirements:
 ## Moving forward to V1.1:
 Building on flight data acquisition system V1.0, further developmental testing (DT-03) will be completed for structural integrity and the verification of REQ-06. Also, simulations will be conducted to ensure that the embedded avionics system satisfies the center of gravity requirement (REQ-08), ensuring in-flight rocket stability. 
 
-Upon completion and success of developmental testing and verificaiton, an initial operational test (OT-01) will be conducted to test the complete embedded system and analyze the flight of a 1:10 Nike Smoke model rocket on a C6:5 engine. 
+Upon completion and success of developmental testing and verification, an initial operational test (OT-01) will be conducted to test the complete embedded system and analyze the flight of a 1:10 Nike Smoke model rocket on a C6:5 engine. 
 
 In addition, further trade studies and component selection will be conducted to make incremental advances on the performance of this avionics system, with the priority given to accelerometer optimization due to the noise observed in the test data on DT-01.
 
