@@ -395,7 +395,7 @@ The Verification Cross-Reference Matrix (VCRM) maps system requirements to their
 
   <tr>
     <td><b>REQ-08</b></td>
-    <td>System maintains rocket CG aft of CP by 49 mm</td>
+    <td>System maintains rocket CG forward of CP by 49 mm</td>
     <td>Analysis</td>
     <td> Planning</td>
     <td><font color="orange"><b>Pending</b></font></td>
