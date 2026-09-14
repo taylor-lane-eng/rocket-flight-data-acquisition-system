@@ -35,11 +35,11 @@ The system is being developed to:
 The system is being matured using the following structured systems engineering process:
 
 <p>
-<a href="#SysML-/-MBSE-Model">SysML / MBSE Model</a>
+<a href="#mbse-model">MBSE Model</a>
 <br>
 ↓
 <br>
-<a href="#Requirements">Requirements</a>
+<a href="#requirements">Requirements</a>
 <br>
 ↓
 <br>
@@ -81,7 +81,7 @@ The system is being matured using the following structured systems engineering p
 This approach establishes traceability between system requirements, functions, components and the verification process.
 
 ---
-# SysML / MBSE Model
+# MBSE Model
 
 A SysML v1.6 model was developed in Eclipse Papyrus to represent the system requirements, physical architecture, internal interfaces, requirements satisfaction and requirements validation.
 
