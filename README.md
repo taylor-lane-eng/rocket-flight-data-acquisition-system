@@ -35,7 +35,7 @@ The system is being developed to:
 Following initial prototype development, the system is being matured using the following structured systems engineering process:
 
 <p>
-<a href="#performance-requirements">Performance Requirements</a>
+<a href="#performance-requirements">Requirements</a>
 <br>
 ↓
 <br>
@@ -78,7 +78,7 @@ This approach establishes traceability between system requirements, functions, c
 
 ---
 
-# Performance Requirements
+# Requirements
 
 An estimation of the rocket trajectory - apogee, acceleration, velocity and total operation time (pre-launch to recovery) were made to develop these performance requirements for the flight of a 1:10 scale Nike Smoke rocket with a C6:5 engine. From the engine specifications sheet, the C6:5 will have a max thrust of 14.1 N, and it was determined that the rocket avionics system must withstand up to 15g Forces.
 
@@ -97,7 +97,7 @@ The full calucations can be seen here: [Full Engineering Requirement Calculation
     </tr>
     <tr>
         <td width="24%" valign="top" style="padding:14px; font-size:24px; font-weight:bold; border:1px solid #999;">
-            REQ-01
+            REQ-01 (functional requirement)
         </td>
         <td style="padding:14px; font-size:22px; border:1px solid #999;">
             The system shall accept a user-initiated power-on command through the designated power switch.
@@ -105,7 +105,7 @@ The full calucations can be seen here: [Full Engineering Requirement Calculation
     </tr>
     <tr>
         <td valign="top" style="padding:14px; font-size:24px; font-weight:bold; border:1px solid #999;">
-            REQ-02
+            REQ-02 (performance requirement)
         </td>
         <td style="padding:14px; font-size:22px; border:1px solid #999;">
             The system shall sample barometric pressure at a minimum rate of 45 Hz during powered ascent, coast, and descent.
