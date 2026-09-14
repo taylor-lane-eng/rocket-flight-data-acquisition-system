@@ -92,12 +92,12 @@ The full calucations can be seen here: [Full Engineering Requirement Calculation
 <table style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
     <tr style="background-color:#c9c9c9;">
         <th colspan="2" align="left" style="padding:14px; font-size:28px; border:1px solid #999;">
-            Performance Requirements
+            Requirements Table
         </th>
     </tr>
     <tr>
         <td width="24%" valign="top" style="padding:14px; font-size:24px; font-weight:bold; border:1px solid #999;">
-            REQ-01 (functional requirement)
+            REQ-01 (functional)
         </td>
         <td style="padding:14px; font-size:22px; border:1px solid #999;">
             The system shall accept a user-initiated power-on command through the designated power switch.
@@ -105,7 +105,7 @@ The full calucations can be seen here: [Full Engineering Requirement Calculation
     </tr>
     <tr>
         <td valign="top" style="padding:14px; font-size:24px; font-weight:bold; border:1px solid #999;">
-            REQ-02 (performance requirement)
+            REQ-02 (performance)
         </td>
         <td style="padding:14px; font-size:22px; border:1px solid #999;">
             The system shall sample barometric pressure at a minimum rate of 45 Hz during powered ascent, coast, and descent.
@@ -113,7 +113,7 @@ The full calucations can be seen here: [Full Engineering Requirement Calculation
     </tr>
     <tr>
         <td valign="top" style="padding:14px; font-size:24px; font-weight:bold; border:1px solid #999;">
-            REQ-03
+            REQ-03 (performance)
         </td>
         <td style="padding:14px; font-size:22px; border:1px solid #999;">
             The system shall sample three-axis acceleration at a minimum rate of 45 Hz from launch detection until end of flight logging.
@@ -121,7 +121,7 @@ The full calucations can be seen here: [Full Engineering Requirement Calculation
     </tr>
     <tr>
         <td valign="top" style="padding:14px; font-size:24px; font-weight:bold; border:1px solid #999;">
-            REQ-04
+            REQ-04 (performance)
         </td>
         <td style="padding:14px; font-size:22px; border:1px solid #999;">
             The system shall assign timestamps to all measurements with a resolution of ≤22.2 ms.
@@ -129,7 +129,7 @@ The full calucations can be seen here: [Full Engineering Requirement Calculation
     </tr>
     <tr>
         <td valign="top" style="padding:14px; font-size:24px; font-weight:bold; border:1px solid #999;">
-            REQ-05
+            REQ-05 (functional)
         </td>
         <td style="padding:14px; font-size:22px; border:1px solid #999;">
             The system shall record all acquired timestamped sensor measurements to onboard storage.
@@ -137,7 +137,7 @@ The full calucations can be seen here: [Full Engineering Requirement Calculation
     </tr>
     <tr>
         <td valign="top" style="padding:14px; font-size:24px; font-weight:bold; border:1px solid #999;">
-            REQ-06
+            REQ-06 (environmental)
         </td>
         <td style="padding:14px; font-size:22px; border:1px solid #999;">
             The system shall remain fully functional after exposure to shock loads up to 15g peak acceleration and vibration representative of model rocket ignition and ascent.
@@ -145,7 +145,7 @@ The full calucations can be seen here: [Full Engineering Requirement Calculation
     </tr>
     <tr>
         <td valign="top" style="padding:14px; font-size:24px; font-weight:bold; border:1px solid #999;">
-            REQ-07
+            REQ-07 (performance)
         </td>
         <td style="padding:14px; font-size:22px; border:1px solid #999;">
             The system shall support continuous operation for at least 180 seconds of active logging time.
@@ -153,7 +153,7 @@ The full calucations can be seen here: [Full Engineering Requirement Calculation
     </tr>
     <tr>
         <td valign="top" style="padding:14px; font-size:24px; font-weight:bold; border:1px solid #999;">
-            REQ-08
+            REQ-08 (design constraint)
         </td>
         <td style="padding:14px; font-size:22px; border:1px solid #999;">
             The system shall ensure the rocket center of gravity remains at least 1.0 body diameter forward of the center of pressure for all flight configurations.
