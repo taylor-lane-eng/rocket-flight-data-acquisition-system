@@ -83,7 +83,16 @@ This approach establishes traceability between system requirements, functions, c
 ---
 # MBSE Model
 
-A SysML v1.6 model was developed in Eclipse Papyrus to represent the system requirements, physical architecture, internal interfaces, requirements satisfaction and requirements validation.
+A SysML v1.6 model was developed in Eclipse Papyrus to represent the system requirements, physical architecture, internal interfaces, requirements satisfaction and requirements validation. The model includes:
+
+- Block Definition Diagram (BDD)
+- Internal Block Diagram (IBD)
+- Requirements Diagram
+- Requirements Satisfaction relationships
+- Requirements Validation diagram
+- DT-01 and DT-02 verification sequence diagrams
+
+Verification Status: DT-01 and DT-02 have been completed. DT-03 is being planned to verify REQ-06 by evaluating system functionality following exposure to shock and vibration loads representative of the expected launch environment. A physical design and stability analysis is also planned to verify the REQ-08 design constraint by confirming that the rocket's center of gravity remains at least one body diameter forward of its center of pressure.
 
 [View the SysML model](SysML/SYSML_V1.pdf)
 
