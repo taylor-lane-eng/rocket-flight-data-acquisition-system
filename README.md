@@ -35,7 +35,7 @@ The system is being developed to:
 The system is being matured using the following structured systems engineering process:
 
 <p>
-<a href="#SysML / MBSE Model">SysML / MBSE Model</a>
+<a href="#SysML-/-MBSE-Model">SysML / MBSE Model</a>
 <br>
 ↓
 <br>
