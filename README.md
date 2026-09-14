@@ -32,7 +32,7 @@ The system is being developed to:
 
 # Systems Engineering Approach
 
-Following initial prototype development, the system is being matured using the following structured systems engineering process:
+The system is being matured using the following structured systems engineering process:
 
 <p>
 <a href="#Requirements">Requirements</a>
