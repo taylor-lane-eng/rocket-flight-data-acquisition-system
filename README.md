@@ -24,7 +24,7 @@ The system is being developed to:
 - ✅ System architecture development
 - ✅ Initial avionics prototype developed  
 
-## In Progress
+## Planned
 
 - 🔄 Developmental testing (DT-03)
   
