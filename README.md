@@ -308,7 +308,7 @@ The initial prototype demonstrates:
 |---|---|
 | Raspberry Pi Pico | Flight computer |
 | BMP280 | Barometric Pressure sensing |
-| MPU6500 | 3-axis acceleration measurement |
+| MPU6050 | 3-axis acceleration measurement |
 | MicroSD Module | Flight data storage |
 | Battery System | Distributed Power source |
 
