@@ -106,7 +106,7 @@ From these calculations, the apogee was estimated to be 228 meters, reached appr
 
 In addition, the total operation time from pre-launch to recovery was estimated as 130 seconds. This total operation time drove the power capacity requirement. The power performance requirement was set to 180 seconds to provide a conservative time estimate in case of unexpected recovery delays.
 
-The full calucations can be seen here: [Full Engineering Requirement Calculations](Calculations/req_calculations.pdf)
+The full calucations can be seen here: [Full Engineering Requirement Calculations](Calculations/req_calc.pdf)
 
 
 <table style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
