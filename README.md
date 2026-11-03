@@ -102,7 +102,7 @@ Verification Status: DT-01 and DT-02 have been completed. DT-03 is being planned
 
 An estimation of the rocket trajectory - apogee, acceleration, velocity and total operation time (pre-launch to recovery) were made to develop these performance requirements for the flight of a 1:10 scale Nike Smoke rocket with a C6:5 engine. From the engine specifications sheet, the C6:5 will have a max thrust of 14.1 N, and it was determined that the rocket avionics system must withstand up to 15g Forces.
 
-From these calculations, the apogee was estimated to be 228 meters, reached approximately 15 seconds after launch. At the selected sampling rate of 45 Hz, the rocket will vertically displace less than 2 meters per sample at its maximum expected velocity (90.41 meters/second), ensuring adequate resolution for flight data reconstruction.
+From these calculations, the apogee was estimated to be 228 meters, reached approximately 15 seconds after launch. At the selected sampling rate of 45 Hz, the rocket will vertically displace less than 2 meters per sample at its maximum velocity (90.41 meters/second), ensuring adequate resolution for flight data reconstruction.
 
 In addition, the total operation time from pre-launch to recovery was estimated as 130 seconds. This total operation time drove the power capacity requirement. The power performance requirement was set to 180 seconds to provide a conservative time estimate in case of unexpected recovery delays.
 
